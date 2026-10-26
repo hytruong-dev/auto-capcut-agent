@@ -1,0 +1,115 @@
+{
+  "DJI_20260908084243_0057_D": {
+    "text": "CĂanı trong tuyệt là 1 quý ngay kita, ácbar. CĂți t martyr khách trả r",
+    "segment_count": 2,
+    "segments": [
+      {
+        "start": 0.0,
+        "end": 19.28,
+        "text": "CĂanı trong tuyệt là 1 quý ngay kita, ácbar."
+      },
+      {
+        "start": 20.78,
+        "end": 27.34,
+        "text": "CĂți t martyr khách trả r"
+      }
+    ]
+  },
+  "DJI_20260908183824_0062_D": {
+    "text": "Ngoality P** mèc, đủ aún đúng không Dạ probably? Ya ... simulated fortunately surprised thân",
+    "segment_count": 7,
+    "segments": [
+      {
+        "start": 19.34,
+        "end": 20.14,
+        "text": "Ngoality"
+      },
+      {
+        "start": 20.14,
+        "end": 21.12,
+        "text": "P** mèc, đủ aún đúng không"
+      },
+      {
+        "start": 22.86,
+        "end": 24.06,
+        "text": "Dạ probably"
+      },
+      {
+        "start": 25.66,
+        "end": 26.46,
+        "text": "?"
+      },
+      {
+        "start": 26.46,
+        "end": 28.38,
+        "text": "Ya ... simulated"
+      },
+      {
+        "start": 30.0,
+        "end": 32.68,
+        "text": "fortunately surprised"
+      },
+      {
+        "start": 57.32,
+        "end": 58.72,
+        "text": "thân"
+      }
+    ]
+  },
+  "DJI_20260908185603_0064_D": {
+    "text": "Peng K which triods Người thどう chưa? Tưng hình heavng th一些 Bildi nơi khi ngимер Nhưng경 tui pancakeiko Salad 1 cái vào năm s oversee<|cs|>",
+    "segment_count": 10,
+    "segments": [
+      {
+        "start": 1.56,
+        "end": 2.4,
+        "text": "Peng"
+      },
+      {
+        "start": 31.46,
+        "end": 59.98,
+        "text": "K which triods"
+      },
+      {
+        "start": 59.98,
+        "end": 59.98,
+        "text": ""
+      },
+      {
+        "start": 91.66,
+        "end": 94.38,
+        "text": "Người thどう chưa?"
+      },
+      {
+        "start": 96.14,
+        "end": 96.98,
+        "text": "Tưng hình heavng th一些"
+      },
+      {
+        "start": 96.98,
+        "end": 98.52,
+        "text": "Bildi nơi khi ngимер"
+      },
+      {
+        "start": 118.58,
+        "end": 119.98,
+        "text": "Nhưng경 tui pancake"
+      },
+      {
+        "start": 114.56,
+        "end": 116.1,
+        "text": "iko"
+      },
+      {
+        "start": 148.5,
+        "end": 149.28,
+        "text": "Salad"
+      },
+      {
+        "start": 150.76,
+        "end": 175.38,
+        "text": "1 cái vào năm s oversee"
+      }
+    ]
+  }
+}

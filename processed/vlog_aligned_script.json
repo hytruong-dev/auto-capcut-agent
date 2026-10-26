@@ -1,0 +1,62 @@
+[
+  {
+    "id": "seg_01",
+    "text": "Nhiều anh em hỏi tôi: Chạy xe máy điện Xanh SM cả ngày từ sáng đến đêm có thực sự phê như lời đồn không? Hôm nay cùng tôi trải nghiệm nhé!",
+    "video_ref": "DJI_20260908084243_0057_D.MP4",
+    "video_start": 0.0,
+    "highlight": "Chạy xe máy điện Xanh SM",
+    "voice_file": "C:/QuangHy/editvideo/processed/voiceover/voice_seg_01.mp3",
+    "voice_duration": 9.022417,
+    "timeline_start": 0.0,
+    "timeline_end": 9.02,
+    "video_duration": 9.022417
+  },
+  {
+    "id": "seg_02",
+    "text": "Tám giờ sáng, bật app nhận cuốc đầu tiên. Phải công nhận chiếc xe điện VinFast này chạy êm ru, lướt trên đường phố không một tiếng động cơ, sáng sớm mát rượi cực kỳ dễ chịu.",
+    "video_ref": "DJI_20260908084243_0057_D.MP4",
+    "video_start": 5.0,
+    "highlight": "xe điện VinFast chạy êm ru",
+    "voice_file": "C:/QuangHy/editvideo/processed/voiceover/voice_seg_02.mp3",
+    "voice_duration": 11.523333,
+    "timeline_start": 9.02,
+    "timeline_end": 20.55,
+    "video_duration": 11.523333
+  },
+  {
+    "id": "seg_03",
+    "text": "Chạy vèo một cái là đến chiều muộn. Tầm sáu giờ chiều, Sài Gòn bắt đầu lên đèn lung linh. Giờ tan tầm kẹt xe nhưng được cái xe điện ga mượt, luồn lách qua các con phố nhỏ cực kỳ nhẹ nhàng.",
+    "video_ref": "DJI_20260908183824_0062_D.MP4",
+    "video_start": 5.0,
+    "highlight": "Sài Gòn lên đèn lung linh",
+    "voice_file": "C:/QuangHy/editvideo/processed/voiceover/voice_seg_03.mp3",
+    "voice_duration": 12.483833,
+    "timeline_start": 20.55,
+    "timeline_end": 33.03,
+    "video_duration": 12.483833
+  },
+  {
+    "id": "seg_04",
+    "text": "Đến gần bảy giờ tối, dừng xe check app thì ting ting, đơn nổ liên tục! Vừa nhận cuốc mới là nổ máy chạy ngay qua mấy con phố ẩm thực, đi ngang mấy quán phở, quán hủ tiếu thơm nức mũi.",
+    "video_ref": "DJI_20260908185603_0064_D.MP4",
+    "video_start": 35.0,
+    "highlight": "ting ting, đơn nổ liên tục!",
+    "voice_file": "C:/QuangHy/editvideo/processed/voiceover/voice_seg_04.mp3",
+    "voice_duration": 12.985958,
+    "timeline_start": 33.03,
+    "timeline_end": 46.02,
+    "video_duration": 12.985958
+  },
+  {
+    "id": "seg_05",
+    "text": "Một ngày cày cuốc gần mười một tiếng dù mỏi lưng một chút, nhưng nhìn lại thành quả ví tiền và cảm giác xe vẫn êm ái thế này thì quá xứng đáng! Anh em chạy Xanh SM hôm nay thế nào rồi? Bình luận bên dưới giao lưu nhé!",
+    "video_ref": "DJI_20260908185603_0064_D.MP4",
+    "video_start": 145.0,
+    "highlight": "Anh em hôm nay được mấy cuốc?",
+    "voice_file": "C:/QuangHy/editvideo/processed/voiceover/voice_seg_05.mp3",
+    "voice_duration": 13.703583,
+    "timeline_start": 46.02,
+    "timeline_end": 59.72,
+    "video_duration": 13.703583
+  }
+]

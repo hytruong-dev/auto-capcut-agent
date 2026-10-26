@@ -1,0 +1,21 @@
+{
+  "mcpServers": {
+    "capcut-mcp": {
+      "command": "python",
+      "args": [
+        "mcp_server.py"
+      ],
+      "cwd": "C:/QuangHy/editvideo/tools/VectCutAPI",
+      "env": {
+        "PYTHONPATH": "C:/QuangHy/editvideo/tools/VectCutAPI"
+      }
+    },
+    "windows-mcp": {
+      "command": "uvx",
+      "args": [
+        "windows-mcp",
+        "serve"
+      ]
+    }
+  }
+}

@@ -1,0 +1,2288 @@
+[
+  {
+    "id": 1,
+    "script_text": "Một ngày chạy xe máy điện Xanh SM từ sáng đến đêm thực sự kiếm được bao nhiêu tiền?",
+    "seg_start": 0.5,
+    "seg_end": 5.59,
+    "words": [
+      {
+        "word": "Ngày",
+        "seg_start": 0.0,
+        "seg_end": 0.4,
+        "master_start": 0.5,
+        "master_end": 0.9
+      },
+      {
+        "word": "chạy",
+        "seg_start": 0.4,
+        "seg_end": 0.62,
+        "master_start": 0.9,
+        "master_end": 1.12
+      },
+      {
+        "word": "xe",
+        "seg_start": 0.62,
+        "seg_end": 0.8,
+        "master_start": 1.12,
+        "master_end": 1.3
+      },
+      {
+        "word": "máy",
+        "seg_start": 0.8,
+        "seg_end": 1.02,
+        "master_start": 1.3,
+        "master_end": 1.52
+      },
+      {
+        "word": "điện",
+        "seg_start": 1.02,
+        "seg_end": 1.2,
+        "master_start": 1.52,
+        "master_end": 1.7
+      },
+      {
+        "word": "Xanh",
+        "seg_start": 1.2,
+        "seg_end": 1.44,
+        "master_start": 1.7,
+        "master_end": 1.94
+      },
+      {
+        "word": "SM",
+        "seg_start": 1.44,
+        "seg_end": 1.94,
+        "master_start": 1.94,
+        "master_end": 2.44
+      },
+      {
+        "word": "từ",
+        "seg_start": 1.94,
+        "seg_end": 2.38,
+        "master_start": 2.44,
+        "master_end": 2.88
+      },
+      {
+        "word": "sáng",
+        "seg_start": 2.38,
+        "seg_end": 2.76,
+        "master_start": 2.88,
+        "master_end": 3.26
+      },
+      {
+        "word": "đến",
+        "seg_start": 2.76,
+        "seg_end": 2.86,
+        "master_start": 3.26,
+        "master_end": 3.36
+      },
+      {
+        "word": "đêm",
+        "seg_start": 2.86,
+        "seg_end": 3.18,
+        "master_start": 3.36,
+        "master_end": 3.68
+      },
+      {
+        "word": "thực",
+        "seg_start": 3.18,
+        "seg_end": 3.36,
+        "master_start": 3.68,
+        "master_end": 3.86
+      },
+      {
+        "word": "sự",
+        "seg_start": 3.36,
+        "seg_end": 3.62,
+        "master_start": 3.86,
+        "master_end": 4.12
+      },
+      {
+        "word": "kiếm",
+        "seg_start": 3.62,
+        "seg_end": 4.0,
+        "master_start": 4.12,
+        "master_end": 4.5
+      },
+      {
+        "word": "được",
+        "seg_start": 4.0,
+        "seg_end": 4.1,
+        "master_start": 4.5,
+        "master_end": 4.6
+      },
+      {
+        "word": "bao",
+        "seg_start": 4.1,
+        "seg_end": 4.3,
+        "master_start": 4.6,
+        "master_end": 4.8
+      },
+      {
+        "word": "nhiêu",
+        "seg_start": 4.3,
+        "seg_end": 4.56,
+        "master_start": 4.8,
+        "master_end": 5.06
+      },
+      {
+        "word": "tiền?",
+        "seg_start": 4.56,
+        "seg_end": 4.82,
+        "master_start": 5.06,
+        "master_end": 5.32
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "script_text": "Hôm nay anh em cùng mình cày thực tế xem tổng thu được bao nhiêu nhé!",
+    "seg_start": 5.77,
+    "seg_end": 10.0,
+    "words": [
+      {
+        "word": "Hôm",
+        "seg_start": 0.0,
+        "seg_end": 0.4,
+        "master_start": 5.77,
+        "master_end": 6.17
+      },
+      {
+        "word": "nay",
+        "seg_start": 0.4,
+        "seg_end": 0.56,
+        "master_start": 6.17,
+        "master_end": 6.33
+      },
+      {
+        "word": "anh",
+        "seg_start": 0.56,
+        "seg_end": 0.72,
+        "master_start": 6.33,
+        "master_end": 6.49
+      },
+      {
+        "word": "em",
+        "seg_start": 0.72,
+        "seg_end": 0.94,
+        "master_start": 6.49,
+        "master_end": 6.71
+      },
+      {
+        "word": "cùng",
+        "seg_start": 0.94,
+        "seg_end": 1.12,
+        "master_start": 6.71,
+        "master_end": 6.89
+      },
+      {
+        "word": "mình",
+        "seg_start": 1.12,
+        "seg_end": 1.28,
+        "master_start": 6.89,
+        "master_end": 7.05
+      },
+      {
+        "word": "cày",
+        "seg_start": 1.28,
+        "seg_end": 1.6,
+        "master_start": 7.05,
+        "master_end": 7.37
+      },
+      {
+        "word": "thực",
+        "seg_start": 1.6,
+        "seg_end": 1.88,
+        "master_start": 7.37,
+        "master_end": 7.65
+      },
+      {
+        "word": "tế",
+        "seg_start": 1.88,
+        "seg_end": 2.2,
+        "master_start": 7.65,
+        "master_end": 7.97
+      },
+      {
+        "word": "xem",
+        "seg_start": 2.2,
+        "seg_end": 2.52,
+        "master_start": 7.97,
+        "master_end": 8.29
+      },
+      {
+        "word": "tổng",
+        "seg_start": 2.52,
+        "seg_end": 3.0,
+        "master_start": 8.29,
+        "master_end": 8.77
+      },
+      {
+        "word": "thu",
+        "seg_start": 3.0,
+        "seg_end": 3.14,
+        "master_start": 8.77,
+        "master_end": 8.91
+      },
+      {
+        "word": "được",
+        "seg_start": 3.14,
+        "seg_end": 3.38,
+        "master_start": 8.91,
+        "master_end": 9.15
+      },
+      {
+        "word": "bao",
+        "seg_start": 3.38,
+        "seg_end": 3.52,
+        "master_start": 9.15,
+        "master_end": 9.29
+      },
+      {
+        "word": "nhiêu",
+        "seg_start": 3.52,
+        "seg_end": 3.78,
+        "master_start": 9.29,
+        "master_end": 9.55
+      },
+      {
+        "word": "nhé!",
+        "seg_start": 3.78,
+        "seg_end": 3.98,
+        "master_start": 9.55,
+        "master_end": 9.75
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "script_text": "Tám giờ sáng, mình bắt đầu bật app trực ca.",
+    "seg_start": 10.18,
+    "seg_end": 12.86,
+    "words": [
+      {
+        "word": "Tám",
+        "seg_start": 0.0,
+        "seg_end": 0.4,
+        "master_start": 10.18,
+        "master_end": 10.58
+      },
+      {
+        "word": "giờ",
+        "seg_start": 0.4,
+        "seg_end": 0.54,
+        "master_start": 10.58,
+        "master_end": 10.72
+      },
+      {
+        "word": "sáng,",
+        "seg_start": 0.54,
+        "seg_end": 0.94,
+        "master_start": 10.72,
+        "master_end": 11.12
+      },
+      {
+        "word": "mình",
+        "seg_start": 0.94,
+        "seg_end": 1.12,
+        "master_start": 11.12,
+        "master_end": 11.3
+      },
+      {
+        "word": "bắt",
+        "seg_start": 1.12,
+        "seg_end": 1.38,
+        "master_start": 11.3,
+        "master_end": 11.56
+      },
+      {
+        "word": "đầu",
+        "seg_start": 1.38,
+        "seg_end": 1.52,
+        "master_start": 11.56,
+        "master_end": 11.7
+      },
+      {
+        "word": "bật",
+        "seg_start": 1.52,
+        "seg_end": 1.78,
+        "master_start": 11.7,
+        "master_end": 11.96
+      },
+      {
+        "word": "app",
+        "seg_start": 1.78,
+        "seg_end": 1.94,
+        "master_start": 11.96,
+        "master_end": 12.12
+      },
+      {
+        "word": "trực",
+        "seg_start": 1.94,
+        "seg_end": 2.22,
+        "master_start": 12.12,
+        "master_end": 12.4
+      },
+      {
+        "word": "ca.",
+        "seg_start": 2.22,
+        "seg_end": 2.4,
+        "master_start": 12.4,
+        "master_end": 12.58
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "script_text": "Xe VinFast sạc đầy pin chạy êm ru, nổ ngay đơn đón bạn học sinh đi học.",
+    "seg_start": 13.04,
+    "seg_end": 17.31,
+    "words": [
+      {
+        "word": "Xe",
+        "seg_start": 0.0,
+        "seg_end": 0.36,
+        "master_start": 13.04,
+        "master_end": 13.4
+      },
+      {
+        "word": "VinFast",
+        "seg_start": 0.36,
+        "seg_end": 0.86,
+        "master_start": 13.4,
+        "master_end": 13.9
+      },
+      {
+        "word": "sạc",
+        "seg_start": 0.86,
+        "seg_end": 1.16,
+        "master_start": 13.9,
+        "master_end": 14.2
+      },
+      {
+        "word": "đầy",
+        "seg_start": 1.16,
+        "seg_end": 1.4,
+        "master_start": 14.2,
+        "master_end": 14.44
+      },
+      {
+        "word": "pin",
+        "seg_start": 1.4,
+        "seg_end": 1.52,
+        "master_start": 14.44,
+        "master_end": 14.56
+      },
+      {
+        "word": "chạy",
+        "seg_start": 1.52,
+        "seg_end": 1.78,
+        "master_start": 14.56,
+        "master_end": 14.82
+      },
+      {
+        "word": "êm",
+        "seg_start": 1.78,
+        "seg_end": 1.9,
+        "master_start": 14.82,
+        "master_end": 14.94
+      },
+      {
+        "word": "ru,",
+        "seg_start": 1.9,
+        "seg_end": 2.08,
+        "master_start": 14.94,
+        "master_end": 15.12
+      },
+      {
+        "word": "nổ",
+        "seg_start": 2.32,
+        "seg_end": 2.52,
+        "master_start": 15.36,
+        "master_end": 15.56
+      },
+      {
+        "word": "ngay",
+        "seg_start": 2.52,
+        "seg_end": 2.78,
+        "master_start": 15.56,
+        "master_end": 15.82
+      },
+      {
+        "word": "đơn",
+        "seg_start": 2.78,
+        "seg_end": 2.96,
+        "master_start": 15.82,
+        "master_end": 16.0
+      },
+      {
+        "word": "đón",
+        "seg_start": 2.96,
+        "seg_end": 3.16,
+        "master_start": 16.0,
+        "master_end": 16.2
+      },
+      {
+        "word": "bạn",
+        "seg_start": 3.16,
+        "seg_end": 3.26,
+        "master_start": 16.2,
+        "master_end": 16.3
+      },
+      {
+        "word": "học",
+        "seg_start": 3.26,
+        "seg_end": 3.42,
+        "master_start": 16.3,
+        "master_end": 16.46
+      },
+      {
+        "word": "sinh",
+        "seg_start": 3.42,
+        "seg_end": 3.76,
+        "master_start": 16.46,
+        "master_end": 16.8
+      },
+      {
+        "word": "đi",
+        "seg_start": 3.76,
+        "seg_end": 3.82,
+        "master_start": 16.8,
+        "master_end": 16.86
+      },
+      {
+        "word": "học.",
+        "seg_start": 3.82,
+        "seg_end": 4.04,
+        "master_start": 16.86,
+        "master_end": 17.08
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "script_text": "Cuốc đầu tiên mở bát, khách trả đúng mười sáu cành nha anh em!",
+    "seg_start": 17.49,
+    "seg_end": 21.33,
+    "words": [
+      {
+        "word": "Đầu",
+        "seg_start": 0.0,
+        "seg_end": 0.38,
+        "master_start": 17.49,
+        "master_end": 17.87
+      },
+      {
+        "word": "tiên",
+        "seg_start": 0.38,
+        "seg_end": 0.6,
+        "master_start": 17.87,
+        "master_end": 18.09
+      },
+      {
+        "word": "mở",
+        "seg_start": 0.6,
+        "seg_end": 0.82,
+        "master_start": 18.09,
+        "master_end": 18.31
+      },
+      {
+        "word": "bát,",
+        "seg_start": 0.82,
+        "seg_end": 1.1,
+        "master_start": 18.31,
+        "master_end": 18.59
+      },
+      {
+        "word": "khách",
+        "seg_start": 1.5,
+        "seg_end": 1.82,
+        "master_start": 18.99,
+        "master_end": 19.31
+      },
+      {
+        "word": "trả",
+        "seg_start": 1.82,
+        "seg_end": 2.04,
+        "master_start": 19.31,
+        "master_end": 19.53
+      },
+      {
+        "word": "đúng",
+        "seg_start": 2.04,
+        "seg_end": 2.24,
+        "master_start": 19.53,
+        "master_end": 19.73
+      },
+      {
+        "word": "mười",
+        "seg_start": 2.24,
+        "seg_end": 2.4,
+        "master_start": 19.73,
+        "master_end": 19.89
+      },
+      {
+        "word": "sáu",
+        "seg_start": 2.4,
+        "seg_end": 2.68,
+        "master_start": 19.89,
+        "master_end": 20.17
+      },
+      {
+        "word": "cành",
+        "seg_start": 2.68,
+        "seg_end": 2.92,
+        "master_start": 20.17,
+        "master_end": 20.41
+      },
+      {
+        "word": "nha",
+        "seg_start": 2.92,
+        "seg_end": 3.14,
+        "master_start": 20.41,
+        "master_end": 20.63
+      },
+      {
+        "word": "anh",
+        "seg_start": 3.14,
+        "seg_end": 3.32,
+        "master_start": 20.63,
+        "master_end": 20.81
+      },
+      {
+        "word": "em!",
+        "seg_start": 3.32,
+        "seg_end": 3.54,
+        "master_start": 20.81,
+        "master_end": 21.03
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "script_text": "Tiếp tục chạy trưa, app báo nhận đơn giao tài liệu hỏa tốc sang Quận Nhất.",
+    "seg_start": 21.51,
+    "seg_end": 26.03,
+    "words": [
+      {
+        "word": "Tiếp",
+        "seg_start": 0.0,
+        "seg_end": 0.44,
+        "master_start": 21.51,
+        "master_end": 21.95
+      },
+      {
+        "word": "tục",
+        "seg_start": 0.44,
+        "seg_end": 0.62,
+        "master_start": 21.95,
+        "master_end": 22.13
+      },
+      {
+        "word": "chạy",
+        "seg_start": 0.62,
+        "seg_end": 0.86,
+        "master_start": 22.13,
+        "master_end": 22.37
+      },
+      {
+        "word": "trưa,",
+        "seg_start": 0.86,
+        "seg_end": 1.14,
+        "master_start": 22.37,
+        "master_end": 22.65
+      },
+      {
+        "word": "app",
+        "seg_start": 1.6,
+        "seg_end": 1.76,
+        "master_start": 23.11,
+        "master_end": 23.27
+      },
+      {
+        "word": "báo",
+        "seg_start": 1.76,
+        "seg_end": 1.96,
+        "master_start": 23.27,
+        "master_end": 23.47
+      },
+      {
+        "word": "nhận",
+        "seg_start": 1.96,
+        "seg_end": 2.18,
+        "master_start": 23.47,
+        "master_end": 23.69
+      },
+      {
+        "word": "đơn",
+        "seg_start": 2.18,
+        "seg_end": 2.4,
+        "master_start": 23.69,
+        "master_end": 23.91
+      },
+      {
+        "word": "giao",
+        "seg_start": 2.4,
+        "seg_end": 2.6,
+        "master_start": 23.91,
+        "master_end": 24.11
+      },
+      {
+        "word": "tài",
+        "seg_start": 2.6,
+        "seg_end": 2.84,
+        "master_start": 24.11,
+        "master_end": 24.35
+      },
+      {
+        "word": "liệu",
+        "seg_start": 2.84,
+        "seg_end": 3.1,
+        "master_start": 24.35,
+        "master_end": 24.61
+      },
+      {
+        "word": "hỏa",
+        "seg_start": 3.1,
+        "seg_end": 3.38,
+        "master_start": 24.61,
+        "master_end": 24.89
+      },
+      {
+        "word": "tốc",
+        "seg_start": 3.38,
+        "seg_end": 3.52,
+        "master_start": 24.89,
+        "master_end": 25.03
+      },
+      {
+        "word": "sang",
+        "seg_start": 3.52,
+        "seg_end": 3.82,
+        "master_start": 25.03,
+        "master_end": 25.33
+      },
+      {
+        "word": "Quận",
+        "seg_start": 3.82,
+        "seg_end": 4.14,
+        "master_start": 25.33,
+        "master_end": 25.65
+      },
+      {
+        "word": "Nhất.",
+        "seg_start": 4.14,
+        "seg_end": 4.38,
+        "master_start": 25.65,
+        "master_end": 25.89
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "script_text": "Trưa nắng gắt nhưng xe điện không bị nóng chân, giao xong nhận thêm hai mươi hai cành.",
+    "seg_start": 26.21,
+    "seg_end": 31.57,
+    "words": [
+      {
+        "word": "Trưa",
+        "seg_start": 0.0,
+        "seg_end": 0.38,
+        "master_start": 26.21,
+        "master_end": 26.59
+      },
+      {
+        "word": "nắng",
+        "seg_start": 0.38,
+        "seg_end": 0.64,
+        "master_start": 26.59,
+        "master_end": 26.85
+      },
+      {
+        "word": "gắt",
+        "seg_start": 0.64,
+        "seg_end": 0.86,
+        "master_start": 26.85,
+        "master_end": 27.07
+      },
+      {
+        "word": "nhưng",
+        "seg_start": 0.86,
+        "seg_end": 1.36,
+        "master_start": 27.07,
+        "master_end": 27.57
+      },
+      {
+        "word": "xe",
+        "seg_start": 1.36,
+        "seg_end": 1.72,
+        "master_start": 27.57,
+        "master_end": 27.93
+      },
+      {
+        "word": "điện",
+        "seg_start": 1.72,
+        "seg_end": 1.96,
+        "master_start": 27.93,
+        "master_end": 28.17
+      },
+      {
+        "word": "không",
+        "seg_start": 1.96,
+        "seg_end": 2.18,
+        "master_start": 28.17,
+        "master_end": 28.39
+      },
+      {
+        "word": "bị",
+        "seg_start": 2.18,
+        "seg_end": 2.36,
+        "master_start": 28.39,
+        "master_end": 28.57
+      },
+      {
+        "word": "nóng",
+        "seg_start": 2.36,
+        "seg_end": 2.76,
+        "master_start": 28.57,
+        "master_end": 28.97
+      },
+      {
+        "word": "chân,",
+        "seg_start": 2.76,
+        "seg_end": 2.92,
+        "master_start": 28.97,
+        "master_end": 29.13
+      },
+      {
+        "word": "giao",
+        "seg_start": 3.28,
+        "seg_end": 3.48,
+        "master_start": 29.49,
+        "master_end": 29.69
+      },
+      {
+        "word": "xong",
+        "seg_start": 3.48,
+        "seg_end": 3.74,
+        "master_start": 29.69,
+        "master_end": 29.95
+      },
+      {
+        "word": "nhận",
+        "seg_start": 3.74,
+        "seg_end": 3.96,
+        "master_start": 29.95,
+        "master_end": 30.17
+      },
+      {
+        "word": "thêm",
+        "seg_start": 3.96,
+        "seg_end": 4.2,
+        "master_start": 30.17,
+        "master_end": 30.41
+      },
+      {
+        "word": "hai",
+        "seg_start": 4.2,
+        "seg_end": 4.4,
+        "master_start": 30.41,
+        "master_end": 30.61
+      },
+      {
+        "word": "mươi",
+        "seg_start": 4.4,
+        "seg_end": 4.64,
+        "master_start": 30.61,
+        "master_end": 30.85
+      },
+      {
+        "word": "hai",
+        "seg_start": 4.64,
+        "seg_end": 4.7,
+        "master_start": 30.85,
+        "master_end": 30.91
+      },
+      {
+        "word": "cành.",
+        "seg_start": 4.7,
+        "seg_end": 5.02,
+        "master_start": 30.91,
+        "master_end": 31.23
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "script_text": "Uống vội ly trà đá thì app nổ cuốc thứ ba chở anh khách công sở sang Quận Ba.",
+    "seg_start": 31.75,
+    "seg_end": 36.4,
+    "words": [
+      {
+        "word": "Uống",
+        "seg_start": 0.0,
+        "seg_end": 0.22,
+        "master_start": 31.75,
+        "master_end": 31.97
+      },
+      {
+        "word": "vội",
+        "seg_start": 0.22,
+        "seg_end": 0.46,
+        "master_start": 31.97,
+        "master_end": 32.21
+      },
+      {
+        "word": "ly",
+        "seg_start": 0.46,
+        "seg_end": 0.58,
+        "master_start": 32.21,
+        "master_end": 32.33
+      },
+      {
+        "word": "trà",
+        "seg_start": 0.58,
+        "seg_end": 0.86,
+        "master_start": 32.33,
+        "master_end": 32.61
+      },
+      {
+        "word": "đá",
+        "seg_start": 0.86,
+        "seg_end": 1.14,
+        "master_start": 32.61,
+        "master_end": 32.89
+      },
+      {
+        "word": "thì",
+        "seg_start": 1.14,
+        "seg_end": 1.28,
+        "master_start": 32.89,
+        "master_end": 33.03
+      },
+      {
+        "word": "app",
+        "seg_start": 1.28,
+        "seg_end": 1.52,
+        "master_start": 33.03,
+        "master_end": 33.27
+      },
+      {
+        "word": "nổ",
+        "seg_start": 1.52,
+        "seg_end": 1.84,
+        "master_start": 33.27,
+        "master_end": 33.59
+      },
+      {
+        "word": "cuốc",
+        "seg_start": 1.84,
+        "seg_end": 2.08,
+        "master_start": 33.59,
+        "master_end": 33.83
+      },
+      {
+        "word": "thứ",
+        "seg_start": 2.08,
+        "seg_end": 2.18,
+        "master_start": 33.83,
+        "master_end": 33.93
+      },
+      {
+        "word": "ba",
+        "seg_start": 2.18,
+        "seg_end": 2.46,
+        "master_start": 33.93,
+        "master_end": 34.21
+      },
+      {
+        "word": "chở",
+        "seg_start": 2.46,
+        "seg_end": 2.78,
+        "master_start": 34.21,
+        "master_end": 34.53
+      },
+      {
+        "word": "anh",
+        "seg_start": 2.78,
+        "seg_end": 2.94,
+        "master_start": 34.53,
+        "master_end": 34.69
+      },
+      {
+        "word": "khách",
+        "seg_start": 2.94,
+        "seg_end": 3.2,
+        "master_start": 34.69,
+        "master_end": 34.95
+      },
+      {
+        "word": "công",
+        "seg_start": 3.2,
+        "seg_end": 3.36,
+        "master_start": 34.95,
+        "master_end": 35.11
+      },
+      {
+        "word": "sở",
+        "seg_start": 3.36,
+        "seg_end": 3.68,
+        "master_start": 35.11,
+        "master_end": 35.43
+      },
+      {
+        "word": "sang",
+        "seg_start": 3.68,
+        "seg_end": 3.86,
+        "master_start": 35.43,
+        "master_end": 35.61
+      },
+      {
+        "word": "Quận",
+        "seg_start": 3.86,
+        "seg_end": 4.1,
+        "master_start": 35.61,
+        "master_end": 35.85
+      },
+      {
+        "word": "Ba.",
+        "seg_start": 4.1,
+        "seg_end": 4.3,
+        "master_start": 35.85,
+        "master_end": 36.05
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "script_text": "Đường xá đông đúc nhưng xe êm khách khen quá trời, ví nhảy thêm ba mươi lăm nghìn.",
+    "seg_start": 36.58,
+    "seg_end": 41.62,
+    "words": [
+      {
+        "word": "Đường",
+        "seg_start": 0.0,
+        "seg_end": 0.3,
+        "master_start": 36.58,
+        "master_end": 36.88
+      },
+      {
+        "word": "xá",
+        "seg_start": 0.3,
+        "seg_end": 0.48,
+        "master_start": 36.88,
+        "master_end": 37.06
+      },
+      {
+        "word": "đông",
+        "seg_start": 0.48,
+        "seg_end": 0.64,
+        "master_start": 37.06,
+        "master_end": 37.22
+      },
+      {
+        "word": "đúc",
+        "seg_start": 0.64,
+        "seg_end": 0.88,
+        "master_start": 37.22,
+        "master_end": 37.46
+      },
+      {
+        "word": "nhưng",
+        "seg_start": 0.88,
+        "seg_end": 1.18,
+        "master_start": 37.46,
+        "master_end": 37.76
+      },
+      {
+        "word": "xe",
+        "seg_start": 1.18,
+        "seg_end": 1.56,
+        "master_start": 37.76,
+        "master_end": 38.14
+      },
+      {
+        "word": "êm",
+        "seg_start": 1.56,
+        "seg_end": 1.78,
+        "master_start": 38.14,
+        "master_end": 38.36
+      },
+      {
+        "word": "khách",
+        "seg_start": 1.78,
+        "seg_end": 1.96,
+        "master_start": 38.36,
+        "master_end": 38.54
+      },
+      {
+        "word": "khen",
+        "seg_start": 1.96,
+        "seg_end": 2.22,
+        "master_start": 38.54,
+        "master_end": 38.8
+      },
+      {
+        "word": "quá",
+        "seg_start": 2.22,
+        "seg_end": 2.4,
+        "master_start": 38.8,
+        "master_end": 38.98
+      },
+      {
+        "word": "trời,",
+        "seg_start": 2.4,
+        "seg_end": 2.8,
+        "master_start": 38.98,
+        "master_end": 39.38
+      },
+      {
+        "word": "ví",
+        "seg_start": 3.24,
+        "seg_end": 3.36,
+        "master_start": 39.82,
+        "master_end": 39.94
+      },
+      {
+        "word": "nhảy",
+        "seg_start": 3.36,
+        "seg_end": 3.74,
+        "master_start": 39.94,
+        "master_end": 40.32
+      },
+      {
+        "word": "thêm",
+        "seg_start": 3.74,
+        "seg_end": 3.94,
+        "master_start": 40.32,
+        "master_end": 40.52
+      },
+      {
+        "word": "ba",
+        "seg_start": 3.94,
+        "seg_end": 4.14,
+        "master_start": 40.52,
+        "master_end": 40.72
+      },
+      {
+        "word": "mươi",
+        "seg_start": 4.14,
+        "seg_end": 4.36,
+        "master_start": 40.72,
+        "master_end": 40.94
+      },
+      {
+        "word": "lăm",
+        "seg_start": 4.36,
+        "seg_end": 4.5,
+        "master_start": 40.94,
+        "master_end": 41.08
+      },
+      {
+        "word": "nghìn.",
+        "seg_start": 4.5,
+        "seg_end": 4.76,
+        "master_start": 41.08,
+        "master_end": 41.34
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "script_text": "Năm giờ chiều, Sài Gòn bước vào giờ tan tầm kẹt xe chen chúc từng chút một.",
+    "seg_start": 41.8,
+    "seg_end": 46.31,
+    "words": [
+      {
+        "word": "Năm",
+        "seg_start": 0.0,
+        "seg_end": 0.4,
+        "master_start": 41.8,
+        "master_end": 42.2
+      },
+      {
+        "word": "giờ",
+        "seg_start": 0.4,
+        "seg_end": 0.52,
+        "master_start": 42.2,
+        "master_end": 42.32
+      },
+      {
+        "word": "chiều,",
+        "seg_start": 0.52,
+        "seg_end": 0.9,
+        "master_start": 42.32,
+        "master_end": 42.7
+      },
+      {
+        "word": "Sài",
+        "seg_start": 1.3,
+        "seg_end": 1.4,
+        "master_start": 43.1,
+        "master_end": 43.2
+      },
+      {
+        "word": "Gòn",
+        "seg_start": 1.4,
+        "seg_end": 1.58,
+        "master_start": 43.2,
+        "master_end": 43.38
+      },
+      {
+        "word": "bước",
+        "seg_start": 1.58,
+        "seg_end": 1.84,
+        "master_start": 43.38,
+        "master_end": 43.64
+      },
+      {
+        "word": "vào",
+        "seg_start": 1.84,
+        "seg_end": 1.98,
+        "master_start": 43.64,
+        "master_end": 43.78
+      },
+      {
+        "word": "giờ",
+        "seg_start": 1.98,
+        "seg_end": 2.18,
+        "master_start": 43.78,
+        "master_end": 43.98
+      },
+      {
+        "word": "tan",
+        "seg_start": 2.18,
+        "seg_end": 2.44,
+        "master_start": 43.98,
+        "master_end": 44.24
+      },
+      {
+        "word": "tầm",
+        "seg_start": 2.44,
+        "seg_end": 2.74,
+        "master_start": 44.24,
+        "master_end": 44.54
+      },
+      {
+        "word": "kẹt",
+        "seg_start": 2.74,
+        "seg_end": 2.96,
+        "master_start": 44.54,
+        "master_end": 44.76
+      },
+      {
+        "word": "xe",
+        "seg_start": 2.96,
+        "seg_end": 3.12,
+        "master_start": 44.76,
+        "master_end": 44.92
+      },
+      {
+        "word": "chen",
+        "seg_start": 3.12,
+        "seg_end": 3.34,
+        "master_start": 44.92,
+        "master_end": 45.14
+      },
+      {
+        "word": "chúc",
+        "seg_start": 3.34,
+        "seg_end": 3.64,
+        "master_start": 45.14,
+        "master_end": 45.44
+      },
+      {
+        "word": "từng",
+        "seg_start": 3.64,
+        "seg_end": 3.84,
+        "master_start": 45.44,
+        "master_end": 45.64
+      },
+      {
+        "word": "chút",
+        "seg_start": 3.84,
+        "seg_end": 4.08,
+        "master_start": 45.64,
+        "master_end": 45.88
+      },
+      {
+        "word": "một.",
+        "seg_start": 4.08,
+        "seg_end": 4.24,
+        "master_start": 45.88,
+        "master_end": 46.04
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "script_text": "Tay ga nhạy luồn lách ngõ hẻm trả khách đúng giờ, đơn này thu thêm hai mươi tám cành.",
+    "seg_start": 46.49,
+    "seg_end": 51.68,
+    "words": [
+      {
+        "word": "Tay",
+        "seg_start": 0.0,
+        "seg_end": 0.36,
+        "master_start": 46.49,
+        "master_end": 46.85
+      },
+      {
+        "word": "ga",
+        "seg_start": 0.36,
+        "seg_end": 0.54,
+        "master_start": 46.85,
+        "master_end": 47.03
+      },
+      {
+        "word": "nhạy",
+        "seg_start": 0.54,
+        "seg_end": 0.84,
+        "master_start": 47.03,
+        "master_end": 47.33
+      },
+      {
+        "word": "luồn",
+        "seg_start": 0.84,
+        "seg_end": 1.14,
+        "master_start": 47.33,
+        "master_end": 47.63
+      },
+      {
+        "word": "lách",
+        "seg_start": 1.14,
+        "seg_end": 1.36,
+        "master_start": 47.63,
+        "master_end": 47.85
+      },
+      {
+        "word": "ngõ",
+        "seg_start": 1.36,
+        "seg_end": 1.64,
+        "master_start": 47.85,
+        "master_end": 48.13
+      },
+      {
+        "word": "hẻm",
+        "seg_start": 1.64,
+        "seg_end": 1.96,
+        "master_start": 48.13,
+        "master_end": 48.45
+      },
+      {
+        "word": "trả",
+        "seg_start": 1.96,
+        "seg_end": 2.2,
+        "master_start": 48.45,
+        "master_end": 48.69
+      },
+      {
+        "word": "khách",
+        "seg_start": 2.2,
+        "seg_end": 2.4,
+        "master_start": 48.69,
+        "master_end": 48.89
+      },
+      {
+        "word": "đúng",
+        "seg_start": 2.4,
+        "seg_end": 2.64,
+        "master_start": 48.89,
+        "master_end": 49.13
+      },
+      {
+        "word": "giờ,",
+        "seg_start": 2.64,
+        "seg_end": 2.9,
+        "master_start": 49.13,
+        "master_end": 49.39
+      },
+      {
+        "word": "đơn",
+        "seg_start": 3.34,
+        "seg_end": 3.48,
+        "master_start": 49.83,
+        "master_end": 49.97
+      },
+      {
+        "word": "này",
+        "seg_start": 3.48,
+        "seg_end": 3.68,
+        "master_start": 49.97,
+        "master_end": 50.17
+      },
+      {
+        "word": "thu",
+        "seg_start": 3.68,
+        "seg_end": 3.88,
+        "master_start": 50.17,
+        "master_end": 50.37
+      },
+      {
+        "word": "thêm",
+        "seg_start": 3.88,
+        "seg_end": 4.14,
+        "master_start": 50.37,
+        "master_end": 50.63
+      },
+      {
+        "word": "hai",
+        "seg_start": 4.14,
+        "seg_end": 4.32,
+        "master_start": 50.63,
+        "master_end": 50.81
+      },
+      {
+        "word": "mươi",
+        "seg_start": 4.32,
+        "seg_end": 4.5,
+        "master_start": 50.81,
+        "master_end": 50.99
+      },
+      {
+        "word": "tám",
+        "seg_start": 4.5,
+        "seg_end": 4.66,
+        "master_start": 50.99,
+        "master_end": 51.15
+      },
+      {
+        "word": "cành.",
+        "seg_start": 4.66,
+        "seg_end": 4.9,
+        "master_start": 51.15,
+        "master_end": 51.39
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "script_text": "Bảy giờ tối, thành phố lên đèn lung linh, mình nhận cuốc đường dài về ngoại ô.",
+    "seg_start": 51.86,
+    "seg_end": 56.55,
+    "words": [
+      {
+        "word": "Bây",
+        "seg_start": 0.0,
+        "seg_end": 0.18,
+        "master_start": 51.86,
+        "master_end": 52.04
+      },
+      {
+        "word": "giờ",
+        "seg_start": 0.18,
+        "seg_end": 0.36,
+        "master_start": 52.04,
+        "master_end": 52.22
+      },
+      {
+        "word": "tối,",
+        "seg_start": 0.36,
+        "seg_end": 0.7,
+        "master_start": 52.22,
+        "master_end": 52.56
+      },
+      {
+        "word": "thành",
+        "seg_start": 1.02,
+        "seg_end": 1.14,
+        "master_start": 52.88,
+        "master_end": 53.0
+      },
+      {
+        "word": "phố",
+        "seg_start": 1.14,
+        "seg_end": 1.36,
+        "master_start": 53.0,
+        "master_end": 53.22
+      },
+      {
+        "word": "lên",
+        "seg_start": 1.36,
+        "seg_end": 1.48,
+        "master_start": 53.22,
+        "master_end": 53.34
+      },
+      {
+        "word": "đèn",
+        "seg_start": 1.48,
+        "seg_end": 1.7,
+        "master_start": 53.34,
+        "master_end": 53.56
+      },
+      {
+        "word": "lung",
+        "seg_start": 1.7,
+        "seg_end": 1.88,
+        "master_start": 53.56,
+        "master_end": 53.74
+      },
+      {
+        "word": "linh,",
+        "seg_start": 1.88,
+        "seg_end": 2.22,
+        "master_start": 53.74,
+        "master_end": 54.08
+      },
+      {
+        "word": "mình",
+        "seg_start": 2.68,
+        "seg_end": 2.8,
+        "master_start": 54.54,
+        "master_end": 54.66
+      },
+      {
+        "word": "nhận",
+        "seg_start": 2.8,
+        "seg_end": 3.06,
+        "master_start": 54.66,
+        "master_end": 54.92
+      },
+      {
+        "word": "cuốc",
+        "seg_start": 3.06,
+        "seg_end": 3.34,
+        "master_start": 54.92,
+        "master_end": 55.2
+      },
+      {
+        "word": "đường",
+        "seg_start": 3.34,
+        "seg_end": 3.52,
+        "master_start": 55.2,
+        "master_end": 55.38
+      },
+      {
+        "word": "dài",
+        "seg_start": 3.52,
+        "seg_end": 3.78,
+        "master_start": 55.38,
+        "master_end": 55.64
+      },
+      {
+        "word": "về",
+        "seg_start": 3.78,
+        "seg_end": 3.9,
+        "master_start": 55.64,
+        "master_end": 55.76
+      },
+      {
+        "word": "ngoại",
+        "seg_start": 3.9,
+        "seg_end": 4.14,
+        "master_start": 55.76,
+        "master_end": 56.0
+      },
+      {
+        "word": "ô.",
+        "seg_start": 4.14,
+        "seg_end": 4.32,
+        "master_start": 56.0,
+        "master_end": 56.18
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "script_text": "Chạy đường đêm gió mát cảm giác cực kỳ chill, chuyến thứ năm bỏ túi bốn mươi hai nghìn.",
+    "seg_start": 56.73,
+    "seg_end": 62.09,
+    "words": [
+      {
+        "word": "Chạy",
+        "seg_start": 0.0,
+        "seg_end": 0.4,
+        "master_start": 56.73,
+        "master_end": 57.13
+      },
+      {
+        "word": "đường",
+        "seg_start": 0.4,
+        "seg_end": 0.58,
+        "master_start": 57.13,
+        "master_end": 57.31
+      },
+      {
+        "word": "đêm",
+        "seg_start": 0.58,
+        "seg_end": 0.86,
+        "master_start": 57.31,
+        "master_end": 57.59
+      },
+      {
+        "word": "gió",
+        "seg_start": 0.86,
+        "seg_end": 1.12,
+        "master_start": 57.59,
+        "master_end": 57.85
+      },
+      {
+        "word": "mát",
+        "seg_start": 1.12,
+        "seg_end": 1.32,
+        "master_start": 57.85,
+        "master_end": 58.05
+      },
+      {
+        "word": "cảm",
+        "seg_start": 1.32,
+        "seg_end": 1.48,
+        "master_start": 58.05,
+        "master_end": 58.21
+      },
+      {
+        "word": "giác",
+        "seg_start": 1.48,
+        "seg_end": 1.78,
+        "master_start": 58.21,
+        "master_end": 58.51
+      },
+      {
+        "word": "cực",
+        "seg_start": 1.78,
+        "seg_end": 2.06,
+        "master_start": 58.51,
+        "master_end": 58.79
+      },
+      {
+        "word": "kỳ",
+        "seg_start": 2.06,
+        "seg_end": 2.22,
+        "master_start": 58.79,
+        "master_end": 58.95
+      },
+      {
+        "word": "chill,",
+        "seg_start": 2.22,
+        "seg_end": 2.58,
+        "master_start": 58.95,
+        "master_end": 59.31
+      },
+      {
+        "word": "chuyến",
+        "seg_start": 3.04,
+        "seg_end": 3.22,
+        "master_start": 59.77,
+        "master_end": 59.95
+      },
+      {
+        "word": "thứ",
+        "seg_start": 3.22,
+        "seg_end": 3.34,
+        "master_start": 59.95,
+        "master_end": 60.07
+      },
+      {
+        "word": "năm",
+        "seg_start": 3.34,
+        "seg_end": 3.6,
+        "master_start": 60.07,
+        "master_end": 60.33
+      },
+      {
+        "word": "bỏ",
+        "seg_start": 3.6,
+        "seg_end": 3.96,
+        "master_start": 60.33,
+        "master_end": 60.69
+      },
+      {
+        "word": "túi",
+        "seg_start": 3.96,
+        "seg_end": 4.24,
+        "master_start": 60.69,
+        "master_end": 60.97
+      },
+      {
+        "word": "bốn",
+        "seg_start": 4.24,
+        "seg_end": 4.46,
+        "master_start": 60.97,
+        "master_end": 61.19
+      },
+      {
+        "word": "mươi",
+        "seg_start": 4.46,
+        "seg_end": 4.64,
+        "master_start": 61.19,
+        "master_end": 61.37
+      },
+      {
+        "word": "hai",
+        "seg_start": 4.64,
+        "seg_end": 4.76,
+        "master_start": 61.37,
+        "master_end": 61.49
+      },
+      {
+        "word": "nghìn.",
+        "seg_start": 4.76,
+        "seg_end": 5.02,
+        "master_start": 61.49,
+        "master_end": 61.75
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "script_text": "Hơn tám giờ đêm, người đã thấm mệt nên mình bật định hướng tìm đơn về phòng trọ.",
+    "seg_start": 62.27,
+    "seg_end": 67.13,
+    "words": [
+      {
+        "word": "Hơn",
+        "seg_start": 0.0,
+        "seg_end": 0.22,
+        "master_start": 62.27,
+        "master_end": 62.49
+      },
+      {
+        "word": "tám",
+        "seg_start": 0.22,
+        "seg_end": 0.5,
+        "master_start": 62.49,
+        "master_end": 62.77
+      },
+      {
+        "word": "giờ",
+        "seg_start": 0.5,
+        "seg_end": 0.62,
+        "master_start": 62.77,
+        "master_end": 62.89
+      },
+      {
+        "word": "đêm,",
+        "seg_start": 0.62,
+        "seg_end": 0.92,
+        "master_start": 62.89,
+        "master_end": 63.19
+      },
+      {
+        "word": "người",
+        "seg_start": 1.24,
+        "seg_end": 1.38,
+        "master_start": 63.51,
+        "master_end": 63.65
+      },
+      {
+        "word": "đã",
+        "seg_start": 1.38,
+        "seg_end": 1.56,
+        "master_start": 63.65,
+        "master_end": 63.83
+      },
+      {
+        "word": "thấm",
+        "seg_start": 1.56,
+        "seg_end": 1.86,
+        "master_start": 63.83,
+        "master_end": 64.13
+      },
+      {
+        "word": "mệt",
+        "seg_start": 1.86,
+        "seg_end": 2.08,
+        "master_start": 64.13,
+        "master_end": 64.35
+      },
+      {
+        "word": "nên",
+        "seg_start": 2.08,
+        "seg_end": 2.38,
+        "master_start": 64.35,
+        "master_end": 64.65
+      },
+      {
+        "word": "mình",
+        "seg_start": 2.38,
+        "seg_end": 2.58,
+        "master_start": 64.65,
+        "master_end": 64.85
+      },
+      {
+        "word": "bật",
+        "seg_start": 2.58,
+        "seg_end": 2.88,
+        "master_start": 64.85,
+        "master_end": 65.15
+      },
+      {
+        "word": "định",
+        "seg_start": 2.88,
+        "seg_end": 3.16,
+        "master_start": 65.15,
+        "master_end": 65.43
+      },
+      {
+        "word": "hướng",
+        "seg_start": 3.16,
+        "seg_end": 3.48,
+        "master_start": 65.43,
+        "master_end": 65.75
+      },
+      {
+        "word": "tìm",
+        "seg_start": 3.48,
+        "seg_end": 3.7,
+        "master_start": 65.75,
+        "master_end": 65.97
+      },
+      {
+        "word": "đơn",
+        "seg_start": 3.7,
+        "seg_end": 3.88,
+        "master_start": 65.97,
+        "master_end": 66.15
+      },
+      {
+        "word": "về",
+        "seg_start": 3.88,
+        "seg_end": 4.06,
+        "master_start": 66.15,
+        "master_end": 66.33
+      },
+      {
+        "word": "phòng",
+        "seg_start": 4.06,
+        "seg_end": 4.3,
+        "master_start": 66.33,
+        "master_end": 66.57
+      },
+      {
+        "word": "trọ.",
+        "seg_start": 4.3,
+        "seg_end": 4.56,
+        "master_start": 66.57,
+        "master_end": 66.83
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "script_text": "May mắn nổ ngay đơn tiện đường ba mươi ba nghìn, chốt trọn vẹn cuốc xe thứ sáu trong ngày.",
+    "seg_start": 67.31,
+    "seg_end": 72.82,
+    "words": [
+      {
+        "word": "May",
+        "seg_start": 0.0,
+        "seg_end": 0.46,
+        "master_start": 67.31,
+        "master_end": 67.77
+      },
+      {
+        "word": "mắn",
+        "seg_start": 0.46,
+        "seg_end": 0.74,
+        "master_start": 67.77,
+        "master_end": 68.05
+      },
+      {
+        "word": "nổ",
+        "seg_start": 0.74,
+        "seg_end": 0.98,
+        "master_start": 68.05,
+        "master_end": 68.29
+      },
+      {
+        "word": "ngay",
+        "seg_start": 0.98,
+        "seg_end": 1.26,
+        "master_start": 68.29,
+        "master_end": 68.57
+      },
+      {
+        "word": "đơn",
+        "seg_start": 1.26,
+        "seg_end": 1.44,
+        "master_start": 68.57,
+        "master_end": 68.75
+      },
+      {
+        "word": "tiện",
+        "seg_start": 1.44,
+        "seg_end": 1.7,
+        "master_start": 68.75,
+        "master_end": 69.01
+      },
+      {
+        "word": "đường",
+        "seg_start": 1.7,
+        "seg_end": 1.88,
+        "master_start": 69.01,
+        "master_end": 69.19
+      },
+      {
+        "word": "ba",
+        "seg_start": 1.88,
+        "seg_end": 2.08,
+        "master_start": 69.19,
+        "master_end": 69.39
+      },
+      {
+        "word": "mươi",
+        "seg_start": 2.08,
+        "seg_end": 2.34,
+        "master_start": 69.39,
+        "master_end": 69.65
+      },
+      {
+        "word": "ba",
+        "seg_start": 2.34,
+        "seg_end": 2.46,
+        "master_start": 69.65,
+        "master_end": 69.77
+      },
+      {
+        "word": "nghìn,",
+        "seg_start": 2.46,
+        "seg_end": 2.8,
+        "master_start": 69.77,
+        "master_end": 70.11
+      },
+      {
+        "word": "chốt",
+        "seg_start": 3.04,
+        "seg_end": 3.26,
+        "master_start": 70.35,
+        "master_end": 70.57
+      },
+      {
+        "word": "trọn",
+        "seg_start": 3.26,
+        "seg_end": 3.5,
+        "master_start": 70.57,
+        "master_end": 70.81
+      },
+      {
+        "word": "vẹn",
+        "seg_start": 3.5,
+        "seg_end": 3.8,
+        "master_start": 70.81,
+        "master_end": 71.11
+      },
+      {
+        "word": "cuốc",
+        "seg_start": 3.8,
+        "seg_end": 4.08,
+        "master_start": 71.11,
+        "master_end": 71.39
+      },
+      {
+        "word": "xe",
+        "seg_start": 4.08,
+        "seg_end": 4.36,
+        "master_start": 71.39,
+        "master_end": 71.67
+      },
+      {
+        "word": "thứ",
+        "seg_start": 4.36,
+        "seg_end": 4.48,
+        "master_start": 71.67,
+        "master_end": 71.79
+      },
+      {
+        "word": "sáu",
+        "seg_start": 4.48,
+        "seg_end": 4.8,
+        "master_start": 71.79,
+        "master_end": 72.11
+      },
+      {
+        "word": "trong",
+        "seg_start": 4.8,
+        "seg_end": 4.9,
+        "master_start": 72.11,
+        "master_end": 72.21
+      },
+      {
+        "word": "ngày.",
+        "seg_start": 4.9,
+        "seg_end": 5.16,
+        "master_start": 72.21,
+        "master_end": 72.47
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "script_text": "Vậy là tổng kết một ngày chạy Xanh SM được đúng một trăm bảy mươi sáu nghìn đồng.",
+    "seg_start": 73.0,
+    "seg_end": 77.99,
+    "words": [
+      {
+        "word": "Đây",
+        "seg_start": 0.0,
+        "seg_end": 0.2,
+        "master_start": 73.0,
+        "master_end": 73.2
+      },
+      {
+        "word": "là",
+        "seg_start": 0.2,
+        "seg_end": 0.34,
+        "master_start": 73.2,
+        "master_end": 73.34
+      },
+      {
+        "word": "tổng",
+        "seg_start": 0.34,
+        "seg_end": 0.66,
+        "master_start": 73.34,
+        "master_end": 73.66
+      },
+      {
+        "word": "kết",
+        "seg_start": 0.66,
+        "seg_end": 0.88,
+        "master_start": 73.66,
+        "master_end": 73.88
+      },
+      {
+        "word": "một",
+        "seg_start": 0.88,
+        "seg_end": 1.0,
+        "master_start": 73.88,
+        "master_end": 74.0
+      },
+      {
+        "word": "ngày",
+        "seg_start": 1.0,
+        "seg_end": 1.36,
+        "master_start": 74.0,
+        "master_end": 74.36
+      },
+      {
+        "word": "chạy",
+        "seg_start": 1.36,
+        "seg_end": 1.92,
+        "master_start": 74.36,
+        "master_end": 74.92
+      },
+      {
+        "word": "Xanh",
+        "seg_start": 1.92,
+        "seg_end": 2.18,
+        "master_start": 74.92,
+        "master_end": 75.18
+      },
+      {
+        "word": "SM",
+        "seg_start": 2.18,
+        "seg_end": 2.58,
+        "master_start": 75.18,
+        "master_end": 75.58
+      },
+      {
+        "word": "được",
+        "seg_start": 2.58,
+        "seg_end": 2.92,
+        "master_start": 75.58,
+        "master_end": 75.92
+      },
+      {
+        "word": "đúng",
+        "seg_start": 2.92,
+        "seg_end": 3.26,
+        "master_start": 75.92,
+        "master_end": 76.26
+      },
+      {
+        "word": "176",
+        "seg_start": 3.26,
+        "seg_end": 4.2,
+        "master_start": 76.26,
+        "master_end": 77.2
+      },
+      {
+        "word": ".000",
+        "seg_start": 4.2,
+        "seg_end": 4.42,
+        "master_start": 77.2,
+        "master_end": 77.42
+      },
+      {
+        "word": "đồng.",
+        "seg_start": 4.42,
+        "seg_end": 4.7,
+        "master_start": 77.42,
+        "master_end": 77.7
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "script_text": "Dù vất vả nhưng đó là đồng tiền mồ hôi công sức chân chính và rất tự hào.",
+    "seg_start": 78.17,
+    "seg_end": 82.59,
+    "words": [
+      {
+        "word": "Dù",
+        "seg_start": 0.0,
+        "seg_end": 0.2,
+        "master_start": 78.17,
+        "master_end": 78.37
+      },
+      {
+        "word": "vất",
+        "seg_start": 0.2,
+        "seg_end": 0.42,
+        "master_start": 78.37,
+        "master_end": 78.59
+      },
+      {
+        "word": "vả",
+        "seg_start": 0.42,
+        "seg_end": 0.68,
+        "master_start": 78.59,
+        "master_end": 78.85
+      },
+      {
+        "word": "nhưng",
+        "seg_start": 0.68,
+        "seg_end": 0.9,
+        "master_start": 78.85,
+        "master_end": 79.07
+      },
+      {
+        "word": "đó",
+        "seg_start": 0.9,
+        "seg_end": 1.2,
+        "master_start": 79.07,
+        "master_end": 79.37
+      },
+      {
+        "word": "là",
+        "seg_start": 1.2,
+        "seg_end": 1.38,
+        "master_start": 79.37,
+        "master_end": 79.55
+      },
+      {
+        "word": "đồng",
+        "seg_start": 1.38,
+        "seg_end": 1.56,
+        "master_start": 79.55,
+        "master_end": 79.73
+      },
+      {
+        "word": "tiền",
+        "seg_start": 1.56,
+        "seg_end": 1.8,
+        "master_start": 79.73,
+        "master_end": 79.97
+      },
+      {
+        "word": "mồ",
+        "seg_start": 1.8,
+        "seg_end": 1.94,
+        "master_start": 79.97,
+        "master_end": 80.11
+      },
+      {
+        "word": "hôi",
+        "seg_start": 1.94,
+        "seg_end": 2.18,
+        "master_start": 80.11,
+        "master_end": 80.35
+      },
+      {
+        "word": "công",
+        "seg_start": 2.18,
+        "seg_end": 2.34,
+        "master_start": 80.35,
+        "master_end": 80.51
+      },
+      {
+        "word": "sức",
+        "seg_start": 2.34,
+        "seg_end": 2.7,
+        "master_start": 80.51,
+        "master_end": 80.87
+      },
+      {
+        "word": "chân",
+        "seg_start": 2.7,
+        "seg_end": 2.88,
+        "master_start": 80.87,
+        "master_end": 81.05
+      },
+      {
+        "word": "chính",
+        "seg_start": 2.88,
+        "seg_end": 3.04,
+        "master_start": 81.05,
+        "master_end": 81.21
+      },
+      {
+        "word": "và",
+        "seg_start": 3.04,
+        "seg_end": 3.32,
+        "master_start": 81.21,
+        "master_end": 81.49
+      },
+      {
+        "word": "rất",
+        "seg_start": 3.32,
+        "seg_end": 3.62,
+        "master_start": 81.49,
+        "master_end": 81.79
+      },
+      {
+        "word": "tự",
+        "seg_start": 3.62,
+        "seg_end": 3.88,
+        "master_start": 81.79,
+        "master_end": 82.05
+      },
+      {
+        "word": "hào.",
+        "seg_start": 3.88,
+        "seg_end": 4.16,
+        "master_start": 82.05,
+        "master_end": 82.33
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "script_text": "Anh em hôm nay được bao nhiêu lúa rồi? Comment bên dưới và bấm tim ủng hộ mình nhé!",
+    "seg_start": 82.77,
+    "seg_end": 87.83,
+    "words": [
+      {
+        "word": "Anh",
+        "seg_start": 0.0,
+        "seg_end": 0.26,
+        "master_start": 82.77,
+        "master_end": 83.03
+      },
+      {
+        "word": "em",
+        "seg_start": 0.26,
+        "seg_end": 0.4,
+        "master_start": 83.03,
+        "master_end": 83.17
+      },
+      {
+        "word": "hôm",
+        "seg_start": 0.4,
+        "seg_end": 0.6,
+        "master_start": 83.17,
+        "master_end": 83.37
+      },
+      {
+        "word": "nay",
+        "seg_start": 0.6,
+        "seg_end": 0.82,
+        "master_start": 83.37,
+        "master_end": 83.59
+      },
+      {
+        "word": "được",
+        "seg_start": 0.82,
+        "seg_end": 1.02,
+        "master_start": 83.59,
+        "master_end": 83.79
+      },
+      {
+        "word": "bao",
+        "seg_start": 1.02,
+        "seg_end": 1.2,
+        "master_start": 83.79,
+        "master_end": 83.97
+      },
+      {
+        "word": "nhiêu",
+        "seg_start": 1.2,
+        "seg_end": 1.42,
+        "master_start": 83.97,
+        "master_end": 84.19
+      },
+      {
+        "word": "lúa",
+        "seg_start": 1.42,
+        "seg_end": 1.66,
+        "master_start": 84.19,
+        "master_end": 84.43
+      },
+      {
+        "word": "rồi?",
+        "seg_start": 1.66,
+        "seg_end": 1.96,
+        "master_start": 84.43,
+        "master_end": 84.73
+      },
+      {
+        "word": "Comment",
+        "seg_start": 2.26,
+        "seg_end": 2.66,
+        "master_start": 85.03,
+        "master_end": 85.43
+      },
+      {
+        "word": "bên",
+        "seg_start": 2.66,
+        "seg_end": 2.9,
+        "master_start": 85.43,
+        "master_end": 85.67
+      },
+      {
+        "word": "dưới",
+        "seg_start": 2.9,
+        "seg_end": 3.3,
+        "master_start": 85.67,
+        "master_end": 86.07
+      },
+      {
+        "word": "và",
+        "seg_start": 3.3,
+        "seg_end": 3.46,
+        "master_start": 86.07,
+        "master_end": 86.23
+      },
+      {
+        "word": "bấm",
+        "seg_start": 3.46,
+        "seg_end": 3.74,
+        "master_start": 86.23,
+        "master_end": 86.51
+      },
+      {
+        "word": "tim",
+        "seg_start": 3.74,
+        "seg_end": 3.92,
+        "master_start": 86.51,
+        "master_end": 86.69
+      },
+      {
+        "word": "ủng",
+        "seg_start": 3.92,
+        "seg_end": 4.22,
+        "master_start": 86.69,
+        "master_end": 86.99
+      },
+      {
+        "word": "hộ",
+        "seg_start": 4.22,
+        "seg_end": 4.38,
+        "master_start": 86.99,
+        "master_end": 87.15
+      },
+      {
+        "word": "mình",
+        "seg_start": 4.38,
+        "seg_end": 4.5,
+        "master_start": 87.15,
+        "master_end": 87.27
+      },
+      {
+        "word": "nhé!",
+        "seg_start": 4.5,
+        "seg_end": 4.8,
+        "master_start": 87.27,
+        "master_end": 87.57
+      }
+    ]
+  }
+]

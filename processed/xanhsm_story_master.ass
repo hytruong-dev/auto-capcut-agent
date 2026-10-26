@@ -1,0 +1,281 @@
+[Script Info]
+Title: Dynamic Word Karaoke Subtitles (Oswald-Bold CapCut Style)
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 1080
+PlayResY: 1920
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: DynamicSub,Oswald Bold,74,&H0000FFF0,&H0000FFF0,&H00000000,&H90000000,-1,0,0,0,100,100,1,0,1,7,2,2,60,60,220,1
+Style: Hook1,Oswald Bold,88,&H003333FF,&H003333FF,&H00FFFFFF,&H90000000,-1,0,0,0,100,100,1,0,1,8,3,8,60,60,340,1
+Style: Hook2,Oswald Bold,98,&H0000FFF0,&H0000FFF0,&H00000000,&H90000000,-1,0,0,0,100,100,1,0,1,9,3,8,60,60,460,1
+Style: Callout,Oswald Bold,60,&H0066FF66,&H0066FF66,&H00000000,&H90000000,-1,0,0,0,100,100,0,0,1,6,2,8,60,60,380,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+; --- DUAL-LAYER HOOK TITLE (0.0s -> 5.5s) ---
+Dialogue: 1,0:00:00.00,0:00:05.50,Hook1,,0,0,0,,{\fad(120,120)}THỬ THÁCH 1 NGÀY
+Dialogue: 1,0:00:00.00,0:00:05.50,Hook2,,0,0,0,,{\fad(120,120)}CHẠY XANH SM SÀI GÒN
+
+; --- DYNAMIC WORD-BY-WORD KARAOKE HIGHLIGHT ---
+Dialogue: 0,0:00:00.00,0:00:00.18,DynamicSub,,0,0,0,,{\fad(50,0)\t(0,50,\fscx112\fscy112)\t(50,110,\fscx100\fscy100)}{\c&H00FFFF66&}THỬ {\c&H0000FFF0&}THÁCH
+Dialogue: 0,0:00:00.18,0:00:00.46,DynamicSub,,0,0,0,,{\fad(0,60)}{\c&H0000FFF0&}THỬ {\c&H00FFFF66&}THÁCH
+Dialogue: 0,0:00:00.46,0:00:00.92,DynamicSub,,0,0,0,,{\fad(50,0)\t(0,50,\fscx112\fscy112)\t(50,110,\fscx100\fscy100)}{\c&H00FFFF66&}CHẠY {\c&H0000FFF0&}XE {\c&H0000FFF0&}MÁY {\c&H0000FFF0&}ĐIỆN
+Dialogue: 0,0:00:00.92,0:00:01.10,DynamicSub,,0,0,0,,{\c&H0000FFF0&}CHẠY {\c&H00FFFF66&}XE {\c&H0000FFF0&}MÁY {\c&H0000FFF0&}ĐIỆN
+Dialogue: 0,0:00:01.10,0:00:01.30,DynamicSub,,0,0,0,,{\c&H0000FFF0&}CHẠY {\c&H0000FFF0&}XE {\c&H00FFFF66&}MÁY {\c&H0000FFF0&}ĐIỆN
+Dialogue: 0,0:00:01.30,0:00:01.46,DynamicSub,,0,0,0,,{\fad(0,60)}{\c&H0000FFF0&}CHẠY {\c&H0000FFF0&}XE {\c&H0000FFF0&}MÁY {\c&H00FFFF66&}ĐIỆN
+Dialogue: 0,0:00:01.46,0:00:01.72,DynamicSub,,0,0,0,,{\fad(50,0)\t(0,50,\fscx112\fscy112)\t(50,110,\fscx100\fscy100)}{\c&H00FFFF66&}XANH {\c&H0000FFF0&}SM {\c&H0000FFF0&}CẢ {\c&H0000FFF0&}NGÀY
+Dialogue: 0,0:00:01.72,0:00:02.16,DynamicSub,,0,0,0,,{\c&H0000FFF0&}XANH {\c&H00FFFF66&}SM {\c&H0000FFF0&}CẢ {\c&H0000FFF0&}NGÀY
+Dialogue: 0,0:00:02.16,0:00:02.42,DynamicSub,,0,0,0,,{\c&H0000FFF0&}XANH {\c&H0000FFF0&}SM {\c&H00FFFF66&}CẢ {\c&H0000FFF0&}NGÀY
+Dialogue: 0,0:00:02.42,0:00:02.78,DynamicSub,,0,0,0,,{\fad(0,60)}{\c&H0000FFF0&}XANH {\c&H0000FFF0&}SM {\c&H0000FFF0&}CẢ {\c&H00FFFF66&}NGÀY
+Dialogue: 0,0:00:02.78,0:00:03.06,DynamicSub,,0,0,0,,{\fad(50,0)\t(0,50,\fscx112\fscy112)\t(50,110,\fscx100\fscy100)}{\c&H00FFFF66&}TỪ {\c&H0000FFF0&}SÁNG {\c&H0000FFF0&}ĐẾN {\c&H0000FFF0&}ĐÊM
+Dialogue: 0,0:00:03.06,0:00:03.46,DynamicSub,,0,0,0,,{\c&H0000FFF0&}TỪ {\c&H00FFFF66&}SÁNG {\c&H0000FFF0&}ĐẾN {\c&H0000FFF0&}ĐÊM
+Dialogue: 0,0:00:03.46,0:00:03.58,DynamicSub,,0,0,0,,{\c&H0000FFF0&}TỪ {\c&H0000FFF0&}SÁNG {\c&H00FFFF66&}ĐẾN {\c&H0000FFF0&}ĐÊM
+Dialogue: 0,0:00:03.58,0:00:03.90,DynamicSub,,0,0,0,,{\fad(0,60)}{\c&H0000FFF0&}TỪ {\c&H0000FFF0&}SÁNG {\c&H0000FFF0&}ĐẾN {\c&H00FFFF66&}ĐÊM
+Dialogue: 0,0:00:04.20,0:00:04.34,DynamicSub,,0,0,0,,{\fad(50,0)\t(0,50,\fscx112\fscy112)\t(50,110,\fscx100\fscy100)}{\c&H00FFFF66&}THỰC {\c&H0000FFF0&}SỰ {\c&H0000FFF0&}KIẾM {\c&H0000FFF0&}ĐƯỢC
+Dialogue: 0,0:00:04.34,0:00:04.54,DynamicSub,,0,0,0,,{\c&H0000FFF0&}THỰC {\c&H00FFFF66&}SỰ {\c&H0000FFF0&}KIẾM {\c&H0000FFF0&}ĐƯỢC
+Dialogue: 0,0:00:04.54,0:00:04.82,DynamicSub,,0,0,0,,{\c&H0000FFF0&}THỰC {\c&H0000FFF0&}SỰ {\c&H00FFFF66&}KIẾM {\c&H0000FFF0&}ĐƯỢC
+Dialogue: 0,0:00:04.82,0:00:04.97,DynamicSub,,0,0,0,,{\fad(0,60)}{\c&H0000FFF0&}THỰC {\c&H0000FFF0&}SỰ {\c&H0000FFF0&}KIẾM {\c&H00FFFF66&}ĐƯỢC
+Dialogue: 0,0:00:04.90,0:00:05.06,DynamicSub,,0,0,0,,{\fad(50,0)\t(0,50,\fscx112\fscy112)\t(50,110,\fscx100\fscy100)}{\c&H00FFFF66&}BAO {\c&H0000FFF0&}NHIÊU {\c&H0000FFF0&}TIỀN {\c&H0000FFF0&}NÈ?
+Dialogue: 0,0:00:05.06,0:00:05.26,DynamicSub,,0,0,0,,{\c&H0000FFF0&}BAO {\c&H00FFFF66&}NHIÊU {\c&H0000FFF0&}TIỀN {\c&H0000FFF0&}NÈ?
+Dialogue: 0,0:00:05.26,0:00:05.50,DynamicSub,,0,0,0,,{\c&H0000FFF0&}BAO {\c&H0000FFF0&}NHIÊU {\c&H00FFFF66&}TIỀN {\c&H0000FFF0&}NÈ?
+Dialogue: 0,0:00:05.50,0:00:05.66,DynamicSub,,0,0,0,,{\fad(0,60)}{\c&H0000FFF0&}BAO {\c&H0000FFF0&}NHIÊU {\c&H0000FFF0&}TIỀN {\c&H00FFFF66&}NÈ?
+Dialogue: 0,0:00:05.88,0:00:06.14,DynamicSub,,0,0,0,,{\fad(50,0)\t(0,50,\fscx112\fscy112)\t(50,110,\fscx100\fscy100)}{\c&H00FFFF66&}HÔM {\c&H0000FFF0&}NAY {\c&H0000FFF0&}MÌNH
+Dialogue: 0,0:00:06.14,0:00:06.40,DynamicSub,,0,0,0,,{\c&H0000FFF0&}HÔM {\c&H00FFFF66&}NAY {\c&H0000FFF0&}MÌNH
+Dialogue: 0,0:00:06.40,0:00:06.66,DynamicSub,,0,0,0,,{\fad(0,60)}{\c&H0000FFF0&}HÔM {\c&H0000FFF0&}NAY {\c&H00FFFF66&}MÌNH
+Dialogue: 0,0:00:06.66,0:00:06.91,DynamicSub,,0,0,0,,{\fad(50,0)\t(0,50,\fscx112\fscy112)\t(50,110,\fscx100\fscy100)}{\c&H00FFFF66&}TEST {\c&H0000FFF0&}THỰC {\c&H0000FFF0&}TẾ
+Dialogue: 0,0:00:06.91,0:00:07.17,DynamicSub,,0,0,0,,{\c&H0000FFF0&}TEST {\c&H00FFFF66&}THỰC {\c&H0000FFF0&}TẾ
+Dialogue: 0,0:00:07.17,0:00:07.43,DynamicSub,,0,0,0,,{\fad(0,60)}{\c&H0000FFF0&}TEST {\c&H0000FFF0&}THỰC {\c&H00FFFF66&}TẾ
+Dialogue: 0,0:00:07.43,0:00:07.69,DynamicSub,,0,0,0,,{\fad(50,0)\t(0,50,\fscx112\fscy112)\t(50,110,\fscx100\fscy100)}{\c&H00FFFF66&}CHO {\c&H0000FFF0&}ANH {\c&H0000FFF0&}EM {\c&H0000FFF0&}XEM {\c&H0000FFF0&}NHA!
+Dialogue: 0,0:00:07.69,0:00:07.95,DynamicSub,,0,0,0,,{\c&H0000FFF0&}CHO {\c&H00FFFF66&}ANH {\c&H0000FFF0&}EM {\c&H0000FFF0&}XEM {\c&H0000FFF0&}NHA!
+Dialogue: 0,0:00:07.95,0:00:08.20,DynamicSub,,0,0,0,,{\c&H0000FFF0&}CHO {\c&H0000FFF0&}ANH {\c&H00FFFF66&}EM {\c&H0000FFF0&}XEM {\c&H0000FFF0&}NHA!
+Dialogue: 0,0:00:08.20,0:00:08.46,DynamicSub,,0,0,0,,{\c&H0000FFF0&}CHO {\c&H0000FFF0&}ANH {\c&H0000FFF0&}EM {\c&H00FFFF66&}XEM {\c&H0000FFF0&}NHA!
+Dialogue: 0,0:00:08.46,0:00:08.72,DynamicSub,,0,0,0,,{\fad(0,60)}{\c&H0000FFF0&}CHO {\c&H0000FFF0&}ANH {\c&H0000FFF0&}EM {\c&H0000FFF0&}XEM {\c&H00FFFF66&}NHA!
+Dialogue: 0,0:00:08.96,0:00:09.24,DynamicSub,,0,0,0,,{\fad(50,0)\t(0,50,\fscx112\fscy112)\t(50,110,\fscx100\fscy100)}{\c&H00FFFF66&}BẠN {\c&H0000FFF0&}NÀO
+Dialogue: 0,0:00:09.24,0:00:09.52,DynamicSub,,0,0,0,,{\fad(0,60)}{\c&H0000FFF0&}BẠN {\c&H00FFFF66&}NÀO
+Dialogue: 0,0:00:09.52,0:00:09.80,DynamicSub,,0,0,0,,{\fad(50,0)\t(0,50,\fscx112\fscy112)\t(50,110,\fscx100\fscy100)}{\c&H00FFFF66&}CÒN {\c&H0000FFF0&}THẮC {\c&H0000FFF0&}MẮC
+Dialogue: 0,0:00:09.80,0:00:10.08,DynamicSub,,0,0,0,,{\c&H0000FFF0&}CÒN {\c&H00FFFF66&}THẮC {\c&H0000FFF0&}MẮC
+Dialogue: 0,0:00:10.08,0:00:10.36,DynamicSub,,0,0,0,,{\fad(0,60)}{\c&H0000FFF0&}CÒN {\c&H0000FFF0&}THẮC {\c&H00FFFF66&}MẮC
+Dialogue: 0,0:00:10.36,0:00:10.64,DynamicSub,,0,0,0,,{\fad(50,0)\t(0,50,\fscx112\fscy112)\t(50,110,\fscx100\fscy100)}{\c&H00FFFF66&}THÌ {\c&H0000FFF0&}XEM {\c&H0000FFF0&}HẾT
+Dialogue: 0,0:00:10.64,0:00:10.92,DynamicSub,,0,0,0,,{\c&H0000FFF0&}THÌ {\c&H00FFFF66&}XEM {\c&H0000FFF0&}HẾT
+Dialogue: 0,0:00:10.92,0:00:11.20,DynamicSub,,0,0,0,,{\fad(0,60)}{\c&H0000FFF0&}THÌ {\c&H0000FFF0&}XEM {\c&H00FFFF66&}HẾT
+Dialogue: 0,0:00:11.20,0:00:11.48,DynamicSub,,0,0,0,,{\fad(50,0)\t(0,50,\fscx112\fscy112)\t(50,110,\fscx100\fscy100)}{\c&H00FFFF66&}VIDEO {\c&H0000FFF0&}LÀ {\c&H0000FFF0&}BIẾT {\c&H0000FFF0&}LIỀN!
+Dialogue: 0,0:00:11.48,0:00:11.76,DynamicSub,,0,0,0,,{\c&H0000FFF0&}VIDEO {\c&H00FFFF66&}LÀ {\c&H0000FFF0&}BIẾT {\c&H0000FFF0&}LIỀN!
+Dialogue: 0,0:00:11.76,0:00:12.04,DynamicSub,,0,0,0,,{\c&H0000FFF0&}VIDEO {\c&H0000FFF0&}LÀ {\c&H00FFFF66&}BIẾT {\c&H0000FFF0&}LIỀN!
+Dialogue: 0,0:00:12.04,0:00:12.32,DynamicSub,,0,0,0,,{\fad(0,60)}{\c&H0000FFF0&}VIDEO {\c&H0000FFF0&}LÀ {\c&H0000FFF0&}BIẾT {\c&H00FFFF66&}LIỀN!
+Dialogue: 0,0:00:12.56,0:00:12.92,DynamicSub,,0,0,0,,{\fad(50,0)\t(0,50,\fscx112\fscy112)\t(50,110,\fscx100\fscy100)}{\c&H00FFFF66&}TÁM {\c&H0000FFF0&}GIỜ {\c&H0000FFF0&}SÁNG
+Dialogue: 0,0:00:12.92,0:00:13.12,DynamicSub,,0,0,0,,{\c&H0000FFF0&}TÁM {\c&H00FFFF66&}GIỜ {\c&H0000FFF0&}SÁNG
+Dialogue: 0,0:00:13.12,0:00:13.50,DynamicSub,,0,0,0,,{\fad(0,60)}{\c&H0000FFF0&}TÁM {\c&H0000FFF0&}GIỜ {\c&H00FFFF66&}SÁNG
+Dialogue: 0,0:00:13.50,0:00:13.66,DynamicSub,,0,0,0,,{\fad(50,0)\t(0,50,\fscx112\fscy112)\t(50,110,\fscx100\fscy100)}{\c&H00FFFF66&}MÌNH {\c&H0000FFF0&}BẮT {\c&H0000FFF0&}ĐẦU
+Dialogue: 0,0:00:13.66,0:00:13.92,DynamicSub,,0,0,0,,{\c&H0000FFF0&}MÌNH {\c&H00FFFF66&}BẮT {\c&H0000FFF0&}ĐẦU
+Dialogue: 0,0:00:13.92,0:00:14.07,DynamicSub,,0,0,0,,{\fad(0,60)}{\c&H0000FFF0&}MÌNH {\c&H0000FFF0&}BẮT {\c&H00FFFF66&}ĐẦU
+Dialogue: 0,0:00:14.04,0:00:14.36,DynamicSub,,0,0,0,,{\fad(50,0)\t(0,50,\fscx112\fscy112)\t(50,110,\fscx100\fscy100)}{\c&H00FFFF66&}MỞ {\c&H0000FFF0&}APP
+Dialogue: 0,0:00:14.36,0:00:14.66,DynamicSub,,0,0,0,,{\fad(0,60)}{\c&H0000FFF0&}MỞ {\c&H00FFFF66&}APP
+Dialogue: 0,0:00:14.66,0:00:14.86,DynamicSub,,0,0,0,,{\fad(50,0)\t(0,50,\fscx112\fscy112)\t(50,110,\fscx100\fscy100)}{\c&H00FFFF66&}NHẬN {\c&H0000FFF0&}CUỐC {\c&H0000FFF0&}ĐẦU {\c&H0000FFF0&}TIÊN
+Dialogue: 0,0:00:14.86,0:00:15.14,DynamicSub,,0,0,0,,{\c&H0000FFF0&}NHẬN {\c&H00FFFF66&}CUỐC {\c&H0000FFF0&}ĐẦU {\c&H0000FFF0&}TIÊN
+Dialogue: 0,0:00:15.14,0:00:15.24,DynamicSub,,0,0,0,,{\c&H0000FFF0&}NHẬN {\c&H0000FFF0&}CUỐC {\c&H00FFFF66&}ĐẦU {\c&H0000FFF0&}TIÊN
+Dialogue: 0,0:00:15.24,0:00:15.56,DynamicSub,,0,0,0,,{\fad(0,60)}{\c&H0000FFF0&}NHẬN {\c&H0000FFF0&}CUỐC {\c&H0000FFF0&}ĐẦU {\c&H00FFFF66&}TIÊN
+Dialogue: 0,0:00:15.82,0:00:16.16,DynamicSub,,0,0,0,,{\fad(50,0)\t(0,50,\fscx112\fscy112)\t(50,110,\fscx100\fscy100)}{\c&H00FFFF66&}PHẢI {\c&H0000FFF0&}CÔNG {\c&H0000FFF0&}NHẬN
+Dialogue: 0,0:00:16.16,0:00:16.49,DynamicSub,,0,0,0,,{\c&H0000FFF0&}PHẢI {\c&H00FFFF66&}CÔNG {\c&H0000FFF0&}NHẬN
+Dialogue: 0,0:00:16.49,0:00:16.82,DynamicSub,,0,0,0,,{\fad(0,60)}{\c&H0000FFF0&}PHẢI {\c&H0000FFF0&}CÔNG {\c&H00FFFF66&}NHẬN
+Dialogue: 0,0:00:16.82,0:00:17.16,DynamicSub,,0,0,0,,{\fad(50,0)\t(0,50,\fscx112\fscy112)\t(50,110,\fscx100\fscy100)}{\c&H00FFFF66&}XE {\c&H0000FFF0&}ĐIỆN {\c&H0000FFF0&}VINFAST
+Dialogue: 0,0:00:17.16,0:00:17.49,DynamicSub,,0,0,0,,{\c&H0000FFF0&}XE {\c&H00FFFF66&}ĐIỆN {\c&H0000FFF0&}VINFAST
+Dialogue: 0,0:00:17.49,0:00:17.83,DynamicSub,,0,0,0,,{\fad(0,60)}{\c&H0000FFF0&}XE {\c&H0000FFF0&}ĐIỆN {\c&H00FFFF66&}VINFAST
+Dialogue: 0,0:00:17.83,0:00:18.16,DynamicSub,,0,0,0,,{\fad(50,0)\t(0,50,\fscx112\fscy112)\t(50,110,\fscx100\fscy100)}{\c&H00FFFF66&}CHẠY {\c&H0000FFF0&}ÊM {\c&H0000FFF0&}RU {\c&H0000FFF0&}LUÔN {\c&H0000FFF0&}Á
+Dialogue: 0,0:00:18.16,0:00:18.50,DynamicSub,,0,0,0,,{\c&H0000FFF0&}CHẠY {\c&H00FFFF66&}ÊM {\c&H0000FFF0&}RU {\c&H0000FFF0&}LUÔN {\c&H0000FFF0&}Á
+Dialogue: 0,0:00:18.50,0:00:18.83,DynamicSub,,0,0,0,,{\c&H0000FFF0&}CHẠY {\c&H0000FFF0&}ÊM {\c&H00FFFF66&}RU {\c&H0000FFF0&}LUÔN {\c&H0000FFF0&}Á
+Dialogue: 0,0:00:18.83,0:00:19.17,DynamicSub,,0,0,0,,{\c&H0000FFF0&}CHẠY {\c&H0000FFF0&}ÊM {\c&H0000FFF0&}RU {\c&H00FFFF66&}LUÔN {\c&H0000FFF0&}Á
+Dialogue: 0,0:00:19.17,0:00:19.50,DynamicSub,,0,0,0,,{\fad(0,60)}{\c&H0000FFF0&}CHẠY {\c&H0000FFF0&}ÊM {\c&H0000FFF0&}RU {\c&H0000FFF0&}LUÔN {\c&H00FFFF66&}Á
+Dialogue: 0,0:00:19.50,0:00:19.84,DynamicSub,,0,0,0,,{\fad(50,0)\t(0,50,\fscx112\fscy112)\t(50,110,\fscx100\fscy100)}{\c&H00FFFF66&}LƯỚT {\c&H0000FFF0&}TRÊN {\c&H0000FFF0&}ĐƯỜNG {\c&H0000FFF0&}PHỐ
+Dialogue: 0,0:00:19.84,0:00:20.17,DynamicSub,,0,0,0,,{\c&H0000FFF0&}LƯỚT {\c&H00FFFF66&}TRÊN {\c&H0000FFF0&}ĐƯỜNG {\c&H0000FFF0&}PHỐ
+Dialogue: 0,0:00:20.17,0:00:20.51,DynamicSub,,0,0,0,,{\c&H0000FFF0&}LƯỚT {\c&H0000FFF0&}TRÊN {\c&H00FFFF66&}ĐƯỜNG {\c&H0000FFF0&}PHỐ
+Dialogue: 0,0:00:20.51,0:00:20.84,DynamicSub,,0,0,0,,{\fad(0,60)}{\c&H0000FFF0&}LƯỚT {\c&H0000FFF0&}TRÊN {\c&H0000FFF0&}ĐƯỜNG {\c&H00FFFF66&}PHỐ
+Dialogue: 0,0:00:20.84,0:00:21.18,DynamicSub,,0,0,0,,{\fad(50,0)\t(0,50,\fscx112\fscy112)\t(50,110,\fscx100\fscy100)}{\c&H00FFFF66&}KHÔNG {\c&H0000FFF0&}TIẾNG {\c&H0000FFF0&}ĐỘNG {\c&H0000FFF0&}CƠ!
+Dialogue: 0,0:00:21.18,0:00:21.51,DynamicSub,,0,0,0,,{\c&H0000FFF0&}KHÔNG {\c&H00FFFF66&}TIẾNG {\c&H0000FFF0&}ĐỘNG {\c&H0000FFF0&}CƠ!
+Dialogue: 0,0:00:21.51,0:00:21.84,DynamicSub,,0,0,0,,{\c&H0000FFF0&}KHÔNG {\c&H0000FFF0&}TIẾNG {\c&H00FFFF66&}ĐỘNG {\c&H0000FFF0&}CƠ!
+Dialogue: 0,0:00:21.84,0:00:22.18,DynamicSub,,0,0,0,,{\fad(0,60)}{\c&H0000FFF0&}KHÔNG {\c&H0000FFF0&}TIẾNG {\c&H0000FFF0&}ĐỘNG {\c&H00FFFF66&}CƠ!
+Dialogue: 0,0:00:22.42,0:00:22.68,DynamicSub,,0,0,0,,{\fad(50,0)\t(0,50,\fscx112\fscy112)\t(50,110,\fscx100\fscy100)}{\c&H00FFFF66&}SÁNG {\c&H0000FFF0&}SỚM {\c&H0000FFF0&}MÁT {\c&H0000FFF0&}RƯỢI
+Dialogue: 0,0:00:22.68,0:00:22.95,DynamicSub,,0,0,0,,{\c&H0000FFF0&}SÁNG {\c&H00FFFF66&}SỚM {\c&H0000FFF0&}MÁT {\c&H0000FFF0&}RƯỢI
+Dialogue: 0,0:00:22.95,0:00:23.21,DynamicSub,,0,0,0,,{\c&H0000FFF0&}SÁNG {\c&H0000FFF0&}SỚM {\c&H00FFFF66&}MÁT {\c&H0000FFF0&}RƯỢI
+Dialogue: 0,0:00:23.21,0:00:23.48,DynamicSub,,0,0,0,,{\fad(0,60)}{\c&H0000FFF0&}SÁNG {\c&H0000FFF0&}SỚM {\c&H0000FFF0&}MÁT {\c&H00FFFF66&}RƯỢI
+Dialogue: 0,0:00:23.48,0:00:23.75,DynamicSub,,0,0,0,,{\fad(50,0)\t(0,50,\fscx112\fscy112)\t(50,110,\fscx100\fscy100)}{\c&H00FFFF66&}CỰC {\c&H0000FFF0&}KỲ {\c&H0000FFF0&}DỄ {\c&H0000FFF0&}CHỊU!
+Dialogue: 0,0:00:23.75,0:00:24.01,DynamicSub,,0,0,0,,{\c&H0000FFF0&}CỰC {\c&H00FFFF66&}KỲ {\c&H0000FFF0&}DỄ {\c&H0000FFF0&}CHỊU!
+Dialogue: 0,0:00:24.01,0:00:24.27,DynamicSub,,0,0,0,,{\c&H0000FFF0&}CỰC {\c&H0000FFF0&}KỲ {\c&H00FFFF66&}DỄ {\c&H0000FFF0&}CHỊU!
+Dialogue: 0,0:00:24.27,0:00:24.54,DynamicSub,,0,0,0,,{\fad(0,60)}{\c&H0000FFF0&}CỰC {\c&H0000FFF0&}KỲ {\c&H0000FFF0&}DỄ {\c&H00FFFF66&}CHỊU!
+Dialogue: 0,0:00:24.86,0:00:25.12,DynamicSub,,0,0,0,,{\fad(50,0)\t(0,50,\fscx112\fscy112)\t(50,110,\fscx100\fscy100)}{\c&H00FFFF66&}MỞ {\c&H0000FFF0&}BÁT {\c&H0000FFF0&}CUỐC {\c&H0000FFF0&}ĐẦU
+Dialogue: 0,0:00:25.12,0:00:25.38,DynamicSub,,0,0,0,,{\c&H0000FFF0&}MỞ {\c&H00FFFF66&}BÁT {\c&H0000FFF0&}CUỐC {\c&H0000FFF0&}ĐẦU
+Dialogue: 0,0:00:25.38,0:00:25.64,DynamicSub,,0,0,0,,{\c&H0000FFF0&}MỞ {\c&H0000FFF0&}BÁT {\c&H00FFFF66&}CUỐC {\c&H0000FFF0&}ĐẦU
+Dialogue: 0,0:00:25.64,0:00:25.90,DynamicSub,,0,0,0,,{\fad(0,60)}{\c&H0000FFF0&}MỞ {\c&H0000FFF0&}BÁT {\c&H0000FFF0&}CUỐC {\c&H00FFFF66&}ĐẦU
+Dialogue: 0,0:00:25.90,0:00:26.16,DynamicSub,,0,0,0,,{\fad(50,0)\t(0,50,\fscx112\fscy112)\t(50,110,\fscx100\fscy100)}{\c&H00FFFF66&}ĐƯỢC {\c&H0000FFF0&}BA {\c&H0000FFF0&}MƯƠI {\c&H0000FFF0&}LĂM {\c&H0000FFF0&}CÀNH
+Dialogue: 0,0:00:26.16,0:00:26.42,DynamicSub,,0,0,0,,{\c&H0000FFF0&}ĐƯỢC {\c&H00FFFF66&}BA {\c&H0000FFF0&}MƯƠI {\c&H0000FFF0&}LĂM {\c&H0000FFF0&}CÀNH
+Dialogue: 0,0:00:26.42,0:00:26.68,DynamicSub,,0,0,0,,{\c&H0000FFF0&}ĐƯỢC {\c&H0000FFF0&}BA {\c&H00FFFF66&}MƯƠI {\c&H0000FFF0&}LĂM {\c&H0000FFF0&}CÀNH
+Dialogue: 0,0:00:26.68,0:00:26.94,DynamicSub,,0,0,0,,{\c&H0000FFF0&}ĐƯỢC {\c&H0000FFF0&}BA {\c&H0000FFF0&}MƯƠI {\c&H00FFFF66&}LĂM {\c&H0000FFF0&}CÀNH
+Dialogue: 0,0:00:26.94,0:00:27.20,DynamicSub,,0,0,0,,{\fad(0,60)}{\c&H0000FFF0&}ĐƯỢC {\c&H0000FFF0&}BA {\c&H0000FFF0&}MƯƠI {\c&H0000FFF0&}LĂM {\c&H00FFFF66&}CÀNH
+Dialogue: 0,0:00:27.20,0:00:27.46,DynamicSub,,0,0,0,,{\fad(50,0)\t(0,50,\fscx112\fscy112)\t(50,110,\fscx100\fscy100)}{\c&H00FFFF66&}QUÁ {\c&H0000FFF0&}ĐÃ {\c&H0000FFF0&}LUÔN!
+Dialogue: 0,0:00:27.46,0:00:27.72,DynamicSub,,0,0,0,,{\c&H0000FFF0&}QUÁ {\c&H00FFFF66&}ĐÃ {\c&H0000FFF0&}LUÔN!
+Dialogue: 0,0:00:27.72,0:00:27.98,DynamicSub,,0,0,0,,{\fad(0,60)}{\c&H0000FFF0&}QUÁ {\c&H0000FFF0&}ĐÃ {\c&H00FFFF66&}LUÔN!
+Dialogue: 0,0:00:28.34,0:00:28.76,DynamicSub,,0,0,0,,{\fad(50,0)\t(0,50,\fscx112\fscy112)\t(50,110,\fscx100\fscy100)}{\c&H00FFFF66&}CHẠY {\c&H0000FFF0&}VÈO {\c&H0000FFF0&}MỘT {\c&H0000FFF0&}CÁI
+Dialogue: 0,0:00:28.76,0:00:28.86,DynamicSub,,0,0,0,,{\c&H0000FFF0&}CHẠY {\c&H00FFFF66&}VÈO {\c&H0000FFF0&}MỘT {\c&H0000FFF0&}CÁI
+Dialogue: 0,0:00:28.86,0:00:29.08,DynamicSub,,0,0,0,,{\c&H0000FFF0&}CHẠY {\c&H0000FFF0&}VÈO {\c&H00FFFF66&}MỘT {\c&H0000FFF0&}CÁI
+Dialogue: 0,0:00:29.08,0:00:29.40,DynamicSub,,0,0,0,,{\fad(0,60)}{\c&H0000FFF0&}CHẠY {\c&H0000FFF0&}VÈO {\c&H0000FFF0&}MỘT {\c&H00FFFF66&}CÁI
+Dialogue: 0,0:00:29.40,0:00:29.60,DynamicSub,,0,0,0,,{\fad(50,0)\t(0,50,\fscx112\fscy112)\t(50,110,\fscx100\fscy100)}{\c&H00FFFF66&}LÀ {\c&H0000FFF0&}ĐẾN {\c&H0000FFF0&}CHIỀU {\c&H0000FFF0&}MUỘN {\c&H0000FFF0&}RỒI
+Dialogue: 0,0:00:29.60,0:00:29.84,DynamicSub,,0,0,0,,{\c&H0000FFF0&}LÀ {\c&H00FFFF66&}ĐẾN {\c&H0000FFF0&}CHIỀU {\c&H0000FFF0&}MUỘN {\c&H0000FFF0&}RỒI
+Dialogue: 0,0:00:29.84,0:00:30.20,DynamicSub,,0,0,0,,{\c&H0000FFF0&}LÀ {\c&H0000FFF0&}ĐẾN {\c&H00FFFF66&}CHIỀU {\c&H0000FFF0&}MUỘN {\c&H0000FFF0&}RỒI
+Dialogue: 0,0:00:30.20,0:00:30.44,DynamicSub,,0,0,0,,{\c&H0000FFF0&}LÀ {\c&H0000FFF0&}ĐẾN {\c&H0000FFF0&}CHIỀU {\c&H00FFFF66&}MUỘN {\c&H0000FFF0&}RỒI
+Dialogue: 0,0:00:30.44,0:00:30.62,DynamicSub,,0,0,0,,{\fad(0,60)}{\c&H0000FFF0&}LÀ {\c&H0000FFF0&}ĐẾN {\c&H0000FFF0&}CHIỀU {\c&H0000FFF0&}MUỘN {\c&H00FFFF66&}RỒI
+Dialogue: 0,0:00:30.98,0:00:31.28,DynamicSub,,0,0,0,,{\fad(50,0)\t(0,50,\fscx112\fscy112)\t(50,110,\fscx100\fscy100)}{\c&H00FFFF66&}TẦM {\c&H0000FFF0&}SÁU {\c&H0000FFF0&}GIỜ {\c&H0000FFF0&}CHIỀU
+Dialogue: 0,0:00:31.28,0:00:31.58,DynamicSub,,0,0,0,,{\c&H0000FFF0&}TẦM {\c&H00FFFF66&}SÁU {\c&H0000FFF0&}GIỜ {\c&H0000FFF0&}CHIỀU
+Dialogue: 0,0:00:31.58,0:00:31.89,DynamicSub,,0,0,0,,{\c&H0000FFF0&}TẦM {\c&H0000FFF0&}SÁU {\c&H00FFFF66&}GIỜ {\c&H0000FFF0&}CHIỀU
+Dialogue: 0,0:00:31.89,0:00:32.19,DynamicSub,,0,0,0,,{\fad(0,60)}{\c&H0000FFF0&}TẦM {\c&H0000FFF0&}SÁU {\c&H0000FFF0&}GIỜ {\c&H00FFFF66&}CHIỀU
+Dialogue: 0,0:00:32.19,0:00:32.49,DynamicSub,,0,0,0,,{\fad(50,0)\t(0,50,\fscx112\fscy112)\t(50,110,\fscx100\fscy100)}{\c&H00FFFF66&}SÀI {\c&H0000FFF0&}GÒN {\c&H0000FFF0&}LÊN {\c&H0000FFF0&}ĐÈN
+Dialogue: 0,0:00:32.49,0:00:32.79,DynamicSub,,0,0,0,,{\c&H0000FFF0&}SÀI {\c&H00FFFF66&}GÒN {\c&H0000FFF0&}LÊN {\c&H0000FFF0&}ĐÈN
+Dialogue: 0,0:00:32.79,0:00:33.09,DynamicSub,,0,0,0,,{\c&H0000FFF0&}SÀI {\c&H0000FFF0&}GÒN {\c&H00FFFF66&}LÊN {\c&H0000FFF0&}ĐÈN
+Dialogue: 0,0:00:33.09,0:00:33.39,DynamicSub,,0,0,0,,{\fad(0,60)}{\c&H0000FFF0&}SÀI {\c&H0000FFF0&}GÒN {\c&H0000FFF0&}LÊN {\c&H00FFFF66&}ĐÈN
+Dialogue: 0,0:00:33.39,0:00:33.70,DynamicSub,,0,0,0,,{\fad(50,0)\t(0,50,\fscx112\fscy112)\t(50,110,\fscx100\fscy100)}{\c&H00FFFF66&}LUNG {\c&H0000FFF0&}LINH {\c&H0000FFF0&}ĐẸP {\c&H0000FFF0&}GHÊ!
+Dialogue: 0,0:00:33.70,0:00:34.00,DynamicSub,,0,0,0,,{\c&H0000FFF0&}LUNG {\c&H00FFFF66&}LINH {\c&H0000FFF0&}ĐẸP {\c&H0000FFF0&}GHÊ!
+Dialogue: 0,0:00:34.00,0:00:34.30,DynamicSub,,0,0,0,,{\c&H0000FFF0&}LUNG {\c&H0000FFF0&}LINH {\c&H00FFFF66&}ĐẸP {\c&H0000FFF0&}GHÊ!
+Dialogue: 0,0:00:34.30,0:00:34.60,DynamicSub,,0,0,0,,{\fad(0,60)}{\c&H0000FFF0&}LUNG {\c&H0000FFF0&}LINH {\c&H0000FFF0&}ĐẸP {\c&H00FFFF66&}GHÊ!
+Dialogue: 0,0:00:34.94,0:00:35.16,DynamicSub,,0,0,0,,{\fad(50,0)\t(0,50,\fscx112\fscy112)\t(50,110,\fscx100\fscy100)}{\c&H00FFFF66&}GIỜ {\c&H0000FFF0&}TAN {\c&H0000FFF0&}TẦM {\c&H0000FFF0&}KẸT {\c&H0000FFF0&}XE
+Dialogue: 0,0:00:35.16,0:00:35.28,DynamicSub,,0,0,0,,{\c&H0000FFF0&}GIỜ {\c&H00FFFF66&}TAN {\c&H0000FFF0&}TẦM {\c&H0000FFF0&}KẸT {\c&H0000FFF0&}XE
+Dialogue: 0,0:00:35.28,0:00:35.58,DynamicSub,,0,0,0,,{\c&H0000FFF0&}GIỜ {\c&H0000FFF0&}TAN {\c&H00FFFF66&}TẦM {\c&H0000FFF0&}KẸT {\c&H0000FFF0&}XE
+Dialogue: 0,0:00:35.58,0:00:35.84,DynamicSub,,0,0,0,,{\c&H0000FFF0&}GIỜ {\c&H0000FFF0&}TAN {\c&H0000FFF0&}TẦM {\c&H00FFFF66&}KẸT {\c&H0000FFF0&}XE
+Dialogue: 0,0:00:35.84,0:00:36.10,DynamicSub,,0,0,0,,{\fad(0,60)}{\c&H0000FFF0&}GIỜ {\c&H0000FFF0&}TAN {\c&H0000FFF0&}TẦM {\c&H0000FFF0&}KẸT {\c&H00FFFF66&}XE
+Dialogue: 0,0:00:36.10,0:00:36.38,DynamicSub,,0,0,0,,{\fad(50,0)\t(0,50,\fscx112\fscy112)\t(50,110,\fscx100\fscy100)}{\c&H00FFFF66&}NHƯNG {\c&H0000FFF0&}XE {\c&H0000FFF0&}ĐIỆN {\c&H0000FFF0&}GA {\c&H0000FFF0&}MƯỢT
+Dialogue: 0,0:00:36.38,0:00:36.68,DynamicSub,,0,0,0,,{\c&H0000FFF0&}NHƯNG {\c&H00FFFF66&}XE {\c&H0000FFF0&}ĐIỆN {\c&H0000FFF0&}GA {\c&H0000FFF0&}MƯỢT
+Dialogue: 0,0:00:36.68,0:00:36.86,DynamicSub,,0,0,0,,{\c&H0000FFF0&}NHƯNG {\c&H0000FFF0&}XE {\c&H00FFFF66&}ĐIỆN {\c&H0000FFF0&}GA {\c&H0000FFF0&}MƯỢT
+Dialogue: 0,0:00:36.86,0:00:37.08,DynamicSub,,0,0,0,,{\c&H0000FFF0&}NHƯNG {\c&H0000FFF0&}XE {\c&H0000FFF0&}ĐIỆN {\c&H00FFFF66&}GA {\c&H0000FFF0&}MƯỢT
+Dialogue: 0,0:00:37.08,0:00:37.36,DynamicSub,,0,0,0,,{\fad(0,60)}{\c&H0000FFF0&}NHƯNG {\c&H0000FFF0&}XE {\c&H0000FFF0&}ĐIỆN {\c&H0000FFF0&}GA {\c&H00FFFF66&}MƯỢT
+Dialogue: 0,0:00:37.36,0:00:37.68,DynamicSub,,0,0,0,,{\fad(50,0)\t(0,50,\fscx112\fscy112)\t(50,110,\fscx100\fscy100)}{\c&H00FFFF66&}LUỒN {\c&H0000FFF0&}LÁCH {\c&H0000FFF0&}QUA {\c&H0000FFF0&}NGÕ {\c&H0000FFF0&}NHỎ
+Dialogue: 0,0:00:37.68,0:00:37.96,DynamicSub,,0,0,0,,{\c&H0000FFF0&}LUỒN {\c&H00FFFF66&}LÁCH {\c&H0000FFF0&}QUA {\c&H0000FFF0&}NGÕ {\c&H0000FFF0&}NHỎ
+Dialogue: 0,0:00:37.96,0:00:38.10,DynamicSub,,0,0,0,,{\c&H0000FFF0&}LUỒN {\c&H0000FFF0&}LÁCH {\c&H00FFFF66&}QUA {\c&H0000FFF0&}NGÕ {\c&H0000FFF0&}NHỎ
+Dialogue: 0,0:00:38.10,0:00:38.34,DynamicSub,,0,0,0,,{\c&H0000FFF0&}LUỒN {\c&H0000FFF0&}LÁCH {\c&H0000FFF0&}QUA {\c&H00FFFF66&}NGÕ {\c&H0000FFF0&}NHỎ
+Dialogue: 0,0:00:38.34,0:00:38.60,DynamicSub,,0,0,0,,{\fad(0,60)}{\c&H0000FFF0&}LUỒN {\c&H0000FFF0&}LÁCH {\c&H0000FFF0&}QUA {\c&H0000FFF0&}NGÕ {\c&H00FFFF66&}NHỎ
+Dialogue: 0,0:00:38.60,0:00:38.90,DynamicSub,,0,0,0,,{\fad(50,0)\t(0,50,\fscx112\fscy112)\t(50,110,\fscx100\fscy100)}{\c&H00FFFF66&}CỰC {\c&H0000FFF0&}KỲ {\c&H0000FFF0&}NHẸ {\c&H0000FFF0&}NHÀNG!
+Dialogue: 0,0:00:38.90,0:00:39.06,DynamicSub,,0,0,0,,{\c&H0000FFF0&}CỰC {\c&H00FFFF66&}KỲ {\c&H0000FFF0&}NHẸ {\c&H0000FFF0&}NHÀNG!
+Dialogue: 0,0:00:39.06,0:00:39.28,DynamicSub,,0,0,0,,{\c&H0000FFF0&}CỰC {\c&H0000FFF0&}KỲ {\c&H00FFFF66&}NHẸ {\c&H0000FFF0&}NHÀNG!
+Dialogue: 0,0:00:39.28,0:00:39.60,DynamicSub,,0,0,0,,{\fad(0,60)}{\c&H0000FFF0&}CỰC {\c&H0000FFF0&}KỲ {\c&H0000FFF0&}NHẸ {\c&H00FFFF66&}NHÀNG!
+Dialogue: 0,0:00:39.85,0:00:40.13,DynamicSub,,0,0,0,,{\fad(50,0)\t(0,50,\fscx112\fscy112)\t(50,110,\fscx100\fscy100)}{\c&H00FFFF66&}ĐỨNG {\c&H0000FFF0&}NGHỈ {\c&H0000FFF0&}CHÂN {\c&H0000FFF0&}MỘT {\c&H0000FFF0&}XÍU
+Dialogue: 0,0:00:40.13,0:00:40.42,DynamicSub,,0,0,0,,{\c&H0000FFF0&}ĐỨNG {\c&H00FFFF66&}NGHỈ {\c&H0000FFF0&}CHÂN {\c&H0000FFF0&}MỘT {\c&H0000FFF0&}XÍU
+Dialogue: 0,0:00:40.42,0:00:40.70,DynamicSub,,0,0,0,,{\c&H0000FFF0&}ĐỨNG {\c&H0000FFF0&}NGHỈ {\c&H00FFFF66&}CHÂN {\c&H0000FFF0&}MỘT {\c&H0000FFF0&}XÍU
+Dialogue: 0,0:00:40.70,0:00:40.98,DynamicSub,,0,0,0,,{\c&H0000FFF0&}ĐỨNG {\c&H0000FFF0&}NGHỈ {\c&H0000FFF0&}CHÂN {\c&H00FFFF66&}MỘT {\c&H0000FFF0&}XÍU
+Dialogue: 0,0:00:40.98,0:00:41.27,DynamicSub,,0,0,0,,{\fad(0,60)}{\c&H0000FFF0&}ĐỨNG {\c&H0000FFF0&}NGHỈ {\c&H0000FFF0&}CHÂN {\c&H0000FFF0&}MỘT {\c&H00FFFF66&}XÍU
+Dialogue: 0,0:00:41.27,0:00:41.55,DynamicSub,,0,0,0,,{\fad(50,0)\t(0,50,\fscx112\fscy112)\t(50,110,\fscx100\fscy100)}{\c&H00FFFF66&}APP {\c&H0000FFF0&}LẠI {\c&H0000FFF0&}NỔ {\c&H0000FFF0&}ĐƠN
+Dialogue: 0,0:00:41.55,0:00:41.83,DynamicSub,,0,0,0,,{\c&H0000FFF0&}APP {\c&H00FFFF66&}LẠI {\c&H0000FFF0&}NỔ {\c&H0000FFF0&}ĐƠN
+Dialogue: 0,0:00:41.83,0:00:42.12,DynamicSub,,0,0,0,,{\c&H0000FFF0&}APP {\c&H0000FFF0&}LẠI {\c&H00FFFF66&}NỔ {\c&H0000FFF0&}ĐƠN
+Dialogue: 0,0:00:42.12,0:00:42.40,DynamicSub,,0,0,0,,{\fad(0,60)}{\c&H0000FFF0&}APP {\c&H0000FFF0&}LẠI {\c&H0000FFF0&}NỔ {\c&H00FFFF66&}ĐƠN
+Dialogue: 0,0:00:42.40,0:00:42.68,DynamicSub,,0,0,0,,{\fad(50,0)\t(0,50,\fscx112\fscy112)\t(50,110,\fscx100\fscy100)}{\c&H00FFFF66&}LIÊN {\c&H0000FFF0&}TỤC {\c&H0000FFF0&}LUÔN {\c&H0000FFF0&}Á!
+Dialogue: 0,0:00:42.68,0:00:42.96,DynamicSub,,0,0,0,,{\c&H0000FFF0&}LIÊN {\c&H00FFFF66&}TỤC {\c&H0000FFF0&}LUÔN {\c&H0000FFF0&}Á!
+Dialogue: 0,0:00:42.96,0:00:43.25,DynamicSub,,0,0,0,,{\c&H0000FFF0&}LIÊN {\c&H0000FFF0&}TỤC {\c&H00FFFF66&}LUÔN {\c&H0000FFF0&}Á!
+Dialogue: 0,0:00:43.25,0:00:43.53,DynamicSub,,0,0,0,,{\fad(0,60)}{\c&H0000FFF0&}LIÊN {\c&H0000FFF0&}TỤC {\c&H0000FFF0&}LUÔN {\c&H00FFFF66&}Á!
+Dialogue: 0,0:00:43.79,0:00:44.07,DynamicSub,,0,0,0,,{\fad(50,0)\t(0,50,\fscx112\fscy112)\t(50,110,\fscx100\fscy100)}{\c&H00FFFF66&}ĐẾN {\c&H0000FFF0&}GẦN {\c&H0000FFF0&}TÁM {\c&H0000FFF0&}GIỜ {\c&H0000FFF0&}TỐI
+Dialogue: 0,0:00:44.07,0:00:44.35,DynamicSub,,0,0,0,,{\c&H0000FFF0&}ĐẾN {\c&H00FFFF66&}GẦN {\c&H0000FFF0&}TÁM {\c&H0000FFF0&}GIỜ {\c&H0000FFF0&}TỐI
+Dialogue: 0,0:00:44.35,0:00:44.64,DynamicSub,,0,0,0,,{\c&H0000FFF0&}ĐẾN {\c&H0000FFF0&}GẦN {\c&H00FFFF66&}TÁM {\c&H0000FFF0&}GIỜ {\c&H0000FFF0&}TỐI
+Dialogue: 0,0:00:44.64,0:00:44.92,DynamicSub,,0,0,0,,{\c&H0000FFF0&}ĐẾN {\c&H0000FFF0&}GẦN {\c&H0000FFF0&}TÁM {\c&H00FFFF66&}GIỜ {\c&H0000FFF0&}TỐI
+Dialogue: 0,0:00:44.92,0:00:45.20,DynamicSub,,0,0,0,,{\fad(0,60)}{\c&H0000FFF0&}ĐẾN {\c&H0000FFF0&}GẦN {\c&H0000FFF0&}TÁM {\c&H0000FFF0&}GIỜ {\c&H00FFFF66&}TỐI
+Dialogue: 0,0:00:45.20,0:00:45.48,DynamicSub,,0,0,0,,{\fad(50,0)\t(0,50,\fscx112\fscy112)\t(50,110,\fscx100\fscy100)}{\c&H00FFFF66&}PHỐ {\c&H0000FFF0&}XÁ {\c&H0000FFF0&}ĐÃ {\c&H0000FFF0&}THƯA {\c&H0000FFF0&}DẦN
+Dialogue: 0,0:00:45.48,0:00:45.76,DynamicSub,,0,0,0,,{\c&H0000FFF0&}PHỐ {\c&H00FFFF66&}XÁ {\c&H0000FFF0&}ĐÃ {\c&H0000FFF0&}THƯA {\c&H0000FFF0&}DẦN
+Dialogue: 0,0:00:45.76,0:00:46.05,DynamicSub,,0,0,0,,{\c&H0000FFF0&}PHỐ {\c&H0000FFF0&}XÁ {\c&H00FFFF66&}ĐÃ {\c&H0000FFF0&}THƯA {\c&H0000FFF0&}DẦN
+Dialogue: 0,0:00:46.05,0:00:46.33,DynamicSub,,0,0,0,,{\c&H0000FFF0&}PHỐ {\c&H0000FFF0&}XÁ {\c&H0000FFF0&}ĐÃ {\c&H00FFFF66&}THƯA {\c&H0000FFF0&}DẦN
+Dialogue: 0,0:00:46.33,0:00:46.61,DynamicSub,,0,0,0,,{\fad(0,60)}{\c&H0000FFF0&}PHỐ {\c&H0000FFF0&}XÁ {\c&H0000FFF0&}ĐÃ {\c&H0000FFF0&}THƯA {\c&H00FFFF66&}DẦN
+Dialogue: 0,0:00:46.88,0:00:47.27,DynamicSub,,0,0,0,,{\fad(50,0)\t(0,50,\fscx112\fscy112)\t(50,110,\fscx100\fscy100)}{\c&H00FFFF66&}CHẠY {\c&H0000FFF0&}ĐÊM {\c&H0000FFF0&}GIÓ {\c&H0000FFF0&}MÁT {\c&H0000FFF0&}THẬT
+Dialogue: 0,0:00:47.27,0:00:47.66,DynamicSub,,0,0,0,,{\c&H0000FFF0&}CHẠY {\c&H00FFFF66&}ĐÊM {\c&H0000FFF0&}GIÓ {\c&H0000FFF0&}MÁT {\c&H0000FFF0&}THẬT
+Dialogue: 0,0:00:47.66,0:00:48.05,DynamicSub,,0,0,0,,{\c&H0000FFF0&}CHẠY {\c&H0000FFF0&}ĐÊM {\c&H00FFFF66&}GIÓ {\c&H0000FFF0&}MÁT {\c&H0000FFF0&}THẬT
+Dialogue: 0,0:00:48.05,0:00:48.44,DynamicSub,,0,0,0,,{\c&H0000FFF0&}CHẠY {\c&H0000FFF0&}ĐÊM {\c&H0000FFF0&}GIÓ {\c&H00FFFF66&}MÁT {\c&H0000FFF0&}THẬT
+Dialogue: 0,0:00:48.44,0:00:48.83,DynamicSub,,0,0,0,,{\fad(0,60)}{\c&H0000FFF0&}CHẠY {\c&H0000FFF0&}ĐÊM {\c&H0000FFF0&}GIÓ {\c&H0000FFF0&}MÁT {\c&H00FFFF66&}THẬT
+Dialogue: 0,0:00:48.83,0:00:49.22,DynamicSub,,0,0,0,,{\fad(50,0)\t(0,50,\fscx112\fscy112)\t(50,110,\fscx100\fscy100)}{\c&H00FFFF66&}NHƯNG {\c&H0000FFF0&}BẮT {\c&H0000FFF0&}ĐẦU {\c&H0000FFF0&}MỎI {\c&H0000FFF0&}LƯNG {\c&H0000FFF0&}RỒI!
+Dialogue: 0,0:00:49.22,0:00:49.60,DynamicSub,,0,0,0,,{\c&H0000FFF0&}NHƯNG {\c&H00FFFF66&}BẮT {\c&H0000FFF0&}ĐẦU {\c&H0000FFF0&}MỎI {\c&H0000FFF0&}LƯNG {\c&H0000FFF0&}RỒI!
+Dialogue: 0,0:00:49.60,0:00:49.99,DynamicSub,,0,0,0,,{\c&H0000FFF0&}NHƯNG {\c&H0000FFF0&}BẮT {\c&H00FFFF66&}ĐẦU {\c&H0000FFF0&}MỎI {\c&H0000FFF0&}LƯNG {\c&H0000FFF0&}RỒI!
+Dialogue: 0,0:00:49.99,0:00:50.38,DynamicSub,,0,0,0,,{\c&H0000FFF0&}NHƯNG {\c&H0000FFF0&}BẮT {\c&H0000FFF0&}ĐẦU {\c&H00FFFF66&}MỎI {\c&H0000FFF0&}LƯNG {\c&H0000FFF0&}RỒI!
+Dialogue: 0,0:00:50.38,0:00:50.77,DynamicSub,,0,0,0,,{\c&H0000FFF0&}NHƯNG {\c&H0000FFF0&}BẮT {\c&H0000FFF0&}ĐẦU {\c&H0000FFF0&}MỎI {\c&H00FFFF66&}LƯNG {\c&H0000FFF0&}RỒI!
+Dialogue: 0,0:00:50.77,0:00:51.16,DynamicSub,,0,0,0,,{\fad(0,60)}{\c&H0000FFF0&}NHƯNG {\c&H0000FFF0&}BẮT {\c&H0000FFF0&}ĐẦU {\c&H0000FFF0&}MỎI {\c&H0000FFF0&}LƯNG {\c&H00FFFF66&}RỒI!
+Dialogue: 0,0:00:51.41,0:00:51.59,DynamicSub,,0,0,0,,{\fad(50,0)\t(0,50,\fscx112\fscy112)\t(50,110,\fscx100\fscy100)}{\c&H00FFFF66&}MỖI {\c&H0000FFF0&}CHUYẾN {\c&H0000FFF0&}XE {\c&H0000FFF0&}ĐÊM
+Dialogue: 0,0:00:51.59,0:00:51.79,DynamicSub,,0,0,0,,{\c&H0000FFF0&}MỖI {\c&H00FFFF66&}CHUYẾN {\c&H0000FFF0&}XE {\c&H0000FFF0&}ĐÊM
+Dialogue: 0,0:00:51.79,0:00:51.99,DynamicSub,,0,0,0,,{\c&H0000FFF0&}MỖI {\c&H0000FFF0&}CHUYẾN {\c&H00FFFF66&}XE {\c&H0000FFF0&}ĐÊM
+Dialogue: 0,0:00:51.99,0:00:52.25,DynamicSub,,0,0,0,,{\fad(0,60)}{\c&H0000FFF0&}MỖI {\c&H0000FFF0&}CHUYẾN {\c&H0000FFF0&}XE {\c&H00FFFF66&}ĐÊM
+Dialogue: 0,0:00:52.25,0:00:52.43,DynamicSub,,0,0,0,,{\fad(50,0)\t(0,50,\fscx112\fscy112)\t(50,110,\fscx100\fscy100)}{\c&H00FFFF66&}LÀ {\c&H0000FFF0&}MỘT {\c&H0000FFF0&}CÂU {\c&H0000FFF0&}CHUYỆN
+Dialogue: 0,0:00:52.43,0:00:52.61,DynamicSub,,0,0,0,,{\c&H0000FFF0&}LÀ {\c&H00FFFF66&}MỘT {\c&H0000FFF0&}CÂU {\c&H0000FFF0&}CHUYỆN
+Dialogue: 0,0:00:52.61,0:00:52.89,DynamicSub,,0,0,0,,{\c&H0000FFF0&}LÀ {\c&H0000FFF0&}MỘT {\c&H00FFFF66&}CÂU {\c&H0000FFF0&}CHUYỆN
+Dialogue: 0,0:00:52.89,0:00:53.17,DynamicSub,,0,0,0,,{\fad(0,60)}{\c&H0000FFF0&}LÀ {\c&H0000FFF0&}MỘT {\c&H0000FFF0&}CÂU {\c&H00FFFF66&}CHUYỆN
+Dialogue: 0,0:00:53.17,0:00:53.57,DynamicSub,,0,0,0,,{\fad(50,0)\t(0,50,\fscx112\fscy112)\t(50,110,\fscx100\fscy100)}{\c&H00FFFF66&}CÓ {\c&H0000FFF0&}CHUYẾN {\c&H0000FFF0&}VUI
+Dialogue: 0,0:00:53.57,0:00:53.85,DynamicSub,,0,0,0,,{\c&H0000FFF0&}CÓ {\c&H00FFFF66&}CHUYẾN {\c&H0000FFF0&}VUI
+Dialogue: 0,0:00:53.85,0:00:54.17,DynamicSub,,0,0,0,,{\fad(0,60)}{\c&H0000FFF0&}CÓ {\c&H0000FFF0&}CHUYẾN {\c&H00FFFF66&}VUI
+Dialogue: 0,0:00:54.49,0:00:54.69,DynamicSub,,0,0,0,,{\fad(50,0)\t(0,50,\fscx112\fscy112)\t(50,110,\fscx100\fscy100)}{\c&H00FFFF66&}CÓ {\c&H0000FFF0&}CHUYẾN {\c&H0000FFF0&}MỆT...
+Dialogue: 0,0:00:54.69,0:00:55.01,DynamicSub,,0,0,0,,{\c&H0000FFF0&}CÓ {\c&H00FFFF66&}CHUYẾN {\c&H0000FFF0&}MỆT...
+Dialogue: 0,0:00:55.01,0:00:55.25,DynamicSub,,0,0,0,,{\fad(0,60)}{\c&H0000FFF0&}CÓ {\c&H0000FFF0&}CHUYẾN {\c&H00FFFF66&}MỆT...
+Dialogue: 0,0:00:55.45,0:00:55.74,DynamicSub,,0,0,0,,{\fad(50,0)\t(0,50,\fscx112\fscy112)\t(50,110,\fscx100\fscy100)}{\c&H00FFFF66&}NHƯNG {\c&H0000FFF0&}CỨ {\c&H0000FFF0&}NHÌN {\c&H0000FFF0&}ĐỒNG {\c&H0000FFF0&}HỒ
+Dialogue: 0,0:00:55.74,0:00:56.03,DynamicSub,,0,0,0,,{\c&H0000FFF0&}NHƯNG {\c&H00FFFF66&}CỨ {\c&H0000FFF0&}NHÌN {\c&H0000FFF0&}ĐỒNG {\c&H0000FFF0&}HỒ
+Dialogue: 0,0:00:56.03,0:00:56.32,DynamicSub,,0,0,0,,{\c&H0000FFF0&}NHƯNG {\c&H0000FFF0&}CỨ {\c&H00FFFF66&}NHÌN {\c&H0000FFF0&}ĐỒNG {\c&H0000FFF0&}HỒ
+Dialogue: 0,0:00:56.32,0:00:56.62,DynamicSub,,0,0,0,,{\c&H0000FFF0&}NHƯNG {\c&H0000FFF0&}CỨ {\c&H0000FFF0&}NHÌN {\c&H00FFFF66&}ĐỒNG {\c&H0000FFF0&}HỒ
+Dialogue: 0,0:00:56.62,0:00:56.91,DynamicSub,,0,0,0,,{\fad(0,60)}{\c&H0000FFF0&}NHƯNG {\c&H0000FFF0&}CỨ {\c&H0000FFF0&}NHÌN {\c&H0000FFF0&}ĐỒNG {\c&H00FFFF66&}HỒ
+Dialogue: 0,0:00:56.91,0:00:57.20,DynamicSub,,0,0,0,,{\fad(50,0)\t(0,50,\fscx112\fscy112)\t(50,110,\fscx100\fscy100)}{\c&H00FFFF66&}KI-LÔ-MÉT {\c&H0000FFF0&}NHẢY {\c&H0000FFF0&}ĐỀU
+Dialogue: 0,0:00:57.20,0:00:57.49,DynamicSub,,0,0,0,,{\c&H0000FFF0&}KI-LÔ-MÉT {\c&H00FFFF66&}NHẢY {\c&H0000FFF0&}ĐỀU
+Dialogue: 0,0:00:57.49,0:00:57.78,DynamicSub,,0,0,0,,{\fad(0,60)}{\c&H0000FFF0&}KI-LÔ-MÉT {\c&H0000FFF0&}NHẢY {\c&H00FFFF66&}ĐỀU
+Dialogue: 0,0:00:57.78,0:00:58.07,DynamicSub,,0,0,0,,{\fad(50,0)\t(0,50,\fscx112\fscy112)\t(50,110,\fscx100\fscy100)}{\c&H00FFFF66&}LÀ {\c&H0000FFF0&}CÓ {\c&H0000FFF0&}ĐỘNG {\c&H0000FFF0&}LỰC {\c&H0000FFF0&}CÀY {\c&H0000FFF0&}TIẾP!
+Dialogue: 0,0:00:58.07,0:00:58.36,DynamicSub,,0,0,0,,{\c&H0000FFF0&}LÀ {\c&H00FFFF66&}CÓ {\c&H0000FFF0&}ĐỘNG {\c&H0000FFF0&}LỰC {\c&H0000FFF0&}CÀY {\c&H0000FFF0&}TIẾP!
+Dialogue: 0,0:00:58.36,0:00:58.66,DynamicSub,,0,0,0,,{\c&H0000FFF0&}LÀ {\c&H0000FFF0&}CÓ {\c&H00FFFF66&}ĐỘNG {\c&H0000FFF0&}LỰC {\c&H0000FFF0&}CÀY {\c&H0000FFF0&}TIẾP!
+Dialogue: 0,0:00:58.66,0:00:58.95,DynamicSub,,0,0,0,,{\c&H0000FFF0&}LÀ {\c&H0000FFF0&}CÓ {\c&H0000FFF0&}ĐỘNG {\c&H00FFFF66&}LỰC {\c&H0000FFF0&}CÀY {\c&H0000FFF0&}TIẾP!
+Dialogue: 0,0:00:58.95,0:00:59.24,DynamicSub,,0,0,0,,{\c&H0000FFF0&}LÀ {\c&H0000FFF0&}CÓ {\c&H0000FFF0&}ĐỘNG {\c&H0000FFF0&}LỰC {\c&H00FFFF66&}CÀY {\c&H0000FFF0&}TIẾP!
+Dialogue: 0,0:00:59.24,0:00:59.53,DynamicSub,,0,0,0,,{\fad(0,60)}{\c&H0000FFF0&}LÀ {\c&H0000FFF0&}CÓ {\c&H0000FFF0&}ĐỘNG {\c&H0000FFF0&}LỰC {\c&H0000FFF0&}CÀY {\c&H00FFFF66&}TIẾP!
+Dialogue: 0,0:00:59.76,0:00:60.00,DynamicSub,,0,0,0,,{\fad(50,0)\t(0,50,\fscx112\fscy112)\t(50,110,\fscx100\fscy100)}{\c&H00FFFF66&}VÀ {\c&H0000FFF0&}ĐÂY {\c&H0000FFF0&}LÀ {\c&H0000FFF0&}KẾT {\c&H0000FFF0&}QUẢ
+Dialogue: 0,0:00:60.00,0:01:00.24,DynamicSub,,0,0,0,,{\c&H0000FFF0&}VÀ {\c&H00FFFF66&}ĐÂY {\c&H0000FFF0&}LÀ {\c&H0000FFF0&}KẾT {\c&H0000FFF0&}QUẢ
+Dialogue: 0,0:01:00.24,0:01:00.47,DynamicSub,,0,0,0,,{\c&H0000FFF0&}VÀ {\c&H0000FFF0&}ĐÂY {\c&H00FFFF66&}LÀ {\c&H0000FFF0&}KẾT {\c&H0000FFF0&}QUẢ
+Dialogue: 0,0:01:00.47,0:01:00.71,DynamicSub,,0,0,0,,{\c&H0000FFF0&}VÀ {\c&H0000FFF0&}ĐÂY {\c&H0000FFF0&}LÀ {\c&H00FFFF66&}KẾT {\c&H0000FFF0&}QUẢ
+Dialogue: 0,0:01:00.71,0:01:00.95,DynamicSub,,0,0,0,,{\fad(0,60)}{\c&H0000FFF0&}VÀ {\c&H0000FFF0&}ĐÂY {\c&H0000FFF0&}LÀ {\c&H0000FFF0&}KẾT {\c&H00FFFF66&}QUẢ
+Dialogue: 0,0:01:00.95,0:01:01.19,DynamicSub,,0,0,0,,{\fad(50,0)\t(0,50,\fscx112\fscy112)\t(50,110,\fscx100\fscy100)}{\c&H00FFFF66&}SAU {\c&H0000FFF0&}MỘT {\c&H0000FFF0&}NGÀY {\c&H0000FFF0&}CÀY {\c&H0000FFF0&}CUỐC
+Dialogue: 0,0:01:01.19,0:01:01.43,DynamicSub,,0,0,0,,{\c&H0000FFF0&}SAU {\c&H00FFFF66&}MỘT {\c&H0000FFF0&}NGÀY {\c&H0000FFF0&}CÀY {\c&H0000FFF0&}CUỐC
+Dialogue: 0,0:01:01.43,0:01:01.66,DynamicSub,,0,0,0,,{\c&H0000FFF0&}SAU {\c&H0000FFF0&}MỘT {\c&H00FFFF66&}NGÀY {\c&H0000FFF0&}CÀY {\c&H0000FFF0&}CUỐC
+Dialogue: 0,0:01:01.66,0:01:01.90,DynamicSub,,0,0,0,,{\c&H0000FFF0&}SAU {\c&H0000FFF0&}MỘT {\c&H0000FFF0&}NGÀY {\c&H00FFFF66&}CÀY {\c&H0000FFF0&}CUỐC
+Dialogue: 0,0:01:01.90,0:01:02.14,DynamicSub,,0,0,0,,{\fad(0,60)}{\c&H0000FFF0&}SAU {\c&H0000FFF0&}MỘT {\c&H0000FFF0&}NGÀY {\c&H0000FFF0&}CÀY {\c&H00FFFF66&}CUỐC
+Dialogue: 0,0:01:02.14,0:01:02.38,DynamicSub,,0,0,0,,{\fad(50,0)\t(0,50,\fscx112\fscy112)\t(50,110,\fscx100\fscy100)}{\c&H00FFFF66&}TỔNG {\c&H0000FFF0&}KẾT {\c&H0000FFF0&}ĐƯỢC
+Dialogue: 0,0:01:02.38,0:01:02.62,DynamicSub,,0,0,0,,{\c&H0000FFF0&}TỔNG {\c&H00FFFF66&}KẾT {\c&H0000FFF0&}ĐƯỢC
+Dialogue: 0,0:01:02.62,0:01:02.85,DynamicSub,,0,0,0,,{\fad(0,60)}{\c&H0000FFF0&}TỔNG {\c&H0000FFF0&}KẾT {\c&H00FFFF66&}ĐƯỢC
+Dialogue: 0,0:01:02.85,0:01:03.09,DynamicSub,,0,0,0,,{\fad(50,0)\t(0,50,\fscx112\fscy112)\t(50,110,\fscx100\fscy100)}{\c&H00FFFF66&}GẦN {\c&H0000FFF0&}NĂM {\c&H0000FFF0&}TRĂM {\c&H0000FFF0&}CÀNH
+Dialogue: 0,0:01:03.09,0:01:03.33,DynamicSub,,0,0,0,,{\c&H0000FFF0&}GẦN {\c&H00FFFF66&}NĂM {\c&H0000FFF0&}TRĂM {\c&H0000FFF0&}CÀNH
+Dialogue: 0,0:01:03.33,0:01:03.57,DynamicSub,,0,0,0,,{\c&H0000FFF0&}GẦN {\c&H0000FFF0&}NĂM {\c&H00FFFF66&}TRĂM {\c&H0000FFF0&}CÀNH
+Dialogue: 0,0:01:03.57,0:01:03.81,DynamicSub,,0,0,0,,{\fad(0,60)}{\c&H0000FFF0&}GẦN {\c&H0000FFF0&}NĂM {\c&H0000FFF0&}TRĂM {\c&H00FFFF66&}CÀNH
+Dialogue: 0,0:01:03.81,0:01:04.04,DynamicSub,,0,0,0,,{\fad(50,0)\t(0,50,\fscx112\fscy112)\t(50,110,\fscx100\fscy100)}{\c&H00FFFF66&}QUÁ {\c&H0000FFF0&}ẤM {\c&H0000FFF0&}LUÔN!
+Dialogue: 0,0:01:04.04,0:01:04.28,DynamicSub,,0,0,0,,{\c&H0000FFF0&}QUÁ {\c&H00FFFF66&}ẤM {\c&H0000FFF0&}LUÔN!
+Dialogue: 0,0:01:04.28,0:01:04.52,DynamicSub,,0,0,0,,{\fad(0,60)}{\c&H0000FFF0&}QUÁ {\c&H0000FFF0&}ẤM {\c&H00FFFF66&}LUÔN!
+Dialogue: 0,0:01:04.87,0:01:05.21,DynamicSub,,0,0,0,,{\fad(50,0)\t(0,50,\fscx112\fscy112)\t(50,110,\fscx100\fscy100)}{\c&H00FFFF66&}CHẠY {\c&H0000FFF0&}CẢ {\c&H0000FFF0&}NGÀY {\c&H0000FFF0&}VẤT {\c&H0000FFF0&}VẢ
+Dialogue: 0,0:01:05.21,0:01:05.54,DynamicSub,,0,0,0,,{\c&H0000FFF0&}CHẠY {\c&H00FFFF66&}CẢ {\c&H0000FFF0&}NGÀY {\c&H0000FFF0&}VẤT {\c&H0000FFF0&}VẢ
+Dialogue: 0,0:01:05.54,0:01:05.88,DynamicSub,,0,0,0,,{\c&H0000FFF0&}CHẠY {\c&H0000FFF0&}CẢ {\c&H00FFFF66&}NGÀY {\c&H0000FFF0&}VẤT {\c&H0000FFF0&}VẢ
+Dialogue: 0,0:01:05.88,0:01:06.22,DynamicSub,,0,0,0,,{\c&H0000FFF0&}CHẠY {\c&H0000FFF0&}CẢ {\c&H0000FFF0&}NGÀY {\c&H00FFFF66&}VẤT {\c&H0000FFF0&}VẢ
+Dialogue: 0,0:01:06.22,0:01:06.55,DynamicSub,,0,0,0,,{\fad(0,60)}{\c&H0000FFF0&}CHẠY {\c&H0000FFF0&}CẢ {\c&H0000FFF0&}NGÀY {\c&H0000FFF0&}VẤT {\c&H00FFFF66&}VẢ
+Dialogue: 0,0:01:06.55,0:01:06.89,DynamicSub,,0,0,0,,{\fad(50,0)\t(0,50,\fscx112\fscy112)\t(50,110,\fscx100\fscy100)}{\c&H00FFFF66&}NHƯNG {\c&H0000FFF0&}RẤT {\c&H0000FFF0&}ĐÁNG {\c&H0000FFF0&}TỰ {\c&H0000FFF0&}HÀO {\c&H0000FFF0&}NHA!
+Dialogue: 0,0:01:06.89,0:01:07.22,DynamicSub,,0,0,0,,{\c&H0000FFF0&}NHƯNG {\c&H00FFFF66&}RẤT {\c&H0000FFF0&}ĐÁNG {\c&H0000FFF0&}TỰ {\c&H0000FFF0&}HÀO {\c&H0000FFF0&}NHA!
+Dialogue: 0,0:01:07.22,0:01:07.56,DynamicSub,,0,0,0,,{\c&H0000FFF0&}NHƯNG {\c&H0000FFF0&}RẤT {\c&H00FFFF66&}ĐÁNG {\c&H0000FFF0&}TỰ {\c&H0000FFF0&}HÀO {\c&H0000FFF0&}NHA!
+Dialogue: 0,0:01:07.56,0:01:07.90,DynamicSub,,0,0,0,,{\c&H0000FFF0&}NHƯNG {\c&H0000FFF0&}RẤT {\c&H0000FFF0&}ĐÁNG {\c&H00FFFF66&}TỰ {\c&H0000FFF0&}HÀO {\c&H0000FFF0&}NHA!
+Dialogue: 0,0:01:07.90,0:01:08.23,DynamicSub,,0,0,0,,{\c&H0000FFF0&}NHƯNG {\c&H0000FFF0&}RẤT {\c&H0000FFF0&}ĐÁNG {\c&H0000FFF0&}TỰ {\c&H00FFFF66&}HÀO {\c&H0000FFF0&}NHA!
+Dialogue: 0,0:01:08.23,0:01:08.57,DynamicSub,,0,0,0,,{\fad(0,60)}{\c&H0000FFF0&}NHƯNG {\c&H0000FFF0&}RẤT {\c&H0000FFF0&}ĐÁNG {\c&H0000FFF0&}TỰ {\c&H0000FFF0&}HÀO {\c&H00FFFF66&}NHA!
+Dialogue: 0,0:01:08.83,0:01:09.12,DynamicSub,,0,0,0,,{\fad(50,0)\t(0,50,\fscx112\fscy112)\t(50,110,\fscx100\fscy100)}{\c&H00FFFF66&}CÒN {\c&H0000FFF0&}ANH {\c&H0000FFF0&}EM {\c&H0000FFF0&}THÌ {\c&H0000FFF0&}SAO?
+Dialogue: 0,0:01:09.12,0:01:09.42,DynamicSub,,0,0,0,,{\c&H0000FFF0&}CÒN {\c&H00FFFF66&}ANH {\c&H0000FFF0&}EM {\c&H0000FFF0&}THÌ {\c&H0000FFF0&}SAO?
+Dialogue: 0,0:01:09.42,0:01:09.71,DynamicSub,,0,0,0,,{\c&H0000FFF0&}CÒN {\c&H0000FFF0&}ANH {\c&H00FFFF66&}EM {\c&H0000FFF0&}THÌ {\c&H0000FFF0&}SAO?
+Dialogue: 0,0:01:09.71,0:01:10.00,DynamicSub,,0,0,0,,{\c&H0000FFF0&}CÒN {\c&H0000FFF0&}ANH {\c&H0000FFF0&}EM {\c&H00FFFF66&}THÌ {\c&H0000FFF0&}SAO?
+Dialogue: 0,0:01:10.00,0:01:10.30,DynamicSub,,0,0,0,,{\fad(0,60)}{\c&H0000FFF0&}CÒN {\c&H0000FFF0&}ANH {\c&H0000FFF0&}EM {\c&H0000FFF0&}THÌ {\c&H00FFFF66&}SAO?
+Dialogue: 0,0:01:10.30,0:01:10.59,DynamicSub,,0,0,0,,{\fad(50,0)\t(0,50,\fscx112\fscy112)\t(50,110,\fscx100\fscy100)}{\c&H00FFFF66&}MỘT {\c&H0000FFF0&}NGÀY {\c&H0000FFF0&}ĐƯỢC {\c&H0000FFF0&}BAO {\c&H0000FFF0&}NHIÊU {\c&H0000FFF0&}LÚA?
+Dialogue: 0,0:01:10.59,0:01:10.89,DynamicSub,,0,0,0,,{\c&H0000FFF0&}MỘT {\c&H00FFFF66&}NGÀY {\c&H0000FFF0&}ĐƯỢC {\c&H0000FFF0&}BAO {\c&H0000FFF0&}NHIÊU {\c&H0000FFF0&}LÚA?
+Dialogue: 0,0:01:10.89,0:01:11.18,DynamicSub,,0,0,0,,{\c&H0000FFF0&}MỘT {\c&H0000FFF0&}NGÀY {\c&H00FFFF66&}ĐƯỢC {\c&H0000FFF0&}BAO {\c&H0000FFF0&}NHIÊU {\c&H0000FFF0&}LÚA?
+Dialogue: 0,0:01:11.18,0:01:11.47,DynamicSub,,0,0,0,,{\c&H0000FFF0&}MỘT {\c&H0000FFF0&}NGÀY {\c&H0000FFF0&}ĐƯỢC {\c&H00FFFF66&}BAO {\c&H0000FFF0&}NHIÊU {\c&H0000FFF0&}LÚA?
+Dialogue: 0,0:01:11.47,0:01:11.77,DynamicSub,,0,0,0,,{\c&H0000FFF0&}MỘT {\c&H0000FFF0&}NGÀY {\c&H0000FFF0&}ĐƯỢC {\c&H0000FFF0&}BAO {\c&H00FFFF66&}NHIÊU {\c&H0000FFF0&}LÚA?
+Dialogue: 0,0:01:11.77,0:01:12.06,DynamicSub,,0,0,0,,{\fad(0,60)}{\c&H0000FFF0&}MỘT {\c&H0000FFF0&}NGÀY {\c&H0000FFF0&}ĐƯỢC {\c&H0000FFF0&}BAO {\c&H0000FFF0&}NHIÊU {\c&H00FFFF66&}LÚA?
+Dialogue: 0,0:01:12.06,0:01:12.36,DynamicSub,,0,0,0,,{\fad(50,0)\t(0,50,\fscx112\fscy112)\t(50,110,\fscx100\fscy100)}{\c&H00FFFF66&}COMMENT {\c&H0000FFF0&}CHO {\c&H0000FFF0&}MÌNH {\c&H0000FFF0&}BIẾT {\c&H0000FFF0&}NHA!
+Dialogue: 0,0:01:12.36,0:01:12.65,DynamicSub,,0,0,0,,{\c&H0000FFF0&}COMMENT {\c&H00FFFF66&}CHO {\c&H0000FFF0&}MÌNH {\c&H0000FFF0&}BIẾT {\c&H0000FFF0&}NHA!
+Dialogue: 0,0:01:12.65,0:01:12.94,DynamicSub,,0,0,0,,{\c&H0000FFF0&}COMMENT {\c&H0000FFF0&}CHO {\c&H00FFFF66&}MÌNH {\c&H0000FFF0&}BIẾT {\c&H0000FFF0&}NHA!
+Dialogue: 0,0:01:12.94,0:01:13.24,DynamicSub,,0,0,0,,{\c&H0000FFF0&}COMMENT {\c&H0000FFF0&}CHO {\c&H0000FFF0&}MÌNH {\c&H00FFFF66&}BIẾT {\c&H0000FFF0&}NHA!
+Dialogue: 0,0:01:13.24,0:01:13.53,DynamicSub,,0,0,0,,{\fad(0,60)}{\c&H0000FFF0&}COMMENT {\c&H0000FFF0&}CHO {\c&H0000FFF0&}MÌNH {\c&H0000FFF0&}BIẾT {\c&H00FFFF66&}NHA!
+Dialogue: 0,0:01:13.85,0:01:14.15,DynamicSub,,0,0,0,,{\fad(50,0)\t(0,50,\fscx112\fscy112)\t(50,110,\fscx100\fscy100)}{\c&H00FFFF66&}NHỚ {\c&H0000FFF0&}THẢ {\c&H0000FFF0&}MỘT {\c&H0000FFF0&}TIM
+Dialogue: 0,0:01:14.15,0:01:14.46,DynamicSub,,0,0,0,,{\c&H0000FFF0&}NHỚ {\c&H00FFFF66&}THẢ {\c&H0000FFF0&}MỘT {\c&H0000FFF0&}TIM
+Dialogue: 0,0:01:14.46,0:01:14.76,DynamicSub,,0,0,0,,{\c&H0000FFF0&}NHỚ {\c&H0000FFF0&}THẢ {\c&H00FFFF66&}MỘT {\c&H0000FFF0&}TIM
+Dialogue: 0,0:01:14.76,0:01:15.06,DynamicSub,,0,0,0,,{\fad(0,60)}{\c&H0000FFF0&}NHỚ {\c&H0000FFF0&}THẢ {\c&H0000FFF0&}MỘT {\c&H00FFFF66&}TIM
+Dialogue: 0,0:01:15.06,0:01:15.36,DynamicSub,,0,0,0,,{\fad(50,0)\t(0,50,\fscx112\fscy112)\t(50,110,\fscx100\fscy100)}{\c&H00FFFF66&}VÀ {\c&H0000FFF0&}FOLLOW {\c&H0000FFF0&}KÊNH
+Dialogue: 0,0:01:15.36,0:01:15.67,DynamicSub,,0,0,0,,{\c&H0000FFF0&}VÀ {\c&H00FFFF66&}FOLLOW {\c&H0000FFF0&}KÊNH
+Dialogue: 0,0:01:15.67,0:01:15.97,DynamicSub,,0,0,0,,{\fad(0,60)}{\c&H0000FFF0&}VÀ {\c&H0000FFF0&}FOLLOW {\c&H00FFFF66&}KÊNH
+Dialogue: 0,0:01:15.97,0:01:16.28,DynamicSub,,0,0,0,,{\fad(50,0)\t(0,50,\fscx112\fscy112)\t(50,110,\fscx100\fscy100)}{\c&H00FFFF66&}ĐỂ {\c&H0000FFF0&}XEM {\c&H0000FFF0&}TẬP {\c&H0000FFF0&}TIẾP {\c&H0000FFF0&}THEO {\c&H0000FFF0&}NHÉ!
+Dialogue: 0,0:01:16.28,0:01:16.58,DynamicSub,,0,0,0,,{\c&H0000FFF0&}ĐỂ {\c&H00FFFF66&}XEM {\c&H0000FFF0&}TẬP {\c&H0000FFF0&}TIẾP {\c&H0000FFF0&}THEO {\c&H0000FFF0&}NHÉ!
+Dialogue: 0,0:01:16.58,0:01:16.88,DynamicSub,,0,0,0,,{\c&H0000FFF0&}ĐỂ {\c&H0000FFF0&}XEM {\c&H00FFFF66&}TẬP {\c&H0000FFF0&}TIẾP {\c&H0000FFF0&}THEO {\c&H0000FFF0&}NHÉ!
+Dialogue: 0,0:01:16.88,0:01:17.18,DynamicSub,,0,0,0,,{\c&H0000FFF0&}ĐỂ {\c&H0000FFF0&}XEM {\c&H0000FFF0&}TẬP {\c&H00FFFF66&}TIẾP {\c&H0000FFF0&}THEO {\c&H0000FFF0&}NHÉ!
+Dialogue: 0,0:01:17.18,0:01:17.49,DynamicSub,,0,0,0,,{\c&H0000FFF0&}ĐỂ {\c&H0000FFF0&}XEM {\c&H0000FFF0&}TẬP {\c&H0000FFF0&}TIẾP {\c&H00FFFF66&}THEO {\c&H0000FFF0&}NHÉ!
+Dialogue: 0,0:01:17.49,0:01:17.79,DynamicSub,,0,0,0,,{\fad(0,60)}{\c&H0000FFF0&}ĐỂ {\c&H0000FFF0&}XEM {\c&H0000FFF0&}TẬP {\c&H0000FFF0&}TIẾP {\c&H0000FFF0&}THEO {\c&H00FFFF66&}NHÉ!
+; --- OUTRO CALLOUT BOX (74.68s -> 79.18s) ---
+Dialogue: 1,0:01:14.68,0:01:19.18,Callout,,0,0,0,,{\fad(150,150)}TIM 💚 NẾU BẠN CŨNG THÍCH CHẠY ĐÊM 🌛

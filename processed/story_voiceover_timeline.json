@@ -1,0 +1,196 @@
+{
+  "total_duration": 78.03,
+  "segment_count": 19,
+  "segments": [
+    {
+      "id": 1,
+      "part": "hook",
+      "text": "Thử thách chạy xe máy điện Xanh SM cả ngày, từ sáng đến đêm... thực sự kiếm được bao nhiêu tiền nè?",
+      "keyword": "XANH SM CẢ NGÀY, KIẾM ĐƯỢC BAO NHIÊU?",
+      "audio_file": "processed/voiceover/story_segments/seg_01.mp3",
+      "duration": 5.88,
+      "start_time": 0.0,
+      "end_time": 5.88
+    },
+    {
+      "id": 2,
+      "part": "hook",
+      "text": "Hôm nay mình test thực tế cho anh em xem luôn nha!",
+      "keyword": "TEST THỰC TẾ LUÔN!",
+      "audio_file": "processed/voiceover/story_segments/seg_02.mp3",
+      "duration": 3.08,
+      "start_time": 5.88,
+      "end_time": 8.96
+    },
+    {
+      "id": 3,
+      "part": "hook",
+      "text": "Bạn nào còn thắc mắc thì xem hết video này là biết liền nè!",
+      "keyword": "XEM HẾT VIDEO NÀY NHA",
+      "audio_file": "processed/voiceover/story_segments/seg_03.mp3",
+      "duration": 3.6,
+      "start_time": 8.96,
+      "end_time": 12.56
+    },
+    {
+      "id": 4,
+      "part": "morning",
+      "text": "Tám giờ sáng, mình bắt đầu mở app nhận cuốc đầu tiên.",
+      "keyword": "TÁM GIỜ SÁNG, MỞ APP NHẬN CUỐC",
+      "audio_file": "processed/voiceover/story_segments/seg_04.mp3",
+      "duration": 3.26,
+      "start_time": 12.56,
+      "end_time": 15.82
+    },
+    {
+      "id": 5,
+      "part": "morning",
+      "text": "Phải công nhận cái chiếc xe điện VinFast này chạy êm ru luôn á, lướt trên đường phố không một tiếng động cơ!",
+      "keyword": "CHẠY ÊM RU, KHÔNG TIẾNG ĐỘNG CƠ",
+      "audio_file": "processed/voiceover/story_segments/seg_05.mp3",
+      "duration": 6.6,
+      "start_time": 15.82,
+      "end_time": 22.42
+    },
+    {
+      "id": 6,
+      "part": "morning",
+      "text": "Sáng sớm mát rượi, cực kỳ dễ chịu luôn!",
+      "keyword": "SÁNG SỚM MÁT RƯỢI",
+      "audio_file": "processed/voiceover/story_segments/seg_06.mp3",
+      "duration": 2.44,
+      "start_time": 22.42,
+      "end_time": 24.86
+    },
+    {
+      "id": 7,
+      "part": "morning",
+      "text": "Mở bát cuốc đầu tiên... được hẳn ba mươi lăm cành, quá đã!",
+      "keyword": "BA MƯƠI LĂM CÀNH!",
+      "audio_file": "processed/voiceover/story_segments/seg_07.mp3",
+      "duration": 3.48,
+      "start_time": 24.86,
+      "end_time": 28.34
+    },
+    {
+      "id": 8,
+      "part": "afternoon",
+      "text": "Chạy vèo một cái là đã đến chiều muộn rồi.",
+      "keyword": "ĐẾN CHIỀU MUỘN",
+      "audio_file": "processed/voiceover/story_segments/seg_08.mp3",
+      "duration": 2.64,
+      "start_time": 28.34,
+      "end_time": 30.98
+    },
+    {
+      "id": 9,
+      "part": "afternoon",
+      "text": "Tầm sáu giờ chiều, Sài Gòn bắt đầu lên đèn lung linh đẹp ghê luôn.",
+      "keyword": "SÁU GIỜ CHIỀU, LÊN ĐÈN LUNG LINH",
+      "audio_file": "processed/voiceover/story_segments/seg_09.mp3",
+      "duration": 3.96,
+      "start_time": 30.98,
+      "end_time": 34.94
+    },
+    {
+      "id": 10,
+      "part": "afternoon",
+      "text": "Giờ tan tầm kẹt xe, nhưng xe điện ga mượt, luồn lách qua ngõ nhỏ cực kỳ nhẹ nhàng!",
+      "keyword": "GA MƯỢT, LUỒN LÁCH NHẸ NHÀNG",
+      "audio_file": "processed/voiceover/story_segments/seg_10.mp3",
+      "duration": 4.91,
+      "start_time": 34.94,
+      "end_time": 39.85
+    },
+    {
+      "id": 11,
+      "part": "afternoon",
+      "text": "Đứng nghỉ chân có một xíu thôi, mà app lại nổ đơn liên tục luôn á!",
+      "keyword": "NỔ ĐƠN LIÊN TỤC!",
+      "audio_file": "processed/voiceover/story_segments/seg_11.mp3",
+      "duration": 3.94,
+      "start_time": 39.85,
+      "end_time": 43.79
+    },
+    {
+      "id": 12,
+      "part": "night",
+      "text": "Đến gần tám giờ tối rồi, phố xá cũng thưa thớt dần.",
+      "keyword": "TÁM GIỜ TỐI",
+      "audio_file": "processed/voiceover/story_segments/seg_12.mp3",
+      "duration": 3.09,
+      "start_time": 43.79,
+      "end_time": 46.88
+    },
+    {
+      "id": 13,
+      "part": "night",
+      "text": "Chạy đêm gió mát thật đó, nhưng mà người cũng bắt đầu thấy mỏi lưng rồi nè.",
+      "keyword": "CHẠY ĐÊM MÁT MẺ",
+      "audio_file": "processed/voiceover/story_segments/seg_13.mp3",
+      "duration": 4.53,
+      "start_time": 46.88,
+      "end_time": 51.41
+    },
+    {
+      "id": 14,
+      "part": "night",
+      "text": "Mỗi chuyến xe đêm là một câu chuyện, có chuyến vui, có chuyến mệt...",
+      "keyword": "MỖI CHUYẾN XE, MỘT CÂU CHUYỆN",
+      "audio_file": "processed/voiceover/story_segments/seg_14.mp3",
+      "duration": 4.04,
+      "start_time": 51.41,
+      "end_time": 55.45
+    },
+    {
+      "id": 15,
+      "part": "night",
+      "text": "Nhưng mà cứ nhìn đồng hồ ki-lô-mét nhảy đều là lại có động lực cày tiếp!",
+      "keyword": "ĐỘNG LỰC ĐI TIẾP!",
+      "audio_file": "processed/voiceover/story_segments/seg_15.mp3",
+      "duration": 4.31,
+      "start_time": 55.45,
+      "end_time": 59.76
+    },
+    {
+      "id": 16,
+      "part": "outro",
+      "text": "Và đây là kết quả sau một ngày cày cuốc: tổng kết được gần năm trăm cành, quá ấm luôn!",
+      "keyword": "GẦN NĂM TRĂM CÀNH!",
+      "audio_file": "processed/voiceover/story_segments/seg_16.mp3",
+      "duration": 5.11,
+      "start_time": 59.76,
+      "end_time": 64.87
+    },
+    {
+      "id": 17,
+      "part": "outro",
+      "text": "Chạy cả ngày công nhận vất vả, nhưng mà cũng rất đáng tự hào nha!",
+      "keyword": "RẤT ĐÁNG TỰ HÀO",
+      "audio_file": "processed/voiceover/story_segments/seg_17.mp3",
+      "duration": 3.96,
+      "start_time": 64.87,
+      "end_time": 68.83
+    },
+    {
+      "id": 18,
+      "part": "outro",
+      "text": "Còn anh em thì sao? Một ngày cày được bao nhiêu lúa? Comment cho mình biết với nha!",
+      "keyword": "BAO NHIÊU LÚA? COMMENT NHA!",
+      "audio_file": "processed/voiceover/story_segments/seg_18.mp3",
+      "duration": 5.02,
+      "start_time": 68.83,
+      "end_time": 73.85
+    },
+    {
+      "id": 19,
+      "part": "outro",
+      "text": "Nhớ thả cho mình một tim và follow kênh để đón xem tập tiếp theo nhé!",
+      "keyword": "THẢ TIM VÀ FOLLOW KÊNH NHÉ!",
+      "audio_file": "processed/voiceover/story_segments/seg_19.mp3",
+      "duration": 4.18,
+      "start_time": 73.85,
+      "end_time": 78.03
+    }
+  ]
+}

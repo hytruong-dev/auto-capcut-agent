@@ -1,0 +1,688 @@
+{
+  "canvas_config": {
+    "width": 1080,
+    "height": 1920,
+    "ratio": "9:16"
+  },
+  "color_space": 0,
+  "config": {
+    "adjust_max_index": 1,
+    "lyrics_sync": true,
+    "maintrack_adsorb": true,
+    "material_save_mode": 0,
+    "subtitle_sync": true,
+    "system_font_list": [],
+    "video_mute": false
+  },
+  "cover": null,
+  "create_time": 1792572531572,
+  "duration": 59975583,
+  "fps": 30.0,
+  "id": "d17aa659-36fb-4be7-84c4-e40be8105115",
+  "last_modified_platform": {
+    "app_id": 359284,
+    "app_source": "capcut",
+    "app_version": "5.0.0",
+    "os": "windows"
+  },
+  "materials": {
+    "audio_balances": [],
+    "audio_effects": [],
+    "audio_fades": [],
+    "audios": [
+      {
+        "id": "ae3f1ad1-ec86-46d9-b9d7-037dbdb1d8c9",
+        "type": "extract_music",
+        "path": "C:/Users/PC/AppData/Local/CapCut/User Data/Projects/com.lveditor.draft/Vlog_XanhSM_1Ngay_ChayXe_POV/assets/audio/vlog_voiceover.mp3",
+        "name": "vlog_voiceover.mp3",
+        "duration": 59975583
+      },
+      {
+        "id": "42db68e3-f283-4c1b-8663-c792c82963f3",
+        "type": "music",
+        "path": "C:/Users/PC/AppData/Local/CapCut/User Data/Projects/com.lveditor.draft/Vlog_XanhSM_1Ngay_ChayXe_POV/assets/audio/bgm_lofi.mp3",
+        "name": "bgm_lofi.mp3",
+        "duration": 59975583
+      }
+    ],
+    "beats": [],
+    "canvases": [],
+    "chromas": [],
+    "color_curves": [],
+    "drafts": [],
+    "effects": [],
+    "flowers": [],
+    "green_screens": [],
+    "handwrites": [],
+    "hsl": [],
+    "images": [],
+    "log_color_wheels": [],
+    "loudnesses": [],
+    "manual_deformations": [],
+    "masks": [],
+    "material_animations": [],
+    "material_colors": [],
+    "music_track_syncs": [],
+    "placeholder_materials": [],
+    "placeholders": [],
+    "plugin_effects": [],
+    "primary_color_wheels": [],
+    "realtime_denoises": [],
+    "shapes": [],
+    "smart_crops": [],
+    "smart_relights": [],
+    "sound_channel_mappings": [],
+    "speeds": [],
+    "stickers": [],
+    "tail_leaders": [],
+    "text_templates": [],
+    "texts": [
+      {
+        "id": "62e7ed35-f009-4fb8-bd95-b75263a72a09",
+        "type": "text",
+        "content": "{\"styles\": [{\"fill\": {\"alpha\": 1.0, \"content\": {\"render_type\": \"solid\", \"solid\": {\"color\": [1.0, 1.0, 1.0]}}}, \"font\": {\"id\": \"\", \"path\": \"C:/Windows/Fonts/arialbd.ttf\"}, \"size\": 8.0}], \"text\": \"NHIỀU ANH EM HỎI TÔI: CHẠY XE MÁY ĐIỆN XANH SM CẢ NGÀY TỪ SÁNG ĐẾN ĐÊM CÓ THỰC SỰ PHÊ NHƯ LỜI ĐỒN KHÔNG? HÔM NAY CÙNG TÔI TRẢI NGHIỆM NHÉ!\"}",
+        "font_size": 8.0,
+        "font_title": "Arial",
+        "border_color": "#000000",
+        "border_width": 50,
+        "has_shadow": true,
+        "shadow_color": "#000000",
+        "shadow_alpha": 0.9
+      },
+      {
+        "id": "0f1fee49-4d97-4656-a738-c3080177e30e",
+        "type": "text",
+        "content": "{\"styles\": [{\"fill\": {\"alpha\": 1.0, \"content\": {\"render_type\": \"solid\", \"solid\": {\"color\": [1.0, 1.0, 1.0]}}}, \"font\": {\"id\": \"\", \"path\": \"C:/Windows/Fonts/arialbd.ttf\"}, \"size\": 8.0}], \"text\": \"TÁM GIỜ SÁNG, BẬT APP NHẬN CUỐC ĐẦU TIÊN. PHẢI CÔNG NHẬN CHIẾC XE ĐIỆN VINFAST NÀY CHẠY ÊM RU, LƯỚT TRÊN ĐƯỜNG PHỐ KHÔNG MỘT TIẾNG ĐỘNG CƠ, SÁNG SỚM MÁT RƯỢI CỰC KỲ DỄ CHỊU.\"}",
+        "font_size": 8.0,
+        "font_title": "Arial",
+        "border_color": "#000000",
+        "border_width": 50,
+        "has_shadow": true,
+        "shadow_color": "#000000",
+        "shadow_alpha": 0.9
+      },
+      {
+        "id": "4077bd90-a057-4c81-8dc1-71da1b73d1dd",
+        "type": "text",
+        "content": "{\"styles\": [{\"fill\": {\"alpha\": 1.0, \"content\": {\"render_type\": \"solid\", \"solid\": {\"color\": [1.0, 1.0, 1.0]}}}, \"font\": {\"id\": \"\", \"path\": \"C:/Windows/Fonts/arialbd.ttf\"}, \"size\": 8.0}], \"text\": \"CHẠY VÈO MỘT CÁI LÀ ĐẾN CHIỀU MUỘN. TẦM SÁU GIỜ CHIỀU, SÀI GÒN BẮT ĐẦU LÊN ĐÈN LUNG LINH. GIỜ TAN TẦM KẸT XE NHƯNG ĐƯỢC CÁI XE ĐIỆN GA MƯỢT, LUỒN LÁCH QUA CÁC CON PHỐ NHỎ CỰC KỲ NHẸ NHÀNG.\"}",
+        "font_size": 8.0,
+        "font_title": "Arial",
+        "border_color": "#000000",
+        "border_width": 50,
+        "has_shadow": true,
+        "shadow_color": "#000000",
+        "shadow_alpha": 0.9
+      },
+      {
+        "id": "ac0cccc8-be83-4e95-8859-fe8d65bd27c5",
+        "type": "text",
+        "content": "{\"styles\": [{\"fill\": {\"alpha\": 1.0, \"content\": {\"render_type\": \"solid\", \"solid\": {\"color\": [1.0, 1.0, 1.0]}}}, \"font\": {\"id\": \"\", \"path\": \"C:/Windows/Fonts/arialbd.ttf\"}, \"size\": 8.0}], \"text\": \"ĐẾN GẦN BẢY GIỜ TỐI, DỪNG XE CHECK APP THÌ TING TING, ĐƠN NỔ LIÊN TỤC! VỪA NHẬN CUỐC MỚI LÀ NỔ MÁY CHẠY NGAY QUA MẤY CON PHỐ ẨM THỰC, ĐI NGANG MẤY QUÁN PHỞ, QUÁN HỦ TIẾU THƠM NỨC MŨI.\"}",
+        "font_size": 8.0,
+        "font_title": "Arial",
+        "border_color": "#000000",
+        "border_width": 50,
+        "has_shadow": true,
+        "shadow_color": "#000000",
+        "shadow_alpha": 0.9
+      },
+      {
+        "id": "9151bf65-5640-4345-88b7-c0f23595ec84",
+        "type": "text",
+        "content": "{\"styles\": [{\"fill\": {\"alpha\": 1.0, \"content\": {\"render_type\": \"solid\", \"solid\": {\"color\": [1.0, 1.0, 1.0]}}}, \"font\": {\"id\": \"\", \"path\": \"C:/Windows/Fonts/arialbd.ttf\"}, \"size\": 8.0}], \"text\": \"MỘT NGÀY CÀY CUỐC GẦN MƯỜI MỘT TIẾNG DÙ MỎI LƯNG MỘT CHÚT, NHƯNG NHÌN LẠI THÀNH QUẢ VÍ TIỀN VÀ CẢM GIÁC XE VẪN ÊM ÁI THẾ NÀY THÌ QUÁ XỨNG ĐÁNG! ANH EM CHẠY XANH SM HÔM NAY THẾ NÀO RỒI? BÌNH LUẬN BÊN DƯỚI GIAO LƯU NHÉ!\"}",
+        "font_size": 8.0,
+        "font_title": "Arial",
+        "border_color": "#000000",
+        "border_width": 50,
+        "has_shadow": true,
+        "shadow_color": "#000000",
+        "shadow_alpha": 0.9
+      },
+      {
+        "id": "81c299bd-203b-439f-9c5e-e194410cf491",
+        "type": "text",
+        "content": "{\"styles\": [{\"fill\": {\"alpha\": 1.0, \"content\": {\"render_type\": \"solid\", \"solid\": {\"color\": [1.0, 0.2, 0.2]}}}, \"font\": {\"id\": \"\", \"path\": \"C:/Windows/Fonts/arialbd.ttf\"}, \"size\": 10.0}], \"text\": \"THỬ THÁCH CHẠY XANH SM\"}",
+        "font_size": 10.0,
+        "border_color": "#FFFFFF",
+        "border_width": 60,
+        "has_shadow": true
+      },
+      {
+        "id": "31a7b991-a664-4b85-a52d-4bb02cec21bb",
+        "type": "text",
+        "content": "{\"styles\": [{\"fill\": {\"alpha\": 1.0, \"content\": {\"render_type\": \"solid\", \"solid\": {\"color\": [1.0, 0.95, 0.0]}}}, \"font\": {\"id\": \"\", \"path\": \"C:/Windows/Fonts/arialbd.ttf\"}, \"size\": 11.5}], \"text\": \"FULL TIME 11 TIẾNG\"}",
+        "font_size": 11.5,
+        "border_color": "#000000",
+        "border_width": 70,
+        "has_shadow": true
+      },
+      {
+        "id": "795272eb-4cf5-4845-a1b5-62d653a80194",
+        "type": "text",
+        "content": "{\"styles\": [{\"fill\": {\"alpha\": 1.0, \"content\": {\"render_type\": \"solid\", \"solid\": {\"color\": [0.0, 1.0, 0.5]}}}, \"font\": {\"id\": \"\", \"path\": \"C:/Windows/Fonts/arialbd.ttf\"}, \"size\": 8.5}], \"text\": \"TIM ❤️ VÀ COMMENT GIAO LƯU NHÉ 👍\"}",
+        "font_size": 8.5,
+        "border_color": "#000000",
+        "border_width": 50,
+        "has_shadow": true
+      }
+    ],
+    "time_marks": [],
+    "transitions": [
+      {
+        "id": "af34fa99-2ebe-4623-92be-bbe1eef493f6",
+        "name": "Woosh",
+        "effect_id": "CD580815-D706-4c17-8DA1-D31CDD568A44",
+        "resource_id": "6724239584663704071",
+        "type": "transition",
+        "duration": 500000,
+        "is_overlap": false,
+        "platform": "all"
+      },
+      {
+        "id": "8fcd4fb1-5fd1-438b-918c-d4dbe51398ec",
+        "name": "Pull in",
+        "effect_id": "E27206B3-FFA0-4ea4-B6E7-44350CED4574",
+        "resource_id": "6724226861666144779",
+        "type": "transition",
+        "duration": 500000,
+        "is_overlap": false,
+        "platform": "all"
+      },
+      {
+        "id": "acebca51-f935-42a1-87e1-ff32482a4fde",
+        "name": "White Flash",
+        "effect_id": "B5F63066-4B98-4c8a-B4AD-1398E1D313F2",
+        "resource_id": "6724845376098013708",
+        "type": "transition",
+        "duration": 400000,
+        "is_overlap": false,
+        "platform": "all"
+      }
+    ],
+    "video_effects": [],
+    "video_trackings": [],
+    "videos": [
+      {
+        "id": "2cd04fe2-5b3c-4a2c-be3a-67008c72bdf5",
+        "type": "video",
+        "path": "C:/QuangHy/editvideo/raw_footage/DJI_20260908084243_0057_D.MP4",
+        "material_name": "DJI_20260908084243_0057_D.MP4",
+        "width": 2688,
+        "height": 1512,
+        "duration": 300000000
+      },
+      {
+        "id": "132264ea-0740-4f8f-b6c4-dc827125b9d0",
+        "type": "video",
+        "path": "C:/QuangHy/editvideo/raw_footage/DJI_20260908183824_0062_D.MP4",
+        "material_name": "DJI_20260908183824_0062_D.MP4",
+        "width": 2688,
+        "height": 1512,
+        "duration": 300000000
+      },
+      {
+        "id": "c8ba9787-99a7-47ce-8560-aa2b25c899b7",
+        "type": "video",
+        "path": "C:/QuangHy/editvideo/raw_footage/DJI_20260908185603_0064_D.MP4",
+        "material_name": "DJI_20260908185603_0064_D.MP4",
+        "width": 2688,
+        "height": 1512,
+        "duration": 300000000
+      }
+    ],
+    "vocal_beautifys": [],
+    "vocal_separations": []
+  },
+  "name": "Vlog_XanhSM_1Ngay_ChayXe_POV",
+  "new_version": "116.0.0",
+  "platform": {
+    "app_id": 359284,
+    "app_source": "capcut",
+    "app_version": "5.0.0",
+    "os": "windows"
+  },
+  "render_index_mode": "off",
+  "tracks": [
+    {
+      "id": "369d0515-daac-4edf-8adb-b46e2fa152fd",
+      "type": "video",
+      "attribute": 0,
+      "segments": [
+        {
+          "id": "d1c4a623-7cd3-4e12-a917-38bda2974591",
+          "material_id": "2cd04fe2-5b3c-4a2c-be3a-67008c72bdf5",
+          "target_timerange": {
+            "start": 0,
+            "duration": 9022417
+          },
+          "source_timerange": {
+            "start": 0,
+            "duration": 9022417
+          },
+          "speed": 1.0,
+          "volume": 0.12,
+          "visible": true,
+          "clip": {
+            "alpha": 1.0,
+            "rotation": 90.0,
+            "scale": {
+              "x": 1.95,
+              "y": 1.95
+            },
+            "transform": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "flip": {
+              "horizontal": false,
+              "vertical": false
+            }
+          },
+          "render_index": 14000,
+          "extra_material_refs": [
+            "af34fa99-2ebe-4623-92be-bbe1eef493f6"
+          ]
+        },
+        {
+          "id": "63236059-06c1-4139-a2e4-6a0afc0b2466",
+          "material_id": "2cd04fe2-5b3c-4a2c-be3a-67008c72bdf5",
+          "target_timerange": {
+            "start": 9022417,
+            "duration": 11523333
+          },
+          "source_timerange": {
+            "start": 5000000,
+            "duration": 11523333
+          },
+          "speed": 1.0,
+          "volume": 0.12,
+          "visible": true,
+          "clip": {
+            "alpha": 1.0,
+            "rotation": 90.0,
+            "scale": {
+              "x": 1.95,
+              "y": 1.95
+            },
+            "transform": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "flip": {
+              "horizontal": false,
+              "vertical": false
+            }
+          },
+          "render_index": 14001,
+          "extra_material_refs": [
+            "8fcd4fb1-5fd1-438b-918c-d4dbe51398ec"
+          ]
+        },
+        {
+          "id": "455e8118-863f-45b3-94c7-d3aab679669a",
+          "material_id": "132264ea-0740-4f8f-b6c4-dc827125b9d0",
+          "target_timerange": {
+            "start": 20545750,
+            "duration": 12483833
+          },
+          "source_timerange": {
+            "start": 5000000,
+            "duration": 12483833
+          },
+          "speed": 1.0,
+          "volume": 0.12,
+          "visible": true,
+          "clip": {
+            "alpha": 1.0,
+            "rotation": 90.0,
+            "scale": {
+              "x": 1.95,
+              "y": 1.95
+            },
+            "transform": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "flip": {
+              "horizontal": false,
+              "vertical": false
+            }
+          },
+          "render_index": 14002,
+          "extra_material_refs": [
+            "acebca51-f935-42a1-87e1-ff32482a4fde"
+          ]
+        },
+        {
+          "id": "28b61c08-88fd-4f87-b783-5e416494ef68",
+          "material_id": "c8ba9787-99a7-47ce-8560-aa2b25c899b7",
+          "target_timerange": {
+            "start": 33029583,
+            "duration": 12985958
+          },
+          "source_timerange": {
+            "start": 35000000,
+            "duration": 12985958
+          },
+          "speed": 1.0,
+          "volume": 0.12,
+          "visible": true,
+          "clip": {
+            "alpha": 1.0,
+            "rotation": 90.0,
+            "scale": {
+              "x": 2.35,
+              "y": 2.35
+            },
+            "transform": {
+              "x": 0.0,
+              "y": -0.15
+            },
+            "flip": {
+              "horizontal": false,
+              "vertical": false
+            }
+          },
+          "render_index": 14003,
+          "extra_material_refs": [
+            "af34fa99-2ebe-4623-92be-bbe1eef493f6"
+          ]
+        },
+        {
+          "id": "366c4be2-c294-447d-83fd-814f7d24ce91",
+          "material_id": "c8ba9787-99a7-47ce-8560-aa2b25c899b7",
+          "target_timerange": {
+            "start": 46015541,
+            "duration": 13703583
+          },
+          "source_timerange": {
+            "start": 145000000,
+            "duration": 13703583
+          },
+          "speed": 1.0,
+          "volume": 0.12,
+          "visible": true,
+          "clip": {
+            "alpha": 1.0,
+            "rotation": 90.0,
+            "scale": {
+              "x": 1.95,
+              "y": 1.95
+            },
+            "transform": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "flip": {
+              "horizontal": false,
+              "vertical": false
+            }
+          },
+          "render_index": 14004,
+          "extra_material_refs": []
+        }
+      ]
+    },
+    {
+      "id": "0d82bb8f-cfb7-4cb8-8028-df51e38de7a4",
+      "type": "audio",
+      "attribute": 0,
+      "segments": [
+        {
+          "id": "28bea686-8ecb-4f32-823e-0c8e30d256ff",
+          "material_id": "ae3f1ad1-ec86-46d9-b9d7-037dbdb1d8c9",
+          "target_timerange": {
+            "start": 0,
+            "duration": 59975583
+          },
+          "source_timerange": {
+            "start": 0,
+            "duration": 59975583
+          },
+          "speed": 1.0,
+          "volume": 1.0,
+          "visible": true,
+          "render_index": 20000
+        }
+      ]
+    },
+    {
+      "id": "935477ad-cdb4-47c8-8b69-8dcf78d3bf11",
+      "type": "audio",
+      "attribute": 0,
+      "segments": [
+        {
+          "id": "24369cb3-a1b2-4c12-943b-94f9246aea48",
+          "material_id": "42db68e3-f283-4c1b-8663-c792c82963f3",
+          "target_timerange": {
+            "start": 0,
+            "duration": 59975583
+          },
+          "source_timerange": {
+            "start": 0,
+            "duration": 59975583
+          },
+          "speed": 1.0,
+          "volume": 0.16,
+          "visible": true,
+          "render_index": 21000
+        }
+      ]
+    },
+    {
+      "id": "ba960c34-5ea8-4f69-b84d-ba901316c351",
+      "type": "text",
+      "attribute": 0,
+      "segments": [
+        {
+          "id": "7021fdc1-6110-4de0-9737-336ef0646301",
+          "material_id": "62e7ed35-f009-4fb8-bd95-b75263a72a09",
+          "target_timerange": {
+            "start": 0,
+            "duration": 9022417
+          },
+          "source_timerange": {
+            "start": 0,
+            "duration": 9022417
+          },
+          "clip": {
+            "alpha": 1.0,
+            "rotation": 0.0,
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "transform": {
+              "x": 0.0,
+              "y": -0.38
+            }
+          },
+          "render_index": 30000
+        },
+        {
+          "id": "6181eeb3-bbd5-4d91-b4a2-e745d1e55ce8",
+          "material_id": "0f1fee49-4d97-4656-a738-c3080177e30e",
+          "target_timerange": {
+            "start": 9020000,
+            "duration": 11523333
+          },
+          "source_timerange": {
+            "start": 0,
+            "duration": 11523333
+          },
+          "clip": {
+            "alpha": 1.0,
+            "rotation": 0.0,
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "transform": {
+              "x": 0.0,
+              "y": -0.38
+            }
+          },
+          "render_index": 30001
+        },
+        {
+          "id": "0660b610-a484-4660-b336-4b669a01eadd",
+          "material_id": "4077bd90-a057-4c81-8dc1-71da1b73d1dd",
+          "target_timerange": {
+            "start": 20550000,
+            "duration": 12483833
+          },
+          "source_timerange": {
+            "start": 0,
+            "duration": 12483833
+          },
+          "clip": {
+            "alpha": 1.0,
+            "rotation": 0.0,
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "transform": {
+              "x": 0.0,
+              "y": -0.38
+            }
+          },
+          "render_index": 30002
+        },
+        {
+          "id": "5c6f527f-0d0b-4479-834f-979b94c08dfe",
+          "material_id": "ac0cccc8-be83-4e95-8859-fe8d65bd27c5",
+          "target_timerange": {
+            "start": 33030000,
+            "duration": 12985958
+          },
+          "source_timerange": {
+            "start": 0,
+            "duration": 12985958
+          },
+          "clip": {
+            "alpha": 1.0,
+            "rotation": 0.0,
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "transform": {
+              "x": 0.0,
+              "y": -0.38
+            }
+          },
+          "render_index": 30003
+        },
+        {
+          "id": "8ada9f5f-dc91-49b2-a104-0f4a192d29ae",
+          "material_id": "9151bf65-5640-4345-88b7-c0f23595ec84",
+          "target_timerange": {
+            "start": 46020000,
+            "duration": 13703583
+          },
+          "source_timerange": {
+            "start": 0,
+            "duration": 13703583
+          },
+          "clip": {
+            "alpha": 1.0,
+            "rotation": 0.0,
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "transform": {
+              "x": 0.0,
+              "y": -0.38
+            }
+          },
+          "render_index": 30004
+        }
+      ]
+    },
+    {
+      "id": "7e6dacc1-7c2d-4ca1-bfcd-0c6f27e538be",
+      "type": "text",
+      "attribute": 0,
+      "segments": [
+        {
+          "id": "4df518c2-c640-4ecf-947f-f7ac405af1de",
+          "material_id": "81c299bd-203b-439f-9c5e-e194410cf491",
+          "target_timerange": {
+            "start": 0,
+            "duration": 6000000
+          },
+          "source_timerange": {
+            "start": 0,
+            "duration": 6000000
+          },
+          "clip": {
+            "alpha": 1.0,
+            "rotation": 0.0,
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "transform": {
+              "x": 0.0,
+              "y": 0.55
+            }
+          },
+          "render_index": 35000
+        },
+        {
+          "id": "f806d0dd-491a-498e-bf13-93bed4451ee1",
+          "material_id": "31a7b991-a664-4b85-a52d-4bb02cec21bb",
+          "target_timerange": {
+            "start": 0,
+            "duration": 6000000
+          },
+          "source_timerange": {
+            "start": 0,
+            "duration": 6000000
+          },
+          "clip": {
+            "alpha": 1.0,
+            "rotation": 0.0,
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "transform": {
+              "x": 0.0,
+              "y": 0.43
+            }
+          },
+          "render_index": 35001
+        },
+        {
+          "id": "aa9da6ee-7d80-493b-8e41-798632c580f8",
+          "material_id": "795272eb-4cf5-4845-a1b5-62d653a80194",
+          "target_timerange": {
+            "start": 52975583,
+            "duration": 7000000
+          },
+          "source_timerange": {
+            "start": 0,
+            "duration": 7000000
+          },
+          "clip": {
+            "alpha": 1.0,
+            "rotation": 0.0,
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "transform": {
+              "x": 0.0,
+              "y": 0.2
+            }
+          },
+          "render_index": 36000
+        }
+      ]
+    }
+  ],
+  "update_time": 1792572531572,
+  "version": 360000
+}

@@ -1,0 +1,2203 @@
+[
+  {
+    "seg_id": 1,
+    "seg_start": 0.0,
+    "seg_end": 5.88,
+    "seg_dur": 5.88,
+    "text": "Từ thách trải xe máy điện xanh SM cá ngài từ sáng đến đêm, thực sự kiếm được bao nhiêu tiền nè.",
+    "words": [
+      {
+        "word": "Từ",
+        "seg_start": 0.0,
+        "seg_end": 0.18,
+        "master_start": 0.0,
+        "master_end": 0.18
+      },
+      {
+        "word": "thách",
+        "seg_start": 0.18,
+        "seg_end": 0.46,
+        "master_start": 0.18,
+        "master_end": 0.46
+      },
+      {
+        "word": "trải",
+        "seg_start": 0.46,
+        "seg_end": 0.92,
+        "master_start": 0.46,
+        "master_end": 0.92
+      },
+      {
+        "word": "xe",
+        "seg_start": 0.92,
+        "seg_end": 1.1,
+        "master_start": 0.92,
+        "master_end": 1.1
+      },
+      {
+        "word": "máy",
+        "seg_start": 1.1,
+        "seg_end": 1.3,
+        "master_start": 1.1,
+        "master_end": 1.3
+      },
+      {
+        "word": "điện",
+        "seg_start": 1.3,
+        "seg_end": 1.46,
+        "master_start": 1.3,
+        "master_end": 1.46
+      },
+      {
+        "word": "xanh",
+        "seg_start": 1.46,
+        "seg_end": 1.72,
+        "master_start": 1.46,
+        "master_end": 1.72
+      },
+      {
+        "word": "SM",
+        "seg_start": 1.72,
+        "seg_end": 2.16,
+        "master_start": 1.72,
+        "master_end": 2.16
+      },
+      {
+        "word": "cá",
+        "seg_start": 2.16,
+        "seg_end": 2.42,
+        "master_start": 2.16,
+        "master_end": 2.42
+      },
+      {
+        "word": "ngài",
+        "seg_start": 2.42,
+        "seg_end": 2.78,
+        "master_start": 2.42,
+        "master_end": 2.78
+      },
+      {
+        "word": "từ",
+        "seg_start": 2.78,
+        "seg_end": 3.06,
+        "master_start": 2.78,
+        "master_end": 3.06
+      },
+      {
+        "word": "sáng",
+        "seg_start": 3.06,
+        "seg_end": 3.46,
+        "master_start": 3.06,
+        "master_end": 3.46
+      },
+      {
+        "word": "đến",
+        "seg_start": 3.46,
+        "seg_end": 3.58,
+        "master_start": 3.46,
+        "master_end": 3.58
+      },
+      {
+        "word": "đêm,",
+        "seg_start": 3.58,
+        "seg_end": 3.9,
+        "master_start": 3.58,
+        "master_end": 3.9
+      },
+      {
+        "word": "thực",
+        "seg_start": 4.2,
+        "seg_end": 4.34,
+        "master_start": 4.2,
+        "master_end": 4.34
+      },
+      {
+        "word": "sự",
+        "seg_start": 4.34,
+        "seg_end": 4.54,
+        "master_start": 4.34,
+        "master_end": 4.54
+      },
+      {
+        "word": "kiếm",
+        "seg_start": 4.54,
+        "seg_end": 4.82,
+        "master_start": 4.54,
+        "master_end": 4.82
+      },
+      {
+        "word": "được",
+        "seg_start": 4.82,
+        "seg_end": 4.9,
+        "master_start": 4.82,
+        "master_end": 4.9
+      },
+      {
+        "word": "bao",
+        "seg_start": 4.9,
+        "seg_end": 5.06,
+        "master_start": 4.9,
+        "master_end": 5.06
+      },
+      {
+        "word": "nhiêu",
+        "seg_start": 5.06,
+        "seg_end": 5.26,
+        "master_start": 5.06,
+        "master_end": 5.26
+      },
+      {
+        "word": "tiền",
+        "seg_start": 5.26,
+        "seg_end": 5.5,
+        "master_start": 5.26,
+        "master_end": 5.5
+      },
+      {
+        "word": "nè.",
+        "seg_start": 5.5,
+        "seg_end": 5.66,
+        "master_start": 5.5,
+        "master_end": 5.66
+      }
+    ]
+  },
+  {
+    "seg_id": 2,
+    "seg_start": 5.88,
+    "seg_end": 8.96,
+    "seg_dur": 3.08,
+    "text": "Ngày mình test thực tế cho anem xem luôn nhé",
+    "words": [
+      {
+        "word": "Ngày",
+        "seg_start": 0.0,
+        "seg_end": 0.36,
+        "master_start": 5.88,
+        "master_end": 6.24
+      },
+      {
+        "word": "mình",
+        "seg_start": 0.36,
+        "seg_end": 0.54,
+        "master_start": 6.24,
+        "master_end": 6.42
+      },
+      {
+        "word": "test",
+        "seg_start": 0.54,
+        "seg_end": 0.82,
+        "master_start": 6.42,
+        "master_end": 6.7
+      },
+      {
+        "word": "thực",
+        "seg_start": 0.82,
+        "seg_end": 1.12,
+        "master_start": 6.7,
+        "master_end": 7.0
+      },
+      {
+        "word": "tế",
+        "seg_start": 1.12,
+        "seg_end": 1.38,
+        "master_start": 7.0,
+        "master_end": 7.26
+      },
+      {
+        "word": "cho",
+        "seg_start": 1.38,
+        "seg_end": 1.52,
+        "master_start": 7.26,
+        "master_end": 7.4
+      },
+      {
+        "word": "anem",
+        "seg_start": 1.52,
+        "seg_end": 1.9,
+        "master_start": 7.4,
+        "master_end": 7.78
+      },
+      {
+        "word": "xem",
+        "seg_start": 1.9,
+        "seg_end": 2.28,
+        "master_start": 7.78,
+        "master_end": 8.16
+      },
+      {
+        "word": "luôn",
+        "seg_start": 2.28,
+        "seg_end": 2.52,
+        "master_start": 8.16,
+        "master_end": 8.4
+      },
+      {
+        "word": "nhé",
+        "seg_start": 2.52,
+        "seg_end": 2.84,
+        "master_start": 8.4,
+        "master_end": 8.72
+      }
+    ]
+  },
+  {
+    "seg_id": 3,
+    "seg_start": 8.96,
+    "seg_end": 12.56,
+    "seg_dur": 3.6,
+    "text": "Ấng nào còn thắt mắt thì xem hết video này là biết liền nè",
+    "words": [
+      {
+        "word": "Ấng",
+        "seg_start": 0.0,
+        "seg_end": 0.26,
+        "master_start": 8.96,
+        "master_end": 9.22
+      },
+      {
+        "word": "nào",
+        "seg_start": 0.26,
+        "seg_end": 0.38,
+        "master_start": 9.22,
+        "master_end": 9.34
+      },
+      {
+        "word": "còn",
+        "seg_start": 0.38,
+        "seg_end": 0.58,
+        "master_start": 9.34,
+        "master_end": 9.54
+      },
+      {
+        "word": "thắt",
+        "seg_start": 0.58,
+        "seg_end": 0.92,
+        "master_start": 9.54,
+        "master_end": 9.88
+      },
+      {
+        "word": "mắt",
+        "seg_start": 0.92,
+        "seg_end": 1.18,
+        "master_start": 9.88,
+        "master_end": 10.14
+      },
+      {
+        "word": "thì",
+        "seg_start": 1.18,
+        "seg_end": 1.48,
+        "master_start": 10.14,
+        "master_end": 10.44
+      },
+      {
+        "word": "xem",
+        "seg_start": 1.48,
+        "seg_end": 1.74,
+        "master_start": 10.44,
+        "master_end": 10.7
+      },
+      {
+        "word": "hết",
+        "seg_start": 1.74,
+        "seg_end": 1.94,
+        "master_start": 10.7,
+        "master_end": 10.9
+      },
+      {
+        "word": "video",
+        "seg_start": 1.94,
+        "seg_end": 2.2,
+        "master_start": 10.9,
+        "master_end": 11.16
+      },
+      {
+        "word": "này",
+        "seg_start": 2.2,
+        "seg_end": 2.48,
+        "master_start": 11.16,
+        "master_end": 11.44
+      },
+      {
+        "word": "là",
+        "seg_start": 2.48,
+        "seg_end": 2.66,
+        "master_start": 11.44,
+        "master_end": 11.62
+      },
+      {
+        "word": "biết",
+        "seg_start": 2.66,
+        "seg_end": 2.88,
+        "master_start": 11.62,
+        "master_end": 11.84
+      },
+      {
+        "word": "liền",
+        "seg_start": 2.88,
+        "seg_end": 3.12,
+        "master_start": 11.84,
+        "master_end": 12.08
+      },
+      {
+        "word": "nè",
+        "seg_start": 3.12,
+        "seg_end": 3.36,
+        "master_start": 12.08,
+        "master_end": 12.32
+      }
+    ]
+  },
+  {
+    "seg_id": 4,
+    "seg_start": 12.56,
+    "seg_end": 15.82,
+    "seg_dur": 3.26,
+    "text": "8 giờ sáng mình bắt đầu mở áp nhận quốc đầu tiên.",
+    "words": [
+      {
+        "word": "8",
+        "seg_start": 0.0,
+        "seg_end": 0.36,
+        "master_start": 12.56,
+        "master_end": 12.92
+      },
+      {
+        "word": "giờ",
+        "seg_start": 0.36,
+        "seg_end": 0.56,
+        "master_start": 12.92,
+        "master_end": 13.12
+      },
+      {
+        "word": "sáng",
+        "seg_start": 0.56,
+        "seg_end": 0.94,
+        "master_start": 13.12,
+        "master_end": 13.5
+      },
+      {
+        "word": "mình",
+        "seg_start": 0.94,
+        "seg_end": 1.1,
+        "master_start": 13.5,
+        "master_end": 13.66
+      },
+      {
+        "word": "bắt",
+        "seg_start": 1.1,
+        "seg_end": 1.36,
+        "master_start": 13.66,
+        "master_end": 13.92
+      },
+      {
+        "word": "đầu",
+        "seg_start": 1.36,
+        "seg_end": 1.48,
+        "master_start": 13.92,
+        "master_end": 14.04
+      },
+      {
+        "word": "mở",
+        "seg_start": 1.48,
+        "seg_end": 1.8,
+        "master_start": 14.04,
+        "master_end": 14.36
+      },
+      {
+        "word": "áp",
+        "seg_start": 1.8,
+        "seg_end": 2.1,
+        "master_start": 14.36,
+        "master_end": 14.66
+      },
+      {
+        "word": "nhận",
+        "seg_start": 2.1,
+        "seg_end": 2.3,
+        "master_start": 14.66,
+        "master_end": 14.86
+      },
+      {
+        "word": "quốc",
+        "seg_start": 2.3,
+        "seg_end": 2.58,
+        "master_start": 14.86,
+        "master_end": 15.14
+      },
+      {
+        "word": "đầu",
+        "seg_start": 2.58,
+        "seg_end": 2.68,
+        "master_start": 15.14,
+        "master_end": 15.24
+      },
+      {
+        "word": "tiên.",
+        "seg_start": 2.68,
+        "seg_end": 3.0,
+        "master_start": 15.24,
+        "master_end": 15.56
+      }
+    ]
+  },
+  {
+    "seg_id": 5,
+    "seg_start": 15.82,
+    "seg_end": 22.42,
+    "seg_dur": 6.6,
+    "text": "Ai công nhận cái chiếc xe điểm vinh phát này chạy em ru luôn á? Lước trên đường phố không một tiếng động cơ.",
+    "words": [
+      {
+        "word": "Ai",
+        "seg_start": 0.0,
+        "seg_end": 0.24,
+        "master_start": 15.82,
+        "master_end": 16.06
+      },
+      {
+        "word": "công",
+        "seg_start": 0.24,
+        "seg_end": 0.44,
+        "master_start": 16.06,
+        "master_end": 16.26
+      },
+      {
+        "word": "nhận",
+        "seg_start": 0.44,
+        "seg_end": 0.76,
+        "master_start": 16.26,
+        "master_end": 16.58
+      },
+      {
+        "word": "cái",
+        "seg_start": 0.76,
+        "seg_end": 1.0,
+        "master_start": 16.58,
+        "master_end": 16.82
+      },
+      {
+        "word": "chiếc",
+        "seg_start": 1.0,
+        "seg_end": 1.36,
+        "master_start": 16.82,
+        "master_end": 17.18
+      },
+      {
+        "word": "xe",
+        "seg_start": 1.36,
+        "seg_end": 1.44,
+        "master_start": 17.18,
+        "master_end": 17.26
+      },
+      {
+        "word": "điểm",
+        "seg_start": 1.44,
+        "seg_end": 1.66,
+        "master_start": 17.26,
+        "master_end": 17.48
+      },
+      {
+        "word": "vinh",
+        "seg_start": 1.66,
+        "seg_end": 1.76,
+        "master_start": 17.48,
+        "master_end": 17.58
+      },
+      {
+        "word": "phát",
+        "seg_start": 1.76,
+        "seg_end": 1.96,
+        "master_start": 17.58,
+        "master_end": 17.78
+      },
+      {
+        "word": "này",
+        "seg_start": 1.96,
+        "seg_end": 2.2,
+        "master_start": 17.78,
+        "master_end": 18.02
+      },
+      {
+        "word": "chạy",
+        "seg_start": 2.2,
+        "seg_end": 2.6,
+        "master_start": 18.02,
+        "master_end": 18.42
+      },
+      {
+        "word": "em",
+        "seg_start": 2.6,
+        "seg_end": 2.82,
+        "master_start": 18.42,
+        "master_end": 18.64
+      },
+      {
+        "word": "ru",
+        "seg_start": 2.82,
+        "seg_end": 3.0,
+        "master_start": 18.64,
+        "master_end": 18.82
+      },
+      {
+        "word": "luôn",
+        "seg_start": 3.0,
+        "seg_end": 3.3,
+        "master_start": 18.82,
+        "master_end": 19.12
+      },
+      {
+        "word": "á?",
+        "seg_start": 3.3,
+        "seg_end": 3.48,
+        "master_start": 19.12,
+        "master_end": 19.3
+      },
+      {
+        "word": "Lước",
+        "seg_start": 3.9,
+        "seg_end": 4.22,
+        "master_start": 19.72,
+        "master_end": 20.04
+      },
+      {
+        "word": "trên",
+        "seg_start": 4.22,
+        "seg_end": 4.38,
+        "master_start": 20.04,
+        "master_end": 20.2
+      },
+      {
+        "word": "đường",
+        "seg_start": 4.38,
+        "seg_end": 4.6,
+        "master_start": 20.2,
+        "master_end": 20.42
+      },
+      {
+        "word": "phố",
+        "seg_start": 4.6,
+        "seg_end": 4.96,
+        "master_start": 20.42,
+        "master_end": 20.78
+      },
+      {
+        "word": "không",
+        "seg_start": 4.96,
+        "seg_end": 5.34,
+        "master_start": 20.78,
+        "master_end": 21.16
+      },
+      {
+        "word": "một",
+        "seg_start": 5.34,
+        "seg_end": 5.56,
+        "master_start": 21.16,
+        "master_end": 21.38
+      },
+      {
+        "word": "tiếng",
+        "seg_start": 5.56,
+        "seg_end": 5.86,
+        "master_start": 21.38,
+        "master_end": 21.68
+      },
+      {
+        "word": "động",
+        "seg_start": 5.86,
+        "seg_end": 6.0,
+        "master_start": 21.68,
+        "master_end": 21.82
+      },
+      {
+        "word": "cơ.",
+        "seg_start": 6.0,
+        "seg_end": 6.36,
+        "master_start": 21.82,
+        "master_end": 22.18
+      }
+    ]
+  },
+  {
+    "seg_id": 6,
+    "seg_start": 22.42,
+    "seg_end": 24.86,
+    "seg_dur": 2.44,
+    "text": "Sáng sớm mắt rồi cực kỳ dễ chiếu luôn.",
+    "words": [
+      {
+        "word": "Sáng",
+        "seg_start": 0.0,
+        "seg_end": 0.38,
+        "master_start": 22.42,
+        "master_end": 22.8
+      },
+      {
+        "word": "sớm",
+        "seg_start": 0.38,
+        "seg_end": 0.68,
+        "master_start": 22.8,
+        "master_end": 23.1
+      },
+      {
+        "word": "mắt",
+        "seg_start": 0.68,
+        "seg_end": 0.8,
+        "master_start": 23.1,
+        "master_end": 23.22
+      },
+      {
+        "word": "rồi",
+        "seg_start": 0.8,
+        "seg_end": 0.98,
+        "master_start": 23.22,
+        "master_end": 23.4
+      },
+      {
+        "word": "cực",
+        "seg_start": 0.98,
+        "seg_end": 1.36,
+        "master_start": 23.4,
+        "master_end": 23.78
+      },
+      {
+        "word": "kỳ",
+        "seg_start": 1.36,
+        "seg_end": 1.54,
+        "master_start": 23.78,
+        "master_end": 23.96
+      },
+      {
+        "word": "dễ",
+        "seg_start": 1.54,
+        "seg_end": 1.68,
+        "master_start": 23.96,
+        "master_end": 24.1
+      },
+      {
+        "word": "chiếu",
+        "seg_start": 1.68,
+        "seg_end": 1.94,
+        "master_start": 24.1,
+        "master_end": 24.36
+      },
+      {
+        "word": "luôn.",
+        "seg_start": 1.94,
+        "seg_end": 2.12,
+        "master_start": 24.36,
+        "master_end": 24.54
+      }
+    ]
+  },
+  {
+    "seg_id": 7,
+    "seg_start": 24.86,
+    "seg_end": 28.34,
+    "seg_dur": 3.48,
+    "text": "Ở bác quốc đầu tiên được hẳn 35 cạnh quá đã.",
+    "words": [
+      {
+        "word": "Ở",
+        "seg_start": 0.0,
+        "seg_end": 0.24,
+        "master_start": 24.86,
+        "master_end": 25.1
+      },
+      {
+        "word": "bác",
+        "seg_start": 0.24,
+        "seg_end": 0.42,
+        "master_start": 25.1,
+        "master_end": 25.28
+      },
+      {
+        "word": "quốc",
+        "seg_start": 0.42,
+        "seg_end": 0.68,
+        "master_start": 25.28,
+        "master_end": 25.54
+      },
+      {
+        "word": "đầu",
+        "seg_start": 0.68,
+        "seg_end": 0.78,
+        "master_start": 25.54,
+        "master_end": 25.64
+      },
+      {
+        "word": "tiên",
+        "seg_start": 0.78,
+        "seg_end": 1.18,
+        "master_start": 25.64,
+        "master_end": 26.04
+      },
+      {
+        "word": "được",
+        "seg_start": 1.18,
+        "seg_end": 1.6,
+        "master_start": 26.04,
+        "master_end": 26.46
+      },
+      {
+        "word": "hẳn",
+        "seg_start": 1.6,
+        "seg_end": 1.86,
+        "master_start": 26.46,
+        "master_end": 26.72
+      },
+      {
+        "word": "35",
+        "seg_start": 1.86,
+        "seg_end": 2.18,
+        "master_start": 26.72,
+        "master_end": 27.04
+      },
+      {
+        "word": "cạnh",
+        "seg_start": 2.18,
+        "seg_end": 2.66,
+        "master_start": 27.04,
+        "master_end": 27.52
+      },
+      {
+        "word": "quá",
+        "seg_start": 2.66,
+        "seg_end": 2.9,
+        "master_start": 27.52,
+        "master_end": 27.76
+      },
+      {
+        "word": "đã.",
+        "seg_start": 2.9,
+        "seg_end": 3.12,
+        "master_start": 27.76,
+        "master_end": 27.98
+      }
+    ]
+  },
+  {
+    "seg_id": 8,
+    "seg_start": 28.34,
+    "seg_end": 30.98,
+    "seg_dur": 2.64,
+    "text": "Chạy về 1 cái đã đến chìa muộng rồi.",
+    "words": [
+      {
+        "word": "Chạy",
+        "seg_start": 0.0,
+        "seg_end": 0.42,
+        "master_start": 28.34,
+        "master_end": 28.76
+      },
+      {
+        "word": "về",
+        "seg_start": 0.42,
+        "seg_end": 0.52,
+        "master_start": 28.76,
+        "master_end": 28.86
+      },
+      {
+        "word": "1",
+        "seg_start": 0.52,
+        "seg_end": 0.74,
+        "master_start": 28.86,
+        "master_end": 29.08
+      },
+      {
+        "word": "cái",
+        "seg_start": 0.74,
+        "seg_end": 1.06,
+        "master_start": 29.08,
+        "master_end": 29.4
+      },
+      {
+        "word": "đã",
+        "seg_start": 1.06,
+        "seg_end": 1.26,
+        "master_start": 29.4,
+        "master_end": 29.6
+      },
+      {
+        "word": "đến",
+        "seg_start": 1.26,
+        "seg_end": 1.5,
+        "master_start": 29.6,
+        "master_end": 29.84
+      },
+      {
+        "word": "chìa",
+        "seg_start": 1.5,
+        "seg_end": 1.86,
+        "master_start": 29.84,
+        "master_end": 30.2
+      },
+      {
+        "word": "muộng",
+        "seg_start": 1.86,
+        "seg_end": 2.1,
+        "master_start": 30.2,
+        "master_end": 30.44
+      },
+      {
+        "word": "rồi.",
+        "seg_start": 2.1,
+        "seg_end": 2.28,
+        "master_start": 30.44,
+        "master_end": 30.62
+      }
+    ]
+  },
+  {
+    "seg_id": 9,
+    "seg_start": 30.98,
+    "seg_end": 34.94,
+    "seg_dur": 3.96,
+    "text": "Tầm 6 giờ kiều, sai còn vắt đầu lên đẹp lưng lên đẹp ghê luôn.",
+    "words": [
+      {
+        "word": "Tầm",
+        "seg_start": 0.0,
+        "seg_end": 0.5,
+        "master_start": 30.98,
+        "master_end": 31.48
+      },
+      {
+        "word": "6",
+        "seg_start": 0.5,
+        "seg_end": 0.72,
+        "master_start": 31.48,
+        "master_end": 31.7
+      },
+      {
+        "word": "giờ",
+        "seg_start": 0.72,
+        "seg_end": 0.92,
+        "master_start": 31.7,
+        "master_end": 31.9
+      },
+      {
+        "word": "kiều,",
+        "seg_start": 0.92,
+        "seg_end": 1.32,
+        "master_start": 31.9,
+        "master_end": 32.3
+      },
+      {
+        "word": "sai",
+        "seg_start": 1.62,
+        "seg_end": 1.74,
+        "master_start": 32.6,
+        "master_end": 32.72
+      },
+      {
+        "word": "còn",
+        "seg_start": 1.74,
+        "seg_end": 1.88,
+        "master_start": 32.72,
+        "master_end": 32.86
+      },
+      {
+        "word": "vắt",
+        "seg_start": 1.88,
+        "seg_end": 2.12,
+        "master_start": 32.86,
+        "master_end": 33.1
+      },
+      {
+        "word": "đầu",
+        "seg_start": 2.12,
+        "seg_end": 2.24,
+        "master_start": 33.1,
+        "master_end": 33.22
+      },
+      {
+        "word": "lên",
+        "seg_start": 2.24,
+        "seg_end": 2.42,
+        "master_start": 33.22,
+        "master_end": 33.4
+      },
+      {
+        "word": "đẹp",
+        "seg_start": 2.42,
+        "seg_end": 2.76,
+        "master_start": 33.4,
+        "master_end": 33.74
+      },
+      {
+        "word": "lưng",
+        "seg_start": 2.76,
+        "seg_end": 2.86,
+        "master_start": 33.74,
+        "master_end": 33.84
+      },
+      {
+        "word": "lên",
+        "seg_start": 2.86,
+        "seg_end": 2.98,
+        "master_start": 33.84,
+        "master_end": 33.96
+      },
+      {
+        "word": "đẹp",
+        "seg_start": 2.98,
+        "seg_end": 3.32,
+        "master_start": 33.96,
+        "master_end": 34.3
+      },
+      {
+        "word": "ghê",
+        "seg_start": 3.32,
+        "seg_end": 3.48,
+        "master_start": 34.3,
+        "master_end": 34.46
+      },
+      {
+        "word": "luôn.",
+        "seg_start": 3.48,
+        "seg_end": 3.62,
+        "master_start": 34.46,
+        "master_end": 34.6
+      }
+    ]
+  },
+  {
+    "seg_id": 10,
+    "seg_start": 34.94,
+    "seg_end": 39.85,
+    "seg_dur": 4.91,
+    "text": "Ở tang tầm kẹt xe nhưng xe điện gà mực luôn lát qua ngõ nhỏ cực kỳ nhẹ nhàng.",
+    "words": [
+      {
+        "word": "Ở",
+        "seg_start": 0.0,
+        "seg_end": 0.22,
+        "master_start": 34.94,
+        "master_end": 35.16
+      },
+      {
+        "word": "tang",
+        "seg_start": 0.22,
+        "seg_end": 0.34,
+        "master_start": 35.16,
+        "master_end": 35.28
+      },
+      {
+        "word": "tầm",
+        "seg_start": 0.34,
+        "seg_end": 0.64,
+        "master_start": 35.28,
+        "master_end": 35.58
+      },
+      {
+        "word": "kẹt",
+        "seg_start": 0.64,
+        "seg_end": 0.9,
+        "master_start": 35.58,
+        "master_end": 35.84
+      },
+      {
+        "word": "xe",
+        "seg_start": 0.9,
+        "seg_end": 1.16,
+        "master_start": 35.84,
+        "master_end": 36.1
+      },
+      {
+        "word": "nhưng",
+        "seg_start": 1.16,
+        "seg_end": 1.44,
+        "master_start": 36.1,
+        "master_end": 36.38
+      },
+      {
+        "word": "xe",
+        "seg_start": 1.44,
+        "seg_end": 1.74,
+        "master_start": 36.38,
+        "master_end": 36.68
+      },
+      {
+        "word": "điện",
+        "seg_start": 1.74,
+        "seg_end": 1.92,
+        "master_start": 36.68,
+        "master_end": 36.86
+      },
+      {
+        "word": "gà",
+        "seg_start": 1.92,
+        "seg_end": 2.14,
+        "master_start": 36.86,
+        "master_end": 37.08
+      },
+      {
+        "word": "mực",
+        "seg_start": 2.14,
+        "seg_end": 2.42,
+        "master_start": 37.08,
+        "master_end": 37.36
+      },
+      {
+        "word": "luôn",
+        "seg_start": 2.42,
+        "seg_end": 2.74,
+        "master_start": 37.36,
+        "master_end": 37.68
+      },
+      {
+        "word": "lát",
+        "seg_start": 2.74,
+        "seg_end": 3.02,
+        "master_start": 37.68,
+        "master_end": 37.96
+      },
+      {
+        "word": "qua",
+        "seg_start": 3.02,
+        "seg_end": 3.16,
+        "master_start": 37.96,
+        "master_end": 38.1
+      },
+      {
+        "word": "ngõ",
+        "seg_start": 3.16,
+        "seg_end": 3.4,
+        "master_start": 38.1,
+        "master_end": 38.34
+      },
+      {
+        "word": "nhỏ",
+        "seg_start": 3.4,
+        "seg_end": 3.66,
+        "master_start": 38.34,
+        "master_end": 38.6
+      },
+      {
+        "word": "cực",
+        "seg_start": 3.66,
+        "seg_end": 3.96,
+        "master_start": 38.6,
+        "master_end": 38.9
+      },
+      {
+        "word": "kỳ",
+        "seg_start": 3.96,
+        "seg_end": 4.12,
+        "master_start": 38.9,
+        "master_end": 39.06
+      },
+      {
+        "word": "nhẹ",
+        "seg_start": 4.12,
+        "seg_end": 4.34,
+        "master_start": 39.06,
+        "master_end": 39.28
+      },
+      {
+        "word": "nhàng.",
+        "seg_start": 4.34,
+        "seg_end": 4.66,
+        "master_start": 39.28,
+        "master_end": 39.6
+      }
+    ]
+  },
+  {
+    "seg_id": 11,
+    "seg_start": 39.85,
+    "seg_end": 43.79,
+    "seg_dur": 3.94,
+    "text": "ứng nghĩ trân có một xíu thôi, mà app lại nổ đơn liên tục luôn á",
+    "words": [
+      {
+        "word": "ứng",
+        "seg_start": 0.0,
+        "seg_end": 0.22,
+        "master_start": 39.85,
+        "master_end": 40.07
+      },
+      {
+        "word": "nghĩ",
+        "seg_start": 0.22,
+        "seg_end": 0.36,
+        "master_start": 40.07,
+        "master_end": 40.21
+      },
+      {
+        "word": "trân",
+        "seg_start": 0.36,
+        "seg_end": 0.62,
+        "master_start": 40.21,
+        "master_end": 40.47
+      },
+      {
+        "word": "có",
+        "seg_start": 0.62,
+        "seg_end": 0.78,
+        "master_start": 40.47,
+        "master_end": 40.63
+      },
+      {
+        "word": "một",
+        "seg_start": 0.78,
+        "seg_end": 0.9,
+        "master_start": 40.63,
+        "master_end": 40.75
+      },
+      {
+        "word": "xíu",
+        "seg_start": 0.9,
+        "seg_end": 1.26,
+        "master_start": 40.75,
+        "master_end": 41.11
+      },
+      {
+        "word": "thôi,",
+        "seg_start": 1.26,
+        "seg_end": 1.54,
+        "master_start": 41.11,
+        "master_end": 41.39
+      },
+      {
+        "word": "mà",
+        "seg_start": 1.88,
+        "seg_end": 1.96,
+        "master_start": 41.73,
+        "master_end": 41.81
+      },
+      {
+        "word": "app",
+        "seg_start": 1.96,
+        "seg_end": 2.2,
+        "master_start": 41.81,
+        "master_end": 42.05
+      },
+      {
+        "word": "lại",
+        "seg_start": 2.2,
+        "seg_end": 2.36,
+        "master_start": 42.05,
+        "master_end": 42.21
+      },
+      {
+        "word": "nổ",
+        "seg_start": 2.36,
+        "seg_end": 2.58,
+        "master_start": 42.21,
+        "master_end": 42.43
+      },
+      {
+        "word": "đơn",
+        "seg_start": 2.58,
+        "seg_end": 2.88,
+        "master_start": 42.43,
+        "master_end": 42.73
+      },
+      {
+        "word": "liên",
+        "seg_start": 2.88,
+        "seg_end": 3.08,
+        "master_start": 42.73,
+        "master_end": 42.93
+      },
+      {
+        "word": "tục",
+        "seg_start": 3.08,
+        "seg_end": 3.3,
+        "master_start": 42.93,
+        "master_end": 43.15
+      },
+      {
+        "word": "luôn",
+        "seg_start": 3.3,
+        "seg_end": 3.5,
+        "master_start": 43.15,
+        "master_end": 43.35
+      },
+      {
+        "word": "á",
+        "seg_start": 3.5,
+        "seg_end": 3.68,
+        "master_start": 43.35,
+        "master_end": 43.53
+      }
+    ]
+  },
+  {
+    "seg_id": 12,
+    "seg_start": 43.79,
+    "seg_end": 46.88,
+    "seg_dur": 3.09,
+    "text": "Đến gần 8 giờ tối rồi, phố xá cũng thưa thất dần.",
+    "words": [
+      {
+        "word": "Đến",
+        "seg_start": 0.0,
+        "seg_end": 0.32,
+        "master_start": 43.79,
+        "master_end": 44.11
+      },
+      {
+        "word": "gần",
+        "seg_start": 0.32,
+        "seg_end": 0.52,
+        "master_start": 44.11,
+        "master_end": 44.31
+      },
+      {
+        "word": "8",
+        "seg_start": 0.52,
+        "seg_end": 0.68,
+        "master_start": 44.31,
+        "master_end": 44.47
+      },
+      {
+        "word": "giờ",
+        "seg_start": 0.68,
+        "seg_end": 0.88,
+        "master_start": 44.47,
+        "master_end": 44.67
+      },
+      {
+        "word": "tối",
+        "seg_start": 0.88,
+        "seg_end": 1.16,
+        "master_start": 44.67,
+        "master_end": 44.95
+      },
+      {
+        "word": "rồi,",
+        "seg_start": 1.16,
+        "seg_end": 1.46,
+        "master_start": 44.95,
+        "master_end": 45.25
+      },
+      {
+        "word": "phố",
+        "seg_start": 1.64,
+        "seg_end": 1.8,
+        "master_start": 45.43,
+        "master_end": 45.59
+      },
+      {
+        "word": "xá",
+        "seg_start": 1.8,
+        "seg_end": 2.0,
+        "master_start": 45.59,
+        "master_end": 45.79
+      },
+      {
+        "word": "cũng",
+        "seg_start": 2.0,
+        "seg_end": 2.14,
+        "master_start": 45.79,
+        "master_end": 45.93
+      },
+      {
+        "word": "thưa",
+        "seg_start": 2.14,
+        "seg_end": 2.38,
+        "master_start": 45.93,
+        "master_end": 46.17
+      },
+      {
+        "word": "thất",
+        "seg_start": 2.38,
+        "seg_end": 2.58,
+        "master_start": 46.17,
+        "master_end": 46.37
+      },
+      {
+        "word": "dần.",
+        "seg_start": 2.58,
+        "seg_end": 2.82,
+        "master_start": 46.37,
+        "master_end": 46.61
+      }
+    ]
+  },
+  {
+    "seg_id": 13,
+    "seg_start": 46.88,
+    "seg_end": 51.41,
+    "seg_dur": 4.53,
+    "text": "Trải đêm gió mát thật đó, nhưng mà người cũng bắt đầu thấy mỗi lưng rồi nè.",
+    "words": [
+      {
+        "word": "Trải",
+        "seg_start": 0.0,
+        "seg_end": 0.46,
+        "master_start": 46.88,
+        "master_end": 47.34
+      },
+      {
+        "word": "đêm",
+        "seg_start": 0.46,
+        "seg_end": 0.68,
+        "master_start": 47.34,
+        "master_end": 47.56
+      },
+      {
+        "word": "gió",
+        "seg_start": 0.68,
+        "seg_end": 0.94,
+        "master_start": 47.56,
+        "master_end": 47.82
+      },
+      {
+        "word": "mát",
+        "seg_start": 0.94,
+        "seg_end": 1.22,
+        "master_start": 47.82,
+        "master_end": 48.1
+      },
+      {
+        "word": "thật",
+        "seg_start": 1.22,
+        "seg_end": 1.44,
+        "master_start": 48.1,
+        "master_end": 48.32
+      },
+      {
+        "word": "đó,",
+        "seg_start": 1.44,
+        "seg_end": 1.6,
+        "master_start": 48.32,
+        "master_end": 48.48
+      },
+      {
+        "word": "nhưng",
+        "seg_start": 2.08,
+        "seg_end": 2.2,
+        "master_start": 48.96,
+        "master_end": 49.08
+      },
+      {
+        "word": "mà",
+        "seg_start": 2.2,
+        "seg_end": 2.38,
+        "master_start": 49.08,
+        "master_end": 49.26
+      },
+      {
+        "word": "người",
+        "seg_start": 2.38,
+        "seg_end": 2.56,
+        "master_start": 49.26,
+        "master_end": 49.44
+      },
+      {
+        "word": "cũng",
+        "seg_start": 2.56,
+        "seg_end": 2.74,
+        "master_start": 49.44,
+        "master_end": 49.62
+      },
+      {
+        "word": "bắt",
+        "seg_start": 2.74,
+        "seg_end": 2.94,
+        "master_start": 49.62,
+        "master_end": 49.82
+      },
+      {
+        "word": "đầu",
+        "seg_start": 2.94,
+        "seg_end": 3.14,
+        "master_start": 49.82,
+        "master_end": 50.02
+      },
+      {
+        "word": "thấy",
+        "seg_start": 3.14,
+        "seg_end": 3.38,
+        "master_start": 50.02,
+        "master_end": 50.26
+      },
+      {
+        "word": "mỗi",
+        "seg_start": 3.38,
+        "seg_end": 3.66,
+        "master_start": 50.26,
+        "master_end": 50.54
+      },
+      {
+        "word": "lưng",
+        "seg_start": 3.66,
+        "seg_end": 3.9,
+        "master_start": 50.54,
+        "master_end": 50.78
+      },
+      {
+        "word": "rồi",
+        "seg_start": 3.9,
+        "seg_end": 4.06,
+        "master_start": 50.78,
+        "master_end": 50.94
+      },
+      {
+        "word": "nè.",
+        "seg_start": 4.06,
+        "seg_end": 4.28,
+        "master_start": 50.94,
+        "master_end": 51.16
+      }
+    ]
+  },
+  {
+    "seg_id": 14,
+    "seg_start": 51.41,
+    "seg_end": 55.45,
+    "seg_dur": 4.04,
+    "text": "Cái chuyến xe đêm là một câu chuyện có chuyến vui, có chuyến mật",
+    "words": [
+      {
+        "word": "Cái",
+        "seg_start": 0.0,
+        "seg_end": 0.18,
+        "master_start": 51.41,
+        "master_end": 51.59
+      },
+      {
+        "word": "chuyến",
+        "seg_start": 0.18,
+        "seg_end": 0.38,
+        "master_start": 51.59,
+        "master_end": 51.79
+      },
+      {
+        "word": "xe",
+        "seg_start": 0.38,
+        "seg_end": 0.58,
+        "master_start": 51.79,
+        "master_end": 51.99
+      },
+      {
+        "word": "đêm",
+        "seg_start": 0.58,
+        "seg_end": 0.84,
+        "master_start": 51.99,
+        "master_end": 52.25
+      },
+      {
+        "word": "là",
+        "seg_start": 0.84,
+        "seg_end": 1.02,
+        "master_start": 52.25,
+        "master_end": 52.43
+      },
+      {
+        "word": "một",
+        "seg_start": 1.02,
+        "seg_end": 1.2,
+        "master_start": 52.43,
+        "master_end": 52.61
+      },
+      {
+        "word": "câu",
+        "seg_start": 1.2,
+        "seg_end": 1.48,
+        "master_start": 52.61,
+        "master_end": 52.89
+      },
+      {
+        "word": "chuyện",
+        "seg_start": 1.48,
+        "seg_end": 1.76,
+        "master_start": 52.89,
+        "master_end": 53.17
+      },
+      {
+        "word": "có",
+        "seg_start": 1.76,
+        "seg_end": 2.16,
+        "master_start": 53.17,
+        "master_end": 53.57
+      },
+      {
+        "word": "chuyến",
+        "seg_start": 2.16,
+        "seg_end": 2.44,
+        "master_start": 53.57,
+        "master_end": 53.85
+      },
+      {
+        "word": "vui,",
+        "seg_start": 2.44,
+        "seg_end": 2.76,
+        "master_start": 53.85,
+        "master_end": 54.17
+      },
+      {
+        "word": "có",
+        "seg_start": 3.08,
+        "seg_end": 3.28,
+        "master_start": 54.49,
+        "master_end": 54.69
+      },
+      {
+        "word": "chuyến",
+        "seg_start": 3.28,
+        "seg_end": 3.6,
+        "master_start": 54.69,
+        "master_end": 55.01
+      },
+      {
+        "word": "mật",
+        "seg_start": 3.6,
+        "seg_end": 3.84,
+        "master_start": 55.01,
+        "master_end": 55.25
+      }
+    ]
+  },
+  {
+    "seg_id": 15,
+    "seg_start": 55.45,
+    "seg_end": 59.76,
+    "seg_dur": 4.31,
+    "text": "nhưng mà cứ nhìn động hồ kí lo mét nhảy, đều là lại có động lực kể tiếp",
+    "words": [
+      {
+        "word": "nhưng",
+        "seg_start": 0.0,
+        "seg_end": 0.34,
+        "master_start": 55.45,
+        "master_end": 55.79
+      },
+      {
+        "word": "mà",
+        "seg_start": 0.34,
+        "seg_end": 0.6,
+        "master_start": 55.79,
+        "master_end": 56.05
+      },
+      {
+        "word": "cứ",
+        "seg_start": 0.6,
+        "seg_end": 0.8,
+        "master_start": 56.05,
+        "master_end": 56.25
+      },
+      {
+        "word": "nhìn",
+        "seg_start": 0.8,
+        "seg_end": 1.04,
+        "master_start": 56.25,
+        "master_end": 56.49
+      },
+      {
+        "word": "động",
+        "seg_start": 1.04,
+        "seg_end": 1.16,
+        "master_start": 56.49,
+        "master_end": 56.61
+      },
+      {
+        "word": "hồ",
+        "seg_start": 1.16,
+        "seg_end": 1.42,
+        "master_start": 56.61,
+        "master_end": 56.87
+      },
+      {
+        "word": "kí",
+        "seg_start": 1.42,
+        "seg_end": 1.66,
+        "master_start": 56.87,
+        "master_end": 57.11
+      },
+      {
+        "word": "lo",
+        "seg_start": 1.66,
+        "seg_end": 1.78,
+        "master_start": 57.11,
+        "master_end": 57.23
+      },
+      {
+        "word": "mét",
+        "seg_start": 1.78,
+        "seg_end": 2.06,
+        "master_start": 57.23,
+        "master_end": 57.51
+      },
+      {
+        "word": "nhảy,",
+        "seg_start": 2.06,
+        "seg_end": 2.44,
+        "master_start": 57.51,
+        "master_end": 57.89
+      },
+      {
+        "word": "đều",
+        "seg_start": 2.44,
+        "seg_end": 2.7,
+        "master_start": 57.89,
+        "master_end": 58.15
+      },
+      {
+        "word": "là",
+        "seg_start": 2.7,
+        "seg_end": 2.88,
+        "master_start": 58.15,
+        "master_end": 58.33
+      },
+      {
+        "word": "lại",
+        "seg_start": 2.88,
+        "seg_end": 3.06,
+        "master_start": 58.33,
+        "master_end": 58.51
+      },
+      {
+        "word": "có",
+        "seg_start": 3.06,
+        "seg_end": 3.2,
+        "master_start": 58.51,
+        "master_end": 58.65
+      },
+      {
+        "word": "động",
+        "seg_start": 3.2,
+        "seg_end": 3.34,
+        "master_start": 58.65,
+        "master_end": 58.79
+      },
+      {
+        "word": "lực",
+        "seg_start": 3.34,
+        "seg_end": 3.62,
+        "master_start": 58.79,
+        "master_end": 59.07
+      },
+      {
+        "word": "kể",
+        "seg_start": 3.62,
+        "seg_end": 3.88,
+        "master_start": 59.07,
+        "master_end": 59.33
+      },
+      {
+        "word": "tiếp",
+        "seg_start": 3.88,
+        "seg_end": 4.08,
+        "master_start": 59.33,
+        "master_end": 59.53
+      }
+    ]
+  },
+  {
+    "seg_id": 16,
+    "seg_start": 59.76,
+    "seg_end": 64.87,
+    "seg_dur": 5.11,
+    "text": "A đây là kết quả xa 1 ngày kể cuốt, tổng kết được gần 500 cần, qua ấm luôn.",
+    "words": [
+      {
+        "word": "A",
+        "seg_start": 0.0,
+        "seg_end": 0.18,
+        "master_start": 59.76,
+        "master_end": 59.94
+      },
+      {
+        "word": "đây",
+        "seg_start": 0.18,
+        "seg_end": 0.3,
+        "master_start": 59.94,
+        "master_end": 60.06
+      },
+      {
+        "word": "là",
+        "seg_start": 0.3,
+        "seg_end": 0.48,
+        "master_start": 60.06,
+        "master_end": 60.24
+      },
+      {
+        "word": "kết",
+        "seg_start": 0.48,
+        "seg_end": 0.7,
+        "master_start": 60.24,
+        "master_end": 60.46
+      },
+      {
+        "word": "quả",
+        "seg_start": 0.7,
+        "seg_end": 0.92,
+        "master_start": 60.46,
+        "master_end": 60.68
+      },
+      {
+        "word": "xa",
+        "seg_start": 0.92,
+        "seg_end": 1.14,
+        "master_start": 60.68,
+        "master_end": 60.9
+      },
+      {
+        "word": "1",
+        "seg_start": 1.14,
+        "seg_end": 1.32,
+        "master_start": 60.9,
+        "master_end": 61.08
+      },
+      {
+        "word": "ngày",
+        "seg_start": 1.32,
+        "seg_end": 1.52,
+        "master_start": 61.08,
+        "master_end": 61.28
+      },
+      {
+        "word": "kể",
+        "seg_start": 1.52,
+        "seg_end": 1.76,
+        "master_start": 61.28,
+        "master_end": 61.52
+      },
+      {
+        "word": "cuốt,",
+        "seg_start": 1.76,
+        "seg_end": 2.06,
+        "master_start": 61.52,
+        "master_end": 61.82
+      },
+      {
+        "word": "tổng",
+        "seg_start": 2.42,
+        "seg_end": 2.58,
+        "master_start": 62.18,
+        "master_end": 62.34
+      },
+      {
+        "word": "kết",
+        "seg_start": 2.58,
+        "seg_end": 2.76,
+        "master_start": 62.34,
+        "master_end": 62.52
+      },
+      {
+        "word": "được",
+        "seg_start": 2.76,
+        "seg_end": 2.96,
+        "master_start": 62.52,
+        "master_end": 62.72
+      },
+      {
+        "word": "gần",
+        "seg_start": 2.96,
+        "seg_end": 3.22,
+        "master_start": 62.72,
+        "master_end": 62.98
+      },
+      {
+        "word": "500",
+        "seg_start": 3.22,
+        "seg_end": 3.48,
+        "master_start": 62.98,
+        "master_end": 63.24
+      },
+      {
+        "word": "cần,",
+        "seg_start": 3.48,
+        "seg_end": 3.94,
+        "master_start": 63.24,
+        "master_end": 63.7
+      },
+      {
+        "word": "qua",
+        "seg_start": 4.26,
+        "seg_end": 4.34,
+        "master_start": 64.02,
+        "master_end": 64.1
+      },
+      {
+        "word": "ấm",
+        "seg_start": 4.34,
+        "seg_end": 4.6,
+        "master_start": 64.1,
+        "master_end": 64.36
+      },
+      {
+        "word": "luôn.",
+        "seg_start": 4.6,
+        "seg_end": 4.76,
+        "master_start": 64.36,
+        "master_end": 64.52
+      }
+    ]
+  },
+  {
+    "seg_id": 17,
+    "seg_start": 64.87,
+    "seg_end": 68.83,
+    "seg_dur": 3.96,
+    "text": "Tụi chạy cái ngày công nhận vất vả, nhưng mà cũng rất đáng từ hào nha.",
+    "words": [
+      {
+        "word": "Tụi",
+        "seg_start": 0.0,
+        "seg_end": 0.2,
+        "master_start": 64.87,
+        "master_end": 65.07
+      },
+      {
+        "word": "chạy",
+        "seg_start": 0.2,
+        "seg_end": 0.4,
+        "master_start": 65.07,
+        "master_end": 65.27
+      },
+      {
+        "word": "cái",
+        "seg_start": 0.4,
+        "seg_end": 0.5,
+        "master_start": 65.27,
+        "master_end": 65.37
+      },
+      {
+        "word": "ngày",
+        "seg_start": 0.5,
+        "seg_end": 0.64,
+        "master_start": 65.37,
+        "master_end": 65.51
+      },
+      {
+        "word": "công",
+        "seg_start": 0.64,
+        "seg_end": 0.84,
+        "master_start": 65.51,
+        "master_end": 65.71
+      },
+      {
+        "word": "nhận",
+        "seg_start": 0.84,
+        "seg_end": 1.08,
+        "master_start": 65.71,
+        "master_end": 65.95
+      },
+      {
+        "word": "vất",
+        "seg_start": 1.08,
+        "seg_end": 1.28,
+        "master_start": 65.95,
+        "master_end": 66.15
+      },
+      {
+        "word": "vả,",
+        "seg_start": 1.28,
+        "seg_end": 1.58,
+        "master_start": 66.15,
+        "master_end": 66.45
+      },
+      {
+        "word": "nhưng",
+        "seg_start": 1.92,
+        "seg_end": 2.1,
+        "master_start": 66.79,
+        "master_end": 66.97
+      },
+      {
+        "word": "mà",
+        "seg_start": 2.1,
+        "seg_end": 2.32,
+        "master_start": 66.97,
+        "master_end": 67.19
+      },
+      {
+        "word": "cũng",
+        "seg_start": 2.32,
+        "seg_end": 2.5,
+        "master_start": 67.19,
+        "master_end": 67.37
+      },
+      {
+        "word": "rất",
+        "seg_start": 2.5,
+        "seg_end": 2.7,
+        "master_start": 67.37,
+        "master_end": 67.57
+      },
+      {
+        "word": "đáng",
+        "seg_start": 2.7,
+        "seg_end": 2.98,
+        "master_start": 67.57,
+        "master_end": 67.85
+      },
+      {
+        "word": "từ",
+        "seg_start": 2.98,
+        "seg_end": 3.14,
+        "master_start": 67.85,
+        "master_end": 68.01
+      },
+      {
+        "word": "hào",
+        "seg_start": 3.14,
+        "seg_end": 3.46,
+        "master_start": 68.01,
+        "master_end": 68.33
+      },
+      {
+        "word": "nha.",
+        "seg_start": 3.46,
+        "seg_end": 3.7,
+        "master_start": 68.33,
+        "master_end": 68.57
+      }
+    ]
+  },
+  {
+    "seg_id": 18,
+    "seg_start": 68.83,
+    "seg_end": 73.85,
+    "seg_dur": 5.02,
+    "text": "Ông Anh em thì sao? Một ngày kể được bao nhiêu lúa Còn mình bước với nhà",
+    "words": [
+      {
+        "word": "Ông",
+        "seg_start": 0.0,
+        "seg_end": 0.28,
+        "master_start": 68.83,
+        "master_end": 69.11
+      },
+      {
+        "word": "Anh",
+        "seg_start": 0.28,
+        "seg_end": 0.36,
+        "master_start": 69.11,
+        "master_end": 69.19
+      },
+      {
+        "word": "em",
+        "seg_start": 0.36,
+        "seg_end": 0.52,
+        "master_start": 69.19,
+        "master_end": 69.35
+      },
+      {
+        "word": "thì",
+        "seg_start": 0.52,
+        "seg_end": 0.68,
+        "master_start": 69.35,
+        "master_end": 69.51
+      },
+      {
+        "word": "sao?",
+        "seg_start": 0.68,
+        "seg_end": 1.04,
+        "master_start": 69.51,
+        "master_end": 69.87
+      },
+      {
+        "word": "Một",
+        "seg_start": 1.44,
+        "seg_end": 1.72,
+        "master_start": 70.27,
+        "master_end": 70.55
+      },
+      {
+        "word": "ngày",
+        "seg_start": 1.72,
+        "seg_end": 1.92,
+        "master_start": 70.55,
+        "master_end": 70.75
+      },
+      {
+        "word": "kể",
+        "seg_start": 1.92,
+        "seg_end": 2.16,
+        "master_start": 70.75,
+        "master_end": 70.99
+      },
+      {
+        "word": "được",
+        "seg_start": 2.16,
+        "seg_end": 2.36,
+        "master_start": 70.99,
+        "master_end": 71.19
+      },
+      {
+        "word": "bao",
+        "seg_start": 2.36,
+        "seg_end": 2.58,
+        "master_start": 71.19,
+        "master_end": 71.41
+      },
+      {
+        "word": "nhiêu",
+        "seg_start": 2.58,
+        "seg_end": 2.88,
+        "master_start": 71.41,
+        "master_end": 71.71
+      },
+      {
+        "word": "lúa",
+        "seg_start": 2.88,
+        "seg_end": 3.2,
+        "master_start": 71.71,
+        "master_end": 72.03
+      },
+      {
+        "word": "Còn",
+        "seg_start": 3.2,
+        "seg_end": 3.7,
+        "master_start": 72.03,
+        "master_end": 72.53
+      },
+      {
+        "word": "mình",
+        "seg_start": 3.7,
+        "seg_end": 3.82,
+        "master_start": 72.53,
+        "master_end": 72.65
+      },
+      {
+        "word": "bước",
+        "seg_start": 3.82,
+        "seg_end": 4.38,
+        "master_start": 72.65,
+        "master_end": 73.21
+      },
+      {
+        "word": "với",
+        "seg_start": 4.38,
+        "seg_end": 4.48,
+        "master_start": 73.21,
+        "master_end": 73.31
+      },
+      {
+        "word": "nhà",
+        "seg_start": 4.48,
+        "seg_end": 4.7,
+        "master_start": 73.31,
+        "master_end": 73.53
+      }
+    ]
+  },
+  {
+    "seg_id": 19,
+    "seg_start": 73.85,
+    "seg_end": 78.03,
+    "seg_dur": 4.18,
+    "text": "Ưỡ thả cho mình một tim và follow-cân để đóng xem tập tiếp theo nhé",
+    "words": [
+      {
+        "word": "Ưỡ",
+        "seg_start": 0.0,
+        "seg_end": 0.22,
+        "master_start": 73.85,
+        "master_end": 74.07
+      },
+      {
+        "word": "thả",
+        "seg_start": 0.22,
+        "seg_end": 0.44,
+        "master_start": 74.07,
+        "master_end": 74.29
+      },
+      {
+        "word": "cho",
+        "seg_start": 0.44,
+        "seg_end": 0.58,
+        "master_start": 74.29,
+        "master_end": 74.43
+      },
+      {
+        "word": "mình",
+        "seg_start": 0.58,
+        "seg_end": 0.76,
+        "master_start": 74.43,
+        "master_end": 74.61
+      },
+      {
+        "word": "một",
+        "seg_start": 0.76,
+        "seg_end": 0.96,
+        "master_start": 74.61,
+        "master_end": 74.81
+      },
+      {
+        "word": "tim",
+        "seg_start": 0.96,
+        "seg_end": 1.32,
+        "master_start": 74.81,
+        "master_end": 75.17
+      },
+      {
+        "word": "và",
+        "seg_start": 1.32,
+        "seg_end": 1.76,
+        "master_start": 75.17,
+        "master_end": 75.61
+      },
+      {
+        "word": "follow",
+        "seg_start": 1.76,
+        "seg_end": 2.08,
+        "master_start": 75.61,
+        "master_end": 75.93
+      },
+      {
+        "word": "-cân",
+        "seg_start": 2.08,
+        "seg_end": 2.46,
+        "master_start": 75.93,
+        "master_end": 76.31
+      },
+      {
+        "word": "để",
+        "seg_start": 2.46,
+        "seg_end": 2.64,
+        "master_start": 76.31,
+        "master_end": 76.49
+      },
+      {
+        "word": "đóng",
+        "seg_start": 2.64,
+        "seg_end": 2.92,
+        "master_start": 76.49,
+        "master_end": 76.77
+      },
+      {
+        "word": "xem",
+        "seg_start": 2.92,
+        "seg_end": 3.06,
+        "master_start": 76.77,
+        "master_end": 76.91
+      },
+      {
+        "word": "tập",
+        "seg_start": 3.06,
+        "seg_end": 3.32,
+        "master_start": 76.91,
+        "master_end": 77.17
+      },
+      {
+        "word": "tiếp",
+        "seg_start": 3.32,
+        "seg_end": 3.44,
+        "master_start": 77.17,
+        "master_end": 77.29
+      },
+      {
+        "word": "theo",
+        "seg_start": 3.44,
+        "seg_end": 3.66,
+        "master_start": 77.29,
+        "master_end": 77.51
+      },
+      {
+        "word": "nhé",
+        "seg_start": 3.66,
+        "seg_end": 3.94,
+        "master_start": 77.51,
+        "master_end": 77.79
+      }
+    ]
+  }
+]

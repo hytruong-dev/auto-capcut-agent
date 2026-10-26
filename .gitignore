@@ -1,0 +1,113 @@
+# ==============================================================================
+# .gitignore - auto-capcut-agent
+# ==============================================================================
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.venv/
+venv/
+ENV/
+env/
+
+# --- Node / JavaScript (mcp-server / tools) ---
+node_modules/
+**/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-store/
+
+# --- OS & Editor artifacts ---
+.DS_Store
+Thumbs.db
+ehthumbs.db
+[Dd]esktop.ini
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+.cursor/
+
+# --- Video & Raw Media Files (CRITICAL: Files > 100MB violate GitHub limits) ---
+*.mp4
+*.MP4
+*.mov
+*.MOV
+*.avi
+*.AVI
+*.mkv
+*.MKV
+*.wmv
+*.flv
+*.webm
+*.m4v
+
+# Raw footage directory (keep directory via .gitkeep)
+raw_footage/*
+!raw_footage/.gitkeep
+
+# Reference video clips
+references/*
+!references/.gitkeep
+!references/*.md
+
+# --- Processed outputs, rendered videos, temp audio & cache ---
+processed/**/*.mp4
+processed/**/*.wav
+processed/**/*.mp3
+processed/**/*.m4a
+processed/**/*.aac
+processed/**/*.jpg
+processed/**/*.png
+processed/temp_*
+processed/preview_*
+processed/*BACKUP*
+processed/deep_effect_analysis/
+processed/snapshots/
+processed/keyframes/
+processed/qa_frames*/
+processed/voiceover/
+processed/voiceover_omnivoice_176k/
+processed/voiceover_xanhsm_176k/
+!processed/.gitkeep
+
+# --- Scratch & temporary files ---
+test*.*
+_tmp*
+temp_*
+*.tmp
+*.bak
+*.locked
+*.log
+gtts_*
+seg*.mp3
+
+# --- Archived outdated versions ---
+_archive/
+
+# --- Environment & Credentials ---
+.env
+.env.*
+*.key
+*.pem

@@ -1,0 +1,86 @@
+{
+  "total_training_sessions": 12,
+  "do_not_repeat_mistakes": [
+    "Không cắt sát chữ cuối cùng của câu nói tiếng Việt (phải chừa tối thiểu 220ms)",
+    "Không đặt chữ phụ đề thấp hơn Y = -0.65 vì bị che bởi caption và thanh tương tác TikTok",
+    "Không chèn chuyển cảnh loè loẹt giữa hai câu đang nói liền mạch một ý",
+    "Không mở sẵn project trên Timeline CapCut khi AI đang ghi draft_content.json (phải để ở màn hình Home ngoài cùng)",
+    "Khi xử lý video DJI gắn dọc lưu ngang, không được quên rotate 90 độ CW (transpose=1)",
+    "Khi đặt Callout Box ở cuối video, bắt buộc đặt ở nửa trên khung hình (Alignment 8, Y ≈ 0.20 -> 0.35) để không đè lên phụ đề ở Safe Zone đáy màn hình",
+    "Không bao giờ nội suy thời gian phụ đề theo tỷ lệ độ dài ký tự; BẮT BUỘC dùng word-level timestamps thực tế từ audio/Whisper để tránh phụ đề bị trễ so với giọng nói",
+    "Phụ đề dạng Short Phrase (2-4 từ) highlight theo thời gian thực (Dynamic Karaoke): giữ nguyên cụm từ ngắn trên màn hình, khi giọng đọc phát âm đến từ nào thì từ đó tự động chuyển sang màu Xanh Cyan (#66FFFF), các từ còn lại giữ màu Vàng Chanh (#F0FF00)",
+    "Tuyệt đối không dùng chuỗi placeholder (##_draftpath_placeholder_...##) trong draft_content.json; mọi đường dẫn media bắt buộc dùng đường dẫn tuyệt đối với dấu gạch chéo xuôi (/) trỏ đến file thực tế trên ổ cứng",
+    "Khắc phục triệt để lỗi 'Không thể dùng dự án do đường dẫn của dự án không đúng' (draft_unconventional_path_cannot_open): Trong CapCut 9.6+, DraftLoadVerifier::check_app_support bắt buộc: app_id = 359289 (CapCut PC Global, KHÔNG DÙNG 359284 của Jianying), app_source = 'cc', app_version = '9.6.0', new_version = '189.0.0', version = 360000 cùng device_id và mac_address máy chủ. Các file root_meta_info.json và draft_meta_info.json bắt buộc dùng đường dẫn Windows backslashes (\\), đặt toàn bộ tm_draft_cloud_entry_id: -1 và dọn sạch xung đột rác trong cloud_draft_upload_path_cfg.ini và AutoBackupStatus.json thông qua scripts/capcut_draft_manager.py.",
+    "Tuyệt đối không được lược bỏ bớt từ trong câu thoại khi tạo phụ đề Dynamic Word Karaoke; bắt buộc giữ đầy đủ toàn bộ từ và chia thành các cụm từ ngắn tự nhiên (2-4 từ/cụm). Bắt buộc dùng Whisper bóc tách word timestamps với initial_prompt của câu để đảm bảo từng từ sáng màu Xanh Cyan (#66FFFF) khớp chính xác 100% từng mili-giây với khẩu hình và âm thanh thực tế.",
+    "Không dùng MarginV 220 cho phụ đề ASS 1080x1920 (thực tế ra Y≈-0.73, bị thanh caption TikTok che); chuẩn là MarginV 550 (Y≈-0.38).",
+    "Whisper đôi khi lặp lại nguyên câu 2 lần (hallucination); luôn dùng file word-timestamps đã làm sạch (cleaned_*) hoặc để brain_karaoke_ass.py tự loại phần lặp, không để phụ đề hiện câu bị lặp.",
+    "Ghi font path tương đối (portable_trained_brain/portable_assets/fonts/Oswald-Bold.ttf) vào draft CapCut khiến CapCut 9.6 tự đóng ngay khi mở dự án",
+    "Ghi text material voi type='none', fonts=[] va style khong co range -> CapCut tu dong dong khi vao giao dien edit (video+audio van mo duoc)",
+    "Cong 0.1s vao cuoi moi cum sub lam sub truoc de len sub sau (139 cho chong), CapCut tu tach thanh 2 track",
+    "Dat sub dung moc Whisper tho -> trong CapCut sub tre 0.1-0.2s so voi voice",
+    "Khong chay brain_preflight_qa.py truoc khi ban giao; de cum sub vuot 26 ky tu gay tran man hinh; quen aresample=48000 lam ffmpeg nhay 192kHz",
+    "De subdirs[0] giu timeline_id cu gay lech ID giua draft_content va Timelines folder; thieu draft_cover.jpg lam thumbnail den va CapCut khong load duoc project."
+  ],
+  "session_logs": [
+    {
+      "timestamp": "2026-10-21T10:00:00",
+      "project": "Vlog_XanhSM_1Ngay_ChayXe_POV",
+      "learned_note": "Phân tích 84 segments từ video mẫu GrabFood 11H (Download.mp4). Xác lập công thức Hook 2 tầng Đỏ-Vàng 3D, nhịp cắt 2.7s và phụ đề in hoa highlight từ khóa."
+    },
+    {
+      "timestamp": "2026-10-21T17:50:00",
+      "project": "Vlog_XanhSM_NightShift_v2",
+      "learned_note": "Hoàn thiện dựng video XanhSM Night Shift từ 3 clip DJI. Khắc phục lỗi hiển thị dự án trong CapCut Pro bằng cách tiêm trực tiếp 4 track (Video, BGM, 19 Subtitles, Hook Title) và cập nhật root_meta_info.json."
+    },
+    {
+      "timestamp": "2026-10-22T10:52:00",
+      "project": "Vlog_XanhSM_Storytelling_POV",
+      "learned_note": "Hoàn thiện hệ thống sản xuất Vlog XanhSM 1 Ngày Thực Tế (82s, 19 câu thoại). Tạo master voiceover chuẩn -14 LUFS, bóc tách timestamp từng phân đoạn, xử lý vị trí Outro Callout Box lên nửa trên màn hình tránh che lấp phụ đề, xuất bản song song CapCut Pro Draft và video hoàn chỉnh qua FFmpeg."
+    },
+    {
+      "timestamp": "2026-10-23T11:20:00",
+      "project": "Vlog_XanhSM_Storytelling_POV & Template_Trend_Pro & Vlog_XanhSM_1Ngay_ChayXe_POV",
+      "learned_note": "Phân tích dịch ngược binary VECreator.dll của CapCut 9.6 Pro phát hiện chính xác nguyên nhân gốc của lỗi draft_unconventional_path_cannot_open xuất phát từ DraftLoadVerifier::check_app_support (do app_id 359284 của Jianying và thiếu device_id/MAC máy chủ) cùng xung đột AutoBackup cloud_draft_upload_path_cfg.ini. Chuẩn hóa tự động toàn diện trong scripts/capcut_draft_manager.py và sửa triệt để cả 3 dự án mở trực tiếp vào timeline editor."
+    },
+    {
+      "timestamp": "2026-10-23T14:50:00",
+      "project": "Vlog_XanhSM_1Ngay_176k",
+      "learned_note": "Khắc phục triệt để hiện tượng lệch nhịp giữa chữ highlight màu xanh (#66FFFF) và giọng nói thực tế. Không lược bỏ từ trong câu thoại; bảo toàn nguyên văn và phân thành 87 short phrases (2-4 từ/cụm). Dùng Whisper base với initial_prompt bóc tách word timestamps thực tế, ánh xạ 1:1 từng từ, kéo dài highlight từ hiện tại đến đầu từ kế tiếp để triệt tiêu độ trễ và chớp tắt."
+    },
+    {
+      "timestamp": "2026-10-23T15:44:19",
+      "project": "Hệ thống Bộ Não (sửa lỗi quên trí nhớ)",
+      "learned_note": "Sửa lỗi Antigravity quên trí nhớ khi mở chat mới: thêm GEMINI.md/AGENTS.md, rule trigger always_on ở .agent/.agents/.antigravity, lưu trữ memory/ lỗi thời, thêm load_brain.py, brain_record_lesson.py, brain_karaoke_ass.py.. Quy tắc: Phụ đề ASS 1080x1920 Alignment 2: dùng MarginV 550 để tâm chữ nằm đúng Safe Zone Y≈-0.38 (đã đo pixel). MarginV 220 trong các script cũ thực tế ra Y≈-0.73 (quá thấp). Sinh phụ đề mới bằng scripts/brain_karaoke_ass.py.. Cấm lặp lại: Không dùng MarginV 220 cho phụ đề ASS 1080x1920 (thực tế ra Y≈-0.73, bị thanh caption TikTok che); chuẩn là MarginV 550 (Y≈-0.38). | Whisper đôi khi lặp lại nguyên câu 2 lần (hallucination); luôn dùng file word-timestamps đã làm sạch (cleaned_*) hoặc để brain_karaoke_ass.py tự loại phần lặp, không để phụ đề hiện câu bị lặp."
+    },
+    {
+      "timestamp": "2026-10-23T16:24:19",
+      "project": "Vlog_XanhSM_1Ngay_176k_Long",
+      "learned_note": "Quy tắc: CapCut draft: font.path trong styles[] của materials.texts và font_path PHẢI là đường dẫn TUYỆT ĐỐI tồn tại (C:/Users/PC/AppData/Local/CapCut/User Data/Cache/effect/7182504807289065985/0a5333de6f4d592cb2d2390d68b31efb/Oswald-Bold.ttf). capcut_draft_manager.sanitize_font_paths tự chuẩn hóa; validate_project kiểm tra.. Cấm lặp lại: Ghi font path tương đối (portable_trained_brain/portable_assets/fonts/Oswald-Bold.ttf) vào draft CapCut khiến CapCut 9.6 tự đóng ngay khi mở dự án"
+    },
+    {
+      "timestamp": "2026-10-23T16:35:11",
+      "project": "Vlog_XanhSM_1Ngay_176k_Long",
+      "learned_note": "Quy tắc: CapCut 9.6: moi material text phai co type='text', fonts=[{resource_id,path,title...}], font_title ten font, va styles[].range=[0,len UTF-16]. sanitize_font_paths() trong capcut_draft_manager.py tu dong chuan hoa. Khi nghi crash: bisect video/audio/text bang TEST_A/B/C.. Cấm lặp lại: Ghi text material voi type='none', fonts=[] va style khong co range -> CapCut tu dong dong khi vao giao dien edit (video+audio van mo duoc)"
+    },
+    {
+      "timestamp": "2026-10-23T16:42:58",
+      "project": "Vlog_XanhSM_1Ngay_176k_Long",
+      "learned_note": "Quy tắc: Phu de karaoke: cuoi moi cum phai bi cat tai (start cum ke tiep - 20ms); khong dung +0.1s dem cung. Sau khi deploy phai kiem tra 0 overlap giua cac segment sub.. Cấm lặp lại: Cong 0.1s vao cuoi moi cum sub lam sub truoc de len sub sau (139 cho chong), CapCut tu tach thanh 2 track"
+    },
+    {
+      "timestamp": "2026-10-23T16:58:03",
+      "project": "Vlog_XanhSM_1Ngay_176k_Long",
+      "learned_note": "Quy tắc: Sub CapCut phai hien SOM hon voice 0.15s (SUB_LEAD trong deploy_capcut_176k_long.py). Nguoi dung do thuc te sub tre 0.1-0.2s so voi voice.. Cấm lặp lại: Dat sub dung moc Whisper tho -> trong CapCut sub tre 0.1-0.2s so voi voice"
+    },
+    {
+      "timestamp": "2026-10-26T17:23:06",
+      "project": "Master_Blueprint_v2.0",
+      "learned_note": "Quy tắc: Master Blueprint v2.0: Pre-flight QA tu dong (brain_preflight_qa.py), sub Elastic Micro-Pop <=26 ky tu, khoa ar 48000 am thanh, CapCut Keyframes Zoom va J-Cut 0.15s. Cấm lặp lại: Khong chay brain_preflight_qa.py truoc khi ban giao; de cum sub vuot 26 ky tu gay tran man hinh; quen aresample=48000 lam ffmpeg nhay 192kHz"
+    },
+    {
+      "timestamp": "2026-10-26T17:48:27",
+      "project": "vlog_demo",
+      "learned_note": "Quy tắc: CapCut 9.6 Pro Multi-Timeline: Tat ca cac file root_meta_info, draft_meta_info, draft_content (id), Timelines/<guid>, project.json (id, main_timeline_id) va timeline_layout.json (timelineIds) BAT BUOC dong nhat 100% ID timeline. Luon copy draft_cover.jpg va khai bao draft_timeline_materials_size > 0.. Cấm lặp lại: De subdirs[0] giu timeline_id cu gay lech ID giua draft_content va Timelines folder; thieu draft_cover.jpg lam thumbnail den va CapCut khong load duoc project."
+    }
+  ]
+}

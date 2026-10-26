@@ -1,0 +1,20 @@
+{
+  "trends": [
+    {
+      "trend_id": "fast_hook_storytelling_2026",
+      "name": "Fast Hook & Dynamic Keyframe Zoom",
+      "avg_shot_length_sec": 3.2,
+      "hook_structure": "0-2s: Câu hỏi gây tò mò + Zoom 1.0->1.18 + Text Pop-up giữa màn hình; 2-5s: Chuyển cảnh Whip Pan vào nội dung chính",
+      "subtitle_style": "Word-by-word highlight, tối đa 4-6 chữ mỗi dòng, từ khóa tô màu #FFEE00 hoặc #00FF88",
+      "sfx_pattern": "Whoosh khi đổi góc zoom, Pop khi hiện từ khóa, Riser trước đoạn kết luận"
+    },
+    {
+      "trend_id": "pov_ev_vlog_nightshift",
+      "name": "POV Vlog Xe Điện Đêm Sài Gòn (XanhSM Style)",
+      "avg_shot_length_sec": 2.8,
+      "hook_structure": "0-5s: Tiêu đề 2 tầng Đỏ (#FF3333) + Vàng (#FFEE00) ở Y=0.45->0.55; Nhịp cắt đường phố ban ngày -> cắt gấp sang cảnh đêm tĩnh lặng",
+      "subtitle_style": "100% IN HOA, font Arial Bold / Montserrat, viền đen dày, đổ bóng, vị trí an toàn Y=-0.38, highlight vàng các từ khóa 'ĐƠN MỚI NỔ', 'NGHỀ MÌNH ĐÃ CHỌN'",
+      "sfx_pattern": "Whoosh chuyển cảnh hook, Ding highlight, âm thanh môi trường đường phố đêm hạ -18dB kết hợp nhạc nền LoFi hạ -16dB"
+    }
+  ]
+}

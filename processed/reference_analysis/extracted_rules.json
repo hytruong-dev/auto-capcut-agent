@@ -1,0 +1,27 @@
+{
+  "source": "references/Download.mp4",
+  "title": "Thử thách chạy GrabFood 11 tiếng thực tế",
+  "pacing": {
+    "wpm": 190.9,
+    "avg_shot_length_sec": 2.71,
+    "rule": "Cắt bỏ toàn bộ khoảng lặng > 0.15s, nhịp nói dồn dập, không để video có 1 giây 'chết'"
+  },
+  "hook_formula": {
+    "title_layout": "Tiêu đề 2 dòng đặt tại 1/3 trên màn hình: Dòng 1 Đỏ Cam viền trắng, Dòng 2 Vàng viền đen 3D nổi khối",
+    "hook_script_template": "Thử thách [Hành động] [Thời gian] thực sự kiếm được bao nhiêu? Hôm nay mình test thực tế luôn! Ai thắc mắc xem hết video này nha!"
+  },
+  "subtitle_styling": {
+    "position_y": -0.4,
+    "font_casing": "IN HOA TOÀN BỘ (UPPERCASE)",
+    "base_color": "#FFFFFF",
+    "border_color": "#000000",
+    "border_width_px": 8,
+    "highlight_color": "#66FFFF",
+    "highlight_usage": "Đổi màu Xanh Dương Neon hoặc Vàng cho từ khóa hành động/con số ngay khi đọc đến từ đó (Word-level pop animation)"
+  },
+  "b_roll_and_visual_retention": {
+    "cut_in_face": "Cứ 3-5s chèn 1 shot quay cận mặt tài xế uống nước, nói chuyện hoặc biểu cảm mệt/vui",
+    "cut_in_phone": "Chèn shot cận cảnh màn hình điện thoại (app nổ đơn, bản đồ chỉ đường, số tiền cộng vào ví)",
+    "callout_box": "Khung chat trắng bo góc kèm icon Trái tim, Hoa, Like ở góc phải/giữa màn hình để kêu gọi tương tác"
+  }
+}

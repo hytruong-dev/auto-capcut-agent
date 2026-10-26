@@ -1,0 +1,32 @@
+{
+  "sfx_list": [
+    {
+      "id": "whoosh_fast",
+      "file": "public/sfx/whoosh_fast.mp3",
+      "category": "transition",
+      "emotion_or_usage": "Dùng khi chuyển cảnh nhanh, zoom-in đột ngột hoặc khi chữ trượt vào màn hình",
+      "default_volume_db": -12.0
+    },
+    {
+      "id": "pop_bubble",
+      "file": "public/sfx/pop_bubble.mp3",
+      "category": "text_appear",
+      "emotion_or_usage": "Dùng khi xuất hiện từ khóa quan trọng, sticker hoặc hình ảnh minh họa nhỏ",
+      "default_volume_db": -10.0
+    },
+    {
+      "id": "ding_highlight",
+      "file": "public/sfx/ding_highlight.mp3",
+      "category": "emphasis",
+      "emotion_or_usage": "Dùng khi đưa ra kết luận quan trọng, con số ấn tượng hoặc ý tưởng hay trong 5s đầu",
+      "default_volume_db": -11.0
+    },
+    {
+      "id": "riser_tension",
+      "file": "public/sfx/riser_tension.mp3",
+      "category": "buildup",
+      "emotion_or_usage": "Dùng trước đoạn cao trào hoặc trước khi tiết lộ kết quả bất ngờ",
+      "default_volume_db": -14.0
+    }
+  ]
+}

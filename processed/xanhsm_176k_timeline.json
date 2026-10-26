@@ -1,0 +1,356 @@
+{
+  "title": "Vlog 1 Ngày Chạy Xe XanhSM - Tổng Thu 176k",
+  "total_duration": 150.809958,
+  "segments": [
+    {
+      "id": "hook_1",
+      "order": 0,
+      "section": "hook",
+      "text": "Một ngày chạy xe máy điện Xanh SM từ sáng sớm đến đêm muộn thực sự kiếm được bao nhiêu tiền?",
+      "kw": "XANH SM TỪ SÁNG ĐẾN ĐÊM",
+      "file": "C:/QuangHy/editvideo/processed/voiceover_xanhsm_176k/00_hook_1.mp3",
+      "start": 0.0,
+      "duration": 5.818,
+      "end": 5.818
+    },
+    {
+      "id": "hook_2",
+      "order": 0,
+      "section": "hook",
+      "text": "Hôm nay anh em cùng mình cày cuốc thực tế xem tổng thu được bao nhiêu nhé!",
+      "kw": "CÀY THỰC TẾ XEM TỔNG THU",
+      "file": "C:/QuangHy/editvideo/processed/voiceover_xanhsm_176k/01_hook_2.mp3",
+      "start": 5.998,
+      "duration": 4.538,
+      "end": 10.536
+    },
+    {
+      "id": "order1_1",
+      "order": 1,
+      "section": "order1",
+      "text": "Tám giờ ba mươi sáng, mình bắt đầu mở app trực ca.",
+      "kw": "8H30 SÁNG, MỞ APP TRỰC CA",
+      "file": "C:/QuangHy/editvideo/processed/voiceover_xanhsm_176k/02_order1_1.mp3",
+      "start": 10.716,
+      "duration": 4.01,
+      "end": 14.726
+    },
+    {
+      "id": "order1_2",
+      "order": 1,
+      "section": "order1",
+      "text": "Chiếc xe điện VinFast sạc đầy pin từ tối qua, lướt trên đường phố êm ru không một tiếng ồn.",
+      "kw": "XE ĐIỆN VINFAST ÊM RU",
+      "file": "C:/QuangHy/editvideo/processed/voiceover_xanhsm_176k/03_order1_2.mp3",
+      "start": 14.906,
+      "duration": 6.269,
+      "end": 21.175
+    },
+    {
+      "id": "order1_3",
+      "order": 1,
+      "section": "order1",
+      "text": "Vừa bật app lên tầm năm phút là đã nổ đơn mở bát đón bạn sinh viên đi học rồi!",
+      "kw": "NỔ ĐƠN MỞ BÁT ĐÓN KHÁCH",
+      "file": "C:/QuangHy/editvideo/processed/voiceover_xanhsm_176k/04_order1_3.mp3",
+      "start": 21.355,
+      "duration": 5.271,
+      "end": 26.625
+    },
+    {
+      "id": "order1_4",
+      "order": 1,
+      "section": "order1",
+      "text": "Cuốc đầu tiên đầu xuôi đuôi lọt, khách trả đúng mười sáu cành nha anh em!",
+      "kw": "HOÀN THÀNH ĐƠN 1: +16.000Đ",
+      "file": "C:/QuangHy/editvideo/processed/voiceover_xanhsm_176k/05_order1_4.mp3",
+      "start": 26.805,
+      "duration": 4.924,
+      "end": 31.73,
+      "order_complete": {
+        "order_index": 1,
+        "amount": 16000,
+        "amount_str": "+16.000đ",
+        "total": 16000,
+        "total_str": "16.000đ"
+      }
+    },
+    {
+      "id": "order2_1",
+      "order": 2,
+      "section": "order2",
+      "text": "Tiếp tục di chuyển qua khu văn phòng, chuông app lại reo nhận đơn giao tập hồ sơ hỏa tốc.",
+      "kw": "NHẬN ĐƠN GIAO HÀNG HỎA TỐC",
+      "file": "C:/QuangHy/editvideo/processed/voiceover_xanhsm_176k/06_order2_1.mp3",
+      "start": 31.91,
+      "duration": 5.842,
+      "end": 37.752
+    },
+    {
+      "id": "order2_2",
+      "order": 2,
+      "section": "order2",
+      "text": "Giao từ Bình Thạnh sang Quận Nhất, trưa nắng bắt đầu gắt nhưng xe điện không bị phà hơi nóng vào chân.",
+      "kw": "XE ĐIỆN KHÔNG PHÀ HƠI NÓNG",
+      "file": "C:/QuangHy/editvideo/processed/voiceover_xanhsm_176k/07_order2_2.mp3",
+      "start": 37.932,
+      "duration": 6.676,
+      "end": 44.608
+    },
+    {
+      "id": "order2_3",
+      "order": 2,
+      "section": "order2",
+      "text": "Giao xong đơn thứ hai, app báo cộng thêm hai mươi hai cành nữa!",
+      "kw": "HOÀN THÀNH ĐƠN 2: +22.000Đ",
+      "file": "C:/QuangHy/editvideo/processed/voiceover_xanhsm_176k/08_order2_3.mp3",
+      "start": 44.788,
+      "duration": 4.355,
+      "end": 49.143,
+      "order_complete": {
+        "order_index": 2,
+        "amount": 22000,
+        "amount_str": "+22.000đ",
+        "total": 38000,
+        "total_str": "38.000đ"
+      }
+    },
+    {
+      "id": "order3_1",
+      "order": 3,
+      "section": "order3",
+      "text": "Nghỉ ngơi uống vội ly trà đá thì app nổ tiếp cuốc thứ ba.",
+      "kw": "APP NỔ TIẾP CUỐC THỨ 3",
+      "file": "C:/QuangHy/editvideo/processed/voiceover_xanhsm_176k/09_order3_1.mp3",
+      "start": 49.323,
+      "duration": 4.113,
+      "end": 53.436
+    },
+    {
+      "id": "order3_2",
+      "order": 3,
+      "section": "order3",
+      "text": "Cuốc này là một anh khách công sở đặt xe đi gặp đối tác ở Quận Ba, quãng đường hơn năm cây số.",
+      "kw": "QUÃNG ĐƯỜNG HƠN 5 CÂY SỐ",
+      "file": "C:/QuangHy/editvideo/processed/voiceover_xanhsm_176k/10_order3_2.mp3",
+      "start": 53.616,
+      "duration": 6.391,
+      "end": 60.006
+    },
+    {
+      "id": "order3_3",
+      "order": 3,
+      "section": "order3",
+      "text": "Đường xá đông đúc nhưng xe êm nên anh khách khen quá trời luôn.",
+      "kw": "XE ÊM KHÁCH KHEN QUÁ TRỜI",
+      "file": "C:/QuangHy/editvideo/processed/voiceover_xanhsm_176k/11_order3_3.mp3",
+      "start": 60.186,
+      "duration": 4.517,
+      "end": 64.704
+    },
+    {
+      "id": "order3_4",
+      "order": 3,
+      "section": "order3",
+      "text": "Trả khách xong xuôi, ví nhảy thêm ba mươi lăm nghìn, quá phấn khởi!",
+      "kw": "HOÀN THÀNH ĐƠN 3: +35.000Đ",
+      "file": "C:/QuangHy/editvideo/processed/voiceover_xanhsm_176k/12_order3_4.mp3",
+      "start": 64.884,
+      "duration": 4.682,
+      "end": 69.566,
+      "order_complete": {
+        "order_index": 3,
+        "amount": 35000,
+        "amount_str": "+35.000đ",
+        "total": 73000,
+        "total_str": "73.000đ"
+      }
+    },
+    {
+      "id": "order4_1",
+      "order": 4,
+      "section": "order4",
+      "text": "Năm giờ chiều, Sài Gòn bước vào giờ tan tầm kẹt xe kinh hoàng.",
+      "kw": "GIỜ TAN TẦM KẸT XE KINH HOÀNG",
+      "file": "C:/QuangHy/editvideo/processed/voiceover_xanhsm_176k/13_order4_1.mp3",
+      "start": 69.746,
+      "duration": 4.722,
+      "end": 74.468
+    },
+    {
+      "id": "order4_2",
+      "order": 4,
+      "section": "order4",
+      "text": "Dòng xe chen chúc từng chút một, may mà tay ga xe điện nhạy, luồn lách qua các hẻm nhỏ cực kỳ linh hoạt.",
+      "kw": "TAY GA NHẠY, LUỒN LÁCH HẺM NHỎ",
+      "file": "C:/QuangHy/editvideo/processed/voiceover_xanhsm_176k/14_order4_2.mp3",
+      "start": 74.648,
+      "duration": 7.03,
+      "end": 81.678
+    },
+    {
+      "id": "order4_3",
+      "order": 4,
+      "section": "order4",
+      "text": "Đón và trả khách đúng giờ, đơn thứ tư thu về thêm hai mươi tám cành, cán mốc hơn một trăm nghìn rồi nha!",
+      "kw": "HOÀN THÀNH ĐƠN 4: +28.000Đ",
+      "file": "C:/QuangHy/editvideo/processed/voiceover_xanhsm_176k/15_order4_3.mp3",
+      "start": 81.858,
+      "duration": 7.124,
+      "end": 88.982,
+      "order_complete": {
+        "order_index": 4,
+        "amount": 28000,
+        "amount_str": "+28.000đ",
+        "total": 101000,
+        "total_str": "101.000đ"
+      }
+    },
+    {
+      "id": "order5_1",
+      "order": 5,
+      "section": "order5",
+      "text": "Bảy giờ tối, thành phố lên đèn rực rỡ, gió đêm mát rượi xua đi bao mệt mỏi.",
+      "kw": "THÀNH PHỐ LÊN ĐÈN RỰC RỠ",
+      "file": "C:/QuangHy/editvideo/processed/voiceover_xanhsm_176k/16_order5_1.mp3",
+      "start": 89.162,
+      "duration": 5.839,
+      "end": 95.001
+    },
+    {
+      "id": "order5_2",
+      "order": 5,
+      "section": "order5",
+      "text": "Lúc này mình nhận một cuốc xe đường dài từ trung tâm về ngoại ô.",
+      "kw": "CUỐC ĐƯỜNG DÀI VỀ NGOẠI Ô",
+      "file": "C:/QuangHy/editvideo/processed/voiceover_xanhsm_176k/17_order5_2.mp3",
+      "start": 95.181,
+      "duration": 4.212,
+      "end": 99.392
+    },
+    {
+      "id": "order5_3",
+      "order": 5,
+      "section": "order5",
+      "text": "Chạy đường đêm thoáng đãng cảm giác cực kỳ chill luôn anh em ạ.",
+      "kw": "ĐƯỜNG ĐÊM THOÁNG ĐÃNG RẤT CHILL",
+      "file": "C:/QuangHy/editvideo/processed/voiceover_xanhsm_176k/18_order5_3.mp3",
+      "start": 99.572,
+      "duration": 4.131,
+      "end": 103.703
+    },
+    {
+      "id": "order5_4",
+      "order": 5,
+      "section": "order5",
+      "text": "Chuyến xe thứ năm hoàn thành xuất sắc với bốn mươi hai nghìn đồng!",
+      "kw": "HOÀN THÀNH ĐƠN 5: +42.000Đ",
+      "file": "C:/QuangHy/editvideo/processed/voiceover_xanhsm_176k/19_order5_4.mp3",
+      "start": 103.883,
+      "duration": 4.022,
+      "end": 107.906,
+      "order_complete": {
+        "order_index": 5,
+        "amount": 42000,
+        "amount_str": "+42.000đ",
+        "total": 143000,
+        "total_str": "143.000đ"
+      }
+    },
+    {
+      "id": "order6_1",
+      "order": 6,
+      "section": "order6",
+      "text": "Đồng hồ điểm hơn tám giờ đêm rồi, người cũng đã thấm mệt và lưng mỏi nhừ.",
+      "kw": "HƠN 8H ĐÊM, NGƯỜI THẤM MỆT",
+      "file": "C:/QuangHy/editvideo/processed/voiceover_xanhsm_176k/20_order6_1.mp3",
+      "start": 108.086,
+      "duration": 5.267,
+      "end": 113.353
+    },
+    {
+      "id": "order6_2",
+      "order": 6,
+      "section": "order6",
+      "text": "Mình bật tính năng định hướng tìm cuốc về gần phòng trọ để chốt ca nghỉ ngơi.",
+      "kw": "BẬT ĐỊNH HƯỚNG TÌM ĐƠN VỀ NHÀ",
+      "file": "C:/QuangHy/editvideo/processed/voiceover_xanhsm_176k/21_order6_2.mp3",
+      "start": 113.533,
+      "duration": 4.903,
+      "end": 118.436
+    },
+    {
+      "id": "order6_3",
+      "order": 6,
+      "section": "order6",
+      "text": "May mắn vừa bật lên là nổ ngay đơn tiện đường ba mươi ba nghìn!",
+      "kw": "NỔ ĐƠN TIỆN ĐƯỜNG 33 CÀNH",
+      "file": "C:/QuangHy/editvideo/processed/voiceover_xanhsm_176k/22_order6_3.mp3",
+      "start": 118.616,
+      "duration": 4.327,
+      "end": 122.943
+    },
+    {
+      "id": "order6_4",
+      "order": 6,
+      "section": "order6",
+      "text": "Thế là hoàn thành trọn vẹn cuốc xe thứ sáu trong ngày hôm nay!",
+      "kw": "HOÀN THÀNH ĐƠN 6 (CHỐT CA): +33.000Đ",
+      "file": "C:/QuangHy/editvideo/processed/voiceover_xanhsm_176k/23_order6_4.mp3",
+      "start": 123.123,
+      "duration": 4.031,
+      "end": 127.154,
+      "order_complete": {
+        "order_index": 6,
+        "amount": 33000,
+        "amount_str": "+33.000đ",
+        "total": 176000,
+        "total_str": "176.000đ"
+      }
+    },
+    {
+      "id": "summary_1",
+      "order": 0,
+      "section": "summary",
+      "text": "Vậy là tổng kết một ngày chạy Xanh SM của mình hôm nay được đúng một trăm bảy mươi sáu nghìn đồng sau sáu đơn xe.",
+      "kw": "TỔNG THU HÔM NAY: 176.000Đ",
+      "file": "C:/QuangHy/editvideo/processed/voiceover_xanhsm_176k/24_summary_1.mp3",
+      "start": 127.334,
+      "duration": 7.144,
+      "end": 134.478
+    },
+    {
+      "id": "summary_2",
+      "order": 0,
+      "section": "summary",
+      "text": "Dù vất vả nhưng đó là những đồng tiền mồ hôi công sức chân chính và rất đáng tự hào.",
+      "kw": "MỒ HÔI CÔNG SỨC CHÂN CHÍNH",
+      "file": "C:/QuangHy/editvideo/processed/voiceover_xanhsm_176k/25_summary_2.mp3",
+      "start": 134.658,
+      "duration": 5.636,
+      "end": 140.293
+    },
+    {
+      "id": "summary_3",
+      "order": 0,
+      "section": "summary",
+      "text": "Anh em chạy xe hôm nay được bao nhiêu lúa rồi? Comment giao lưu bên dưới nhé!",
+      "kw": "COMMENT GIAO LƯU NHÉ!",
+      "file": "C:/QuangHy/editvideo/processed/voiceover_xanhsm_176k/26_summary_3.mp3",
+      "start": 140.473,
+      "duration": 4.802,
+      "end": 145.276
+    },
+    {
+      "id": "summary_4",
+      "order": 0,
+      "section": "summary",
+      "text": "Nhớ bấm tim và theo dõi kênh để đồng hành cùng mình trong các ca chạy tiếp theo nha!",
+      "kw": "BẤM TIM VÀ THEO DÕI KÊNH NHÉ!",
+      "file": "C:/QuangHy/editvideo/processed/voiceover_xanhsm_176k/27_summary_4.mp3",
+      "start": 145.456,
+      "duration": 5.354,
+      "end": 150.809
+    }
+  ]
+}
