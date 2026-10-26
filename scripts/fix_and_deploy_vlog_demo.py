@@ -153,7 +153,7 @@ def main():
     shutil.copy2(tl_dir / "project.json", tl_dir / "project.json.bak")
 
     # 8. Cập nhật draft_cover.jpg từ frame QA hook để thumbnail hiển thị đẹp mắt
-    qa_hook_img = Path("c:/QuangHy/editvideo/processed/qa_frames/01_qa_frame_hook.jpg")
+    qa_hook_img = Path(__file__).resolve().parent.parent / "processed" / "qa_frames" / "01_qa_frame_hook.jpg"
     cover_file = dest_dir / "draft_cover.jpg"
     if qa_hook_img.exists():
         shutil.copy2(qa_hook_img, cover_file)

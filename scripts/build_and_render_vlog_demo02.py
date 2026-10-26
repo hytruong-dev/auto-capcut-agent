@@ -31,7 +31,7 @@ def main():
     print("🚀 BẮT ĐẦU SẢN XUẤT VIDEO: 'vlog_demo02' (MASTER BLUEPRINT v2.0)")
     print("=" * 70)
 
-    base_dir = Path("c:/QuangHy/editvideo")
+    base_dir = Path(__file__).resolve().parent.parent
     out_dir = base_dir / "processed"
     temp_dir = out_dir / "temp_render_176k_long"
     temp_dir.mkdir(parents=True, exist_ok=True)
@@ -291,7 +291,8 @@ def main():
 
     # 3. Đăng ký Text Materials & Styles chuẩn CapCut 9.6 Pro
     font_res_id = "7182504807289065985"
-    font_path = "C:/Users/PC/AppData/Local/CapCut/User Data/Cache/effect/7182504807289065985/0a5333de6f4d592cb2d2390d68b31efb/Oswald-Bold.ttf"
+    from capcut_draft_manager import OSWALD_CAPCUT_FONT, _resolve_font_abs
+    font_path = _resolve_font_abs(OSWALD_CAPCUT_FONT)
 
     def create_text_mat(text, color_rgb, size=15.0, border_color="#000000", border_width=0.08):
         t_id = str(uuid.uuid4()).upper()

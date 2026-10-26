@@ -27,7 +27,7 @@ def build_and_render():
     print("🎬 KHỞI ĐỘNG PIPELINE RENDER VLOG XANHSM 176K (2.5 PHÚT)")
     print("="*65)
 
-    base_dir = Path("c:/QuangHy/editvideo")
+    base_dir = Path(__file__).resolve().parent.parent
     out_dir = base_dir / "processed"
     temp_dir = out_dir / "temp_render_176k_long"
     temp_dir.mkdir(parents=True, exist_ok=True)

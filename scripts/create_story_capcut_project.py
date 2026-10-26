@@ -92,10 +92,11 @@ subtitle_segments = []
 
 keyword_ids = {1, 2, 4, 5, 7, 9, 10, 11, 14, 15, 16, 17, 18, 19}
 
-OSWALD_FONT_PATH = "C:/Users/PC/AppData/Local/CapCut/User Data/Cache/effect/7182504807289065985/0a5333de6f4d592cb2d2390d68b31efb/Oswald-Bold.ttf"
+from capcut_draft_manager import OSWALD_CAPCUT_FONT, _resolve_font_abs
+OSWALD_FONT_PATH = _resolve_font_abs(OSWALD_CAPCUT_FONT)
 OSWALD_RESOURCE_ID = "7182504807289065985"
 
-DYNAMIC_SUB_JSON = r"c:\QuangHy\editvideo\processed\dynamic_short_subtitles.json"
+DYNAMIC_SUB_JSON = str(Path(__file__).resolve().parent.parent / "processed" / "dynamic_short_subtitles.json")
 with open(DYNAMIC_SUB_JSON, "r", encoding="utf-8") as f:
     short_chunks = json.load(f)
 

@@ -337,7 +337,8 @@ def build_xanhsm_176k_capcut_project(project_name: str = "Vlog_XanhSM_1Ngay_176k
         })
 
     # 8. Phụ đề tiếng Việt: 58 Short Phrases (2-4 từ/cụm) theo đúng ảnh huấn luyện
-    font_path_oswald = "C:/Users/PC/AppData/Local/CapCut/User Data/Cache/effect/7182504807289065985/0a5333de6f4d592cb2d2390d68b31efb/Oswald-Bold.ttf"
+    from capcut_draft_manager import OSWALD_CAPCUT_FONT, _resolve_font_abs
+    font_path_oswald = _resolve_font_abs(OSWALD_CAPCUT_FONT)
     if not os.path.exists(font_path_oswald):
         font_path_oswald = "C:/Windows/Fonts/arialbd.ttf"
     oswald_resource_id = "7182504807289065985"

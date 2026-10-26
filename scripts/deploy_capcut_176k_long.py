@@ -24,7 +24,7 @@ def deploy():
     project_name = "Vlog_XanhSM_1Ngay_176k_Long"
     print(f"[*] Đang khởi tạo dự án CapCut Pro: {project_name}...")
 
-    base_dir = Path("c:/QuangHy/editvideo")
+    base_dir = Path(__file__).resolve().parent.parent
     out_dir = base_dir / "processed"
     temp_dir = out_dir / "temp_render_176k_long"
 
@@ -205,7 +205,8 @@ def deploy():
 
     # 3. Đăng ký Phụ đề & Badges
     font_res_id = "7182504807289065985"
-    font_path = "C:/Users/PC/AppData/Local/CapCut/User Data/Cache/effect/7182504807289065985/0a5333de6f4d592cb2d2390d68b31efb/Oswald-Bold.ttf"  # PHẢI là đường dẫn tuyệt đối, đường dẫn tương đối làm CapCut 9.6 tự đóng
+    from capcut_draft_manager import OSWALD_CAPCUT_FONT, _resolve_font_abs
+    font_path = _resolve_font_abs(OSWALD_CAPCUT_FONT)  # Tự động trỏ đường dẫn tuyệt đối chuẩn xác trên mọi máy
 
     def create_text_mat(text, color_rgb, size=15.0, border_color="#000000", border_width=0.08):
         t_id = str(uuid.uuid4()).upper()

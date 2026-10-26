@@ -23,8 +23,8 @@ if hasattr(sys.stdout, 'reconfigure'):
     except Exception:
         pass
 
-# Các đường dẫn hệ thống chuẩn của CapCut Desktop trên Windows
-DEFAULT_LOCAL_APPDATA = os.environ.get("LOCALAPPDATA", r"C:\Users\PC\AppData\Local")
+# Các đường dẫn hệ thống chuẩn của CapCut Desktop trên Windows (Tự động nhận diện user trên mọi máy)
+DEFAULT_LOCAL_APPDATA = os.environ.get("LOCALAPPDATA", os.path.expanduser(r"~\AppData\Local"))
 CAPCUT_BASE_DIR = os.path.join(DEFAULT_LOCAL_APPDATA, "CapCut")
 CAPCUT_DRAFTS_DIR = os.path.join(CAPCUT_BASE_DIR, "User Data", "Projects", "com.lveditor.draft")
 CAPCUT_CONFIG_INI = os.path.join(CAPCUT_BASE_DIR, "User Data", "Config", "draftLayoutConfig.ini")
@@ -50,32 +50,41 @@ def get_native_platform_info() -> dict:
     """
     Trả về cấu hình platform chuẩn xác của máy hiện tại để vượt qua hoàn toàn
     hệ thống kiểm tra DraftLoadVerifier::check_app_support và check_device_support của CapCut 9.6+.
+    Tự động quét bất kỳ dự án CapCut nào sẵn có trên máy mới hoặc tính toán từ phần cứng thật.
     """
-    candidates = [
-        os.path.join(CAPCUT_DRAFTS_DIR, ".recycle_bin", "1022", "draft_content.json"),
-        os.path.join(CAPCUT_DRAFTS_DIR, ".recycle_bin", "1019", "draft_content.json"),
-        os.path.join(CAPCUT_DRAFTS_DIR, ".recycle_bin", "AI_Viral_Project_60s", "draft_content.json"),
-    ]
-    for c in candidates:
-        if os.path.exists(c):
-            try:
-                with open(c, "r", encoding="utf-8") as f:
-                    d = json.load(f)
-                plat = d.get("platform")
-                if plat and plat.get("app_id") == 359289 and plat.get("app_source") == "cc":
-                    return plat
-            except Exception:
-                pass
+    # 1. Quét tất cả các draft thực tế đang có trong CapCut Drafts của máy này
+    if os.path.exists(CAPCUT_DRAFTS_DIR):
+        try:
+            for entry in os.listdir(CAPCUT_DRAFTS_DIR):
+                c = os.path.join(CAPCUT_DRAFTS_DIR, entry, "draft_content.json")
+                if os.path.exists(c):
+                    try:
+                        with open(c, "r", encoding="utf-8") as f:
+                            d = json.load(f)
+                        plat = d.get("platform")
+                        if plat and plat.get("app_id") == 359289 and plat.get("app_source") == "cc":
+                            return plat
+                    except Exception:
+                        pass
+        except Exception:
+            pass
 
+    # 2. Nếu là máy mới tinh chưa có project nào, tự động lấy thông số phần cứng thật của máy
+    import hashlib, platform as sys_plat
+    mac_num = uuid.getnode()
+    mac_hex = f"{mac_num:012x}"
+    mac_hash = hashlib.md5(mac_hex.encode()).hexdigest()
+    dev_hash = hashlib.md5(f"{sys_plat.node()}_{mac_hex}".encode()).hexdigest()
+    win_ver = sys_plat.version() or "10.0.26300"
     return {
         "os": "windows",
-        "os_version": "10.0.26300",
+        "os_version": win_ver,
         "app_id": 359289,
         "app_version": "9.6.0",
         "app_source": "cc",
-        "device_id": "4475d19983c69cde88e66433dd341c72",
+        "device_id": dev_hash,
         "hard_disk_id": "",
-        "mac_address": "26ebfda668b7dfc60a011ffef74a230b,4f652529e3ad390a5fc5f40eb605bcf9"
+        "mac_address": f"{mac_hash[:32]}"
     }
 
 
@@ -246,23 +255,32 @@ def sanitize_draft_materials(draft_content: dict, project_dir: str) -> dict:
     return draft_content
 
 
-OSWALD_CAPCUT_FONT = (
-    "C:/Users/PC/AppData/Local/CapCut/User Data/Cache/effect/"
-    "7182504807289065985/0a5333de6f4d592cb2d2390d68b31efb/Oswald-Bold.ttf"
-)
+OSWALD_CAPCUT_FONT = os.path.join(
+    DEFAULT_LOCAL_APPDATA,
+    "CapCut", "User Data", "Cache", "effect",
+    "7182504807289065985", "0a5333de6f4d592cb2d2390d68b31efb", "Oswald-Bold.ttf"
+).replace("\\", "/")
 
 
 def _resolve_font_abs(path: str) -> str:
-    """Đổi font path tương đối/hỏng thành đường dẫn tuyệt đối tồn tại thật."""
+    """Đổi font path tương đối/hỏng thành đường dẫn tuyệt đối tồn tại thật trên máy hiện tại.
+    Tự động sao chép font từ portable_trained_brain vào CapCut effect cache nếu chưa có."""
     if path and os.path.isabs(path) and os.path.exists(path):
         return norm_path(path)
     name = os.path.basename(path or "").lower()
     if "oswald" in name or not name:
+        repo_font = Path(__file__).resolve().parent.parent / "portable_trained_brain" / "portable_assets" / "fonts" / "Oswald-Bold.ttf"
+        # Tự động nạp font vào CapCut cache nếu chưa có trên máy mới
+        if not os.path.exists(OSWALD_CAPCUT_FONT) and repo_font.exists():
+            try:
+                os.makedirs(os.path.dirname(OSWALD_CAPCUT_FONT), exist_ok=True)
+                shutil.copy2(repo_font, OSWALD_CAPCUT_FONT)
+            except Exception:
+                pass
         if os.path.exists(OSWALD_CAPCUT_FONT):
             return OSWALD_CAPCUT_FONT
-        repo = Path(__file__).resolve().parent.parent / "portable_trained_brain" / "portable_assets" / "fonts" / "Oswald-Bold.ttf"
-        if repo.exists():
-            return norm_path(repo)
+        if repo_font.exists():
+            return norm_path(repo_font)
     if path and not os.path.isabs(path):
         cand = Path(__file__).resolve().parent.parent / path
         if cand.exists():

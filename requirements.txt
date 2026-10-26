@@ -1,0 +1,14 @@
+# AI Video Editing Pipeline Dependencies
+# Python >= 3.10
+
+# AI Speech Recognition & Timestamps
+openai-whisper>=20231117
+torch>=2.0.0
+numpy>=1.24.0
+
+# Network & Utilities
+requests>=2.31.0
+pydantic>=2.0.0
+
+# Optional Accelerated Whisper
+# faster-whisper>=1.0.0

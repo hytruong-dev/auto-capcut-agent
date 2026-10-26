@@ -74,7 +74,14 @@ def main():
 
     index = BRAIN / "BRAIN_INDEX.md"
     if index.exists() and str(ROOT).replace("\\", "/").lower() not in index.read_text(encoding="utf-8").lower():
-        print("  [CẢNH BÁO] Đường dẫn dự án khác BRAIN_INDEX.md → máy mới. Chạy: python scripts/migrate_brain_to_new_pc.py")
+        print("  [TỰ ĐỘNG ĐỒNG BỘ] Phát hiện máy mới / đường dẫn mới → Đang tự động nạp cấu hình di động...")
+        try:
+            sys.path.insert(0, str(ROOT / "scripts"))
+            from migrate_brain_to_new_pc import migrate_to_current_pc
+            migrate_to_current_pc(silent=True)
+            print("  [✓] Đã tự động đồng bộ hóa Bộ Não Di Động thành công cho máy hiện tại!")
+        except Exception as e:
+            print(f"  [!] Lỗi khi tự động đồng bộ: {e}. Chạy thủ công: python scripts/migrate_brain_to_new_pc.py")
 
     line("5) CÔNG CỤ CHUẨN — DÙNG LẠI, KHÔNG VIẾT LẠI TỪ ĐẦU")
     print("  - Phụ đề karaoke + Hook 2 tầng : python scripts/brain_karaoke_ass.py --words <words.json> --out processed/<ten>.ass --hook1 \"...\" --hook2 \"...\"")
